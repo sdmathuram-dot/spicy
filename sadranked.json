@@ -1,0 +1,104 @@
+{
+    "ranked_movies": [
+        {
+            "rank": 1,
+            "title": "The Smashing Machine",
+            "reason": "Extensively discussed and highly reviewed in the r/movies thread, with praise for Dwayne Johnson's performance and Benny Safdie's direction. It is the central topic of a dedicated review thread."
+        },
+        {
+            "rank": 2,
+            "title": "Lord of the Rings",
+            "reason": "Aragorn's character is the subject of a deep, lengthy analysis in r/lordoftherings, making the trilogy a major point of discussion."
+        },
+        {
+            "rank": 3,
+            "title": "Artificial Intelligence",
+            "reason": "The top post in r/FIlm uses a scene from this film as the primary example to spark a discussion about movies that make people cry, generating many replies."
+        },
+        {
+            "rank": 4,
+            "title": "The Neverending Story",
+            "reason": "Frequently mentioned in the r/FIlm thread as a classic film that made many users cry for the first time."
+        },
+        {
+            "rank": 5,
+            "title": "E.T.",
+            "reason": "Another classic cited in the r/FIlm thread as an early tearjerker for many users."
+        },
+        {
+            "rank": 6,
+            "title": "Bridge to Terabithia",
+            "reason": "Mentioned multiple times across different threads (r/FIlm, r/Ni_Bondha, r/AskPinay) as a profoundly sad movie."
+        },
+        {
+            "rank": 7,
+            "title": "Grave of the Fireflies",
+            "reason": "Recommended in the r/Ni_Bondha suggestion thread and also the top comment in the r/AskPinay thread about sad movies."
+        },
+        {
+            "rank": 8,
+            "title": "Empire of the Sun",
+            "reason": "The top comment in the r/FIlm thread names this as the first movie that made that user cry."
+        },
+        {
+            "rank": 9,
+            "title": "Old Yeller",
+            "reason": "A classic sad movie mentioned multiple times in the r/FIlm thread."
+        },
+        {
+            "rank": 10,
+            "title": "The Champ",
+            "reason": "Listed in the r/FIlm thread as a movie that evokes sadness."
+        },
+        {
+            "rank": 11,
+            "title": "Bambi",
+            "reason": "A common answer in the r/FIlm thread for a first sad movie experience."
+        },
+        {
+            "rank": 12,
+            "title": "A Walk to Remember",
+            "reason": "Mentioned in the r/AskPinay thread as a sad movie."
+        },
+        {
+            "rank": 13,
+            "title": "Coco",
+            "reason": "Cited in the r/AskPinay thread as a movie that causes intense sadness."
+        },
+        {
+            "rank": 14,
+            "title": "Jojo Rabbit",
+            "reason": "Listed in the r/AskPinay thread as a movie that makes the user sad."
+        },
+        {
+            "rank": 15,
+            "title": "Kantara",
+            "reason": "The subject of its own post in r/ChitraLoka, where it is analyzed and discussed for its sad elements from a specific perspective."
+        },
+        {
+            "rank": 16,
+            "title": "Force of Nature",
+            "reason": "The movie that sparked the initial discussion in r/PoliticalCompassMemes, though it was noted to be 'pretty lame'."
+        },
+        {
+            "rank": 17,
+            "title": "The Wrestler",
+            "reason": "Mentioned in a review within the r/movies thread for 'The Smashing Machine' as a tonal and stylistic influence."
+        },
+        {
+            "rank": 18,
+            "title": "Uncut Gems",
+            "reason": "Brought up in the r/movies thread in a comment comparing Dwayne Johnson's career pivot to Adam Sandler's, for which this film was a key example."
+        },
+        {
+            "rank": 19,
+            "title": "Pain & Gain",
+            "reason": "Cited in the r/movies thread as an example of Dwayne Johnson's better acting performances."
+        },
+        {
+            "rank": 20,
+            "title": "Spawn",
+            "reason": "The central topic of the r/Spawn post, which laments the lack of a crossover animated movie with Batman, generating discussion about the character and potential casting."
+        }
+    ]
+}

@@ -1,0 +1,1890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spicy - Find & Watch Movies & TV Shows</title>
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%2300A86B' d='M16 2C12.1 2 9 5.1 9 9c0 1.4.4 2.7 1 3.8C8.7 13.8 7 15.8 7 18c0 3.9 3.1 7 7 7h4c3.9 0 7-3.1 7-7 0-2.2-1.7-4.2-3-5.2.6-1.1 1-2.4 1-3.8 0-3.9-3.1-7-7-7z'/%3E%3Cpath fill='%23008000' d='M16 4c2.8 0 5 2.2 5 5 0 1-.3 2-.8 2.8-.2.3-.4.6-.6.9-.5-.1-1-.2-1.6-.2-2.8 0-5 2.2-5 5 0 .6.1 1.1.3 1.6-.3-.2-.6-.4-.9-.6C12.3 17 12 16 12 15c0-2.8 2.2-5 5-5 .6 0 1.1.1 1.6.3-.2-.3-.4-.6-.6-.9C18.3 8.3 18 7 18 6c0-2.8 2.2-5 5-5z'/%3E%3C/svg%3E">
+    <link rel="apple-touch-icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%2300A86B' d='M16 2C12.1 2 9 5.1 9 9c0 1.4.4 2.7 1 3.8C8.7 13.8 7 15.8 7 18c0 3.9 3.1 7 7 7h4c3.9 0 7-3.1 7-7 0-2.2-1.7-4.2-3-5.2.6-1.1 1-2.4 1-3.8 0-3.9-3.1-7-7-7z'/%3E%3Cpath fill='%23008000' d='M16 4c2.8 0 5 2.2 5 5 0 1-.3 2-.8 2.8-.2.3-.4.6-.6.9-.5-.1-1-.2-1.6-.2-2.8 0-5 2.2-5 5 0 .6.1 1.1.3 1.6-.3-.2-.6-.4-.9-.6C12.3 17 12 16 12 15c0-2.8 2.2-5 5-5 .6 0 1.1.1 1.6.3-.2-.3-.4-.6-.6-.9C18.3 8.3 18 7 18 6c0-2.8 2.2-5 5-5z'/%3E%3C/svg%3E">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Note: Using Tailwind CDN for simplicity in this static web app.
+         For production with build process, consider installing via npm and using PostCSS. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.14.1/cdn.min.js" defer></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    backgroundColor: {
+                        'amoled': '#000000',
+                        'amoled-light': '#0A0A0A',
+                        'amoled-card': '#121212',
+                    },
+                    borderColor: {
+                        'amoled-border': '#1A1A1A',
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        .search-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            align-items: center;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 1rem 3rem 1rem 1rem;
+            border: none;
+            border-bottom: 4px solid #9ca3af;
+            background: transparent;
+            color: #f9fafb;
+            font-size: 1.25rem;
+            transition: border-color 0.3s ease;
+        }
+
+        @media (min-width: 640px) {
+            .search-input {
+                padding: 1.5rem 3rem 1.5rem 1rem;
+                font-size: 2rem;
+            }
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-bottom-color: #3b82f6;
+        }
+
+        .search-input::placeholder {
+            color: #9ca3af;
+        }
+
+        .search-icon,
+        .discover-icon {
+            position: absolute;
+            right: 0.5rem;
+            width: 1.5rem;
+            height: 1.5rem;
+            color: #9ca3af;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .search-icon {
+            right: 3.5rem;
+        }
+
+        .discover-icon {
+            right: 0.5rem;
+        }
+
+        .search-icon:hover,
+        .discover-icon:hover {
+            color: #7792bd;
+        }
+
+        /* Hide discover icon and search icon on mobile devices */
+        @media (max-width: 639px) {
+
+            .discover-icon,
+            .search-icon {
+                display: none;
+            }
+        }
+
+        @media (min-width: 640px) {
+
+            .search-icon,
+            .discover-icon {
+                width: 2rem;
+                height: 2rem;
+            }
+
+            .search-icon {
+                right: 4rem;
+            }
+        }
+
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+        }
+
+        .card-hover::after {
+            content: '';
+            position: absolute;
+            inset: -1px;
+            background: linear-gradient(35deg,
+                    rgba(168, 85, 247, 0.4),
+                    rgba(168, 85, 247, 0),
+                    rgba(139, 92, 246, 0.4));
+            border-radius: 0.5rem;
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .card-hover:hover {
+            /* Remove vertical lift to avoid cards touching the viewport/container edges on hover.
+               Keep a slight scale for the hover emphasis. */
+            transform: scale(1.02);
+            box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.5);
+        }
+
+        .card-hover:hover::after {
+            opacity: 1;
+        }
+
+        .card-hover:hover .card-overlay {
+            opacity: 1;
+            background: linear-gradient(to top,
+                    rgba(0, 0, 0, 0.95) 0%,
+                    rgba(0, 0, 0, 0.8) 40%,
+                    rgba(0, 0, 0, 0.2) 100%);
+        }
+
+        .card-overlay {
+            opacity: 0;
+            transition: all 0.4s ease;
+            background: linear-gradient(to top,
+                    rgba(0, 0, 0, 0.9) 0%,
+                    rgba(0, 0, 0, 0.7) 50%,
+                    rgba(0, 0, 0, 0.3) 100%);
+        }
+
+        .card-hover:hover .card-overlay {
+            opacity: 1;
+            background: linear-gradient(to top,
+                    rgba(0, 0, 0, 0.95) 0%,
+                    rgba(0, 0, 0, 0.8) 40%,
+                    rgba(0, 0, 0, 0.2) 100%);
+        }
+
+        .card-hover:hover img {
+            filter: blur(2px) brightness(0.9);
+            transition: all 0.4s ease;
+        }
+
+        .card-hover img {
+            transition: all 0.4s ease;
+        }
+
+        /* TV Mode Styles */
+        .tv-focused-section {
+            position: relative;
+        }
+
+        .tv-focused-section::before {
+            content: '';
+            position: absolute;
+            top: -4px;
+            left: -4px;
+            right: -4px;
+            bottom: -4px;
+            border: 3px solid #ADD8E6;
+            border-radius: 0.75rem;
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        .tv-focused-item {
+            position: relative;
+            border: 2px solid #ADD8E6;
+            border-radius: 0.5rem;
+            z-index: 10;
+        }
+
+        .tv-navigable-item {
+            transition: all 0.3s ease;
+        }
+
+        .tv-navigable-item.tv-focused-item {
+            border: 3px solid #ADD8E6 !important;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-delay-1 {
+            animation-delay: 0.1s;
+        }
+
+        .fade-in-delay-2 {
+            animation-delay: 0.2s;
+        }
+
+        .fade-in-delay-3 {
+            animation-delay: 0.3s;
+        }
+    </style>
+    <style>
+        .horizontal-scroll {
+            display: flex;
+            gap: 1rem;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            padding: 0 1rem;
+            overscroll-behavior-x: contain;
+        }
+
+        .horizontal-scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        .scroll-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.6);
+            border: 2px solid transparent;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 10;
+            transition: all 0.3s ease;
+            opacity: 0.7;
+        }
+
+        .scroll-arrow:hover {
+            opacity: 1;
+            background: transparent;
+            border-color: #3b82f6;
+            outline: 2px solid #3b82f6;
+            outline-offset: 2px;
+        }
+
+        .scroll-arrow:active {
+            background: rgba(59, 130, 246, 0.1);
+            border-color: #3b82f6;
+            outline: 2px solid #3b82f6;
+            outline-offset: 2px;
+        }
+
+        .scroll-arrow.left {
+            left: -60px;
+        }
+
+        .scroll-arrow.right {
+            right: -60px;
+        }
+
+        .scroll-container {
+            position: relative;
+            margin: 0 -1rem;
+        }
+
+        .card-fixed {
+            flex: 0 0 180px;
+            min-width: 180px;
+        }
+
+        @media (min-width: 640px) {
+            .card-fixed {
+                flex: 0 0 200px;
+                min-width: 200px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .card-fixed {
+                flex: 0 0 220px;
+                min-width: 220px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .card-fixed {
+                flex: 0 0 240px;
+                min-width: 240px;
+            }
+        }
+    </style>
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+</head>
+
+<body class="bg-amoled min-h-screen text-white" x-data="searchApp()">
+
+    <div class="container mx-auto px-4 py-16 sm:py-24 md:py-32 lg:py-48">
+        <!-- Header - No buttons needed on home page -->
+        <!-- Search Bar -->
+        <div x-show="showSearchBar" class="flex justify-center mb-8 sm:mb-12 fade-in">
+            <div class="search-container max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-3xl">
+                <input type="text" x-model="searchQuery" @keyup.debounce.500ms="searchContent()"
+                    @keyup.enter="searchContent()" placeholder="Search for movies, TV shows..." class="search-input"
+                    x-ref="searchInput">
+                <svg xmlns="http://www.w3.org/2000/svg" class="search-icon h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+                <a href="discover.html" class="discover-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2M7 4H5a2 2 0 00-2 2v10a2 2 0 002 2h14a2 2 0 002-2V6a2 2 0 00-2-2h-2M7 4h10" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <!-- Loading State -->
+        <div x-show="isLoading" class="flex justify-center mb-6 sm:mb-8">
+            <div class="animate-spin rounded-full h-6 w-6 sm:h-8 sm:w-8 border-b-2 border-blue-400"></div>
+        </div>
+
+        <!-- Results -->
+        <div x-show="results.length > 0 && !isLoading" class="max-w-7xl mx-auto">
+            <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Search Results</h2>
+            <div class="scroll-container">
+                <div id="results-container" class="horizontal-scroll">
+                    <template x-for="(item, index) in results" :key="'result-' + index">
+                        <div class="card-fixed tv-navigable-item">
+                            <div class="card-hover bg-amoled-card rounded-lg overflow-hidden shadow-lg cursor-pointer border border-amoled-border"
+                                @click="watchContent(item)">
+                                <div class="aspect-[2/3] relative">
+                                    <img :src="'https://image.tmdb.org/t/p/w500' + item.poster_path"
+                                        :alt="item.title || item.name" class="w-full h-full object-cover" @error="event => {
+                                            event.target.src = 'https://via.placeholder.com/300x450?text=No+Image';
+                                        }">
+                                    <div
+                                        class="card-overlay absolute inset-0 flex flex-col justify-end p-2 sm:p-3 md:p-4">
+                                        <h3 class="text-sm md:text-lg font-semibold" x-text="item.title || item.name">
+                                        </h3>
+                                        <p class="text-gray-400 text-xs md:text-sm mt-1"
+                                            x-text="'⭐ ' + (item.vote_average ? item.vote_average.toFixed(1) : 'N/A') + '/10'">
+                                        </p>
+                                    </div>
+                                    <div class="absolute top-2 right-2 flex space-x-2 z-20">
+                                        <button @click.stop.prevent="toggleWatchlist(item)"
+                                            class="bg-black bg-opacity-75 hover:bg-opacity-90 text-white p-1.5 sm:p-2 rounded-full transition-all z-20 relative cursor-pointer"
+                                            :class="isInWatchlist(item.id) ? 'text-yellow-400' : 'text-white'">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="h-4 w-4 sm:h-5 sm:w-5 pointer-events-none"
+                                                :fill="isInWatchlist(item.id) ? 'currentColor' : 'none'"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M12 4v16m8-8H4" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+        <!-- Watchlist -->
+        <div x-show="showWatchlist && watchlist.length > 0"
+            class="max-w-7xl mx-auto mt-8 sm:mt-12 fade-in fade-in-delay-1">
+            <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">My Watchlist</h2>
+            <div class="scroll-container">
+                <div id="watchlist-container" class="horizontal-scroll">
+                    <template x-for="(item, index) in watchlist" :key="'watchlist-' + index">
+                        <div class="card-fixed tv-navigable-item">
+                            <div class="card-hover bg-amoled-card rounded-lg overflow-hidden shadow-lg cursor-pointer border border-amoled-border"
+                                @click="watchContent(item)">
+                                <div class="aspect-[2/3] relative">
+                                    <img :src="'https://image.tmdb.org/t/p/w500' + item.poster_path" :alt="item.title"
+                                        class="w-full h-full object-cover" @error="event => {
+                                            event.target.src = 'https://via.placeholder.com/300x450?text=No+Image';
+                                        }">
+                                    <div
+                                        class="card-overlay absolute inset-0 flex flex-col justify-end p-2 sm:p-3 md:p-4">
+                                        <h3 class="text-sm md:text-lg font-semibold" x-text="item.title || item.name">
+                                        </h3>
+                                        <p class="text-gray-400 text-xs md:text-sm mt-1"
+                                            x-text="'⭐ ' + (item.vote_average ? item.vote_average.toFixed(1) : 'N/A') + '/10'">
+                                        </p>
+                                    </div>
+                                    <div class="absolute top-2 right-2 flex space-x-2 z-20">
+                                        <button @click.stop.prevent="toggleWatchlist(item)"
+                                            class="bg-red-600 hover:bg-red-700 text-white p-1.5 sm:p-2 rounded-full transition-all z-20 relative cursor-pointer">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="h-4 w-4 sm:h-5 sm:w-5 pointer-events-none" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M6 18L18 6M6 6l12 12" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+        <!-- Continue Watching -->
+        <div id="continue-watching-section" x-show="showContinueWatching && continueWatching.length > 0"
+            class="max-w-7xl mx-auto mt-8 sm:mt-12 fade-in fade-in-delay-2">
+            <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Continue Watching</h2>
+            <div class="scroll-container">
+                <div id="continue-watching-container" class="horizontal-scroll">
+                    <template x-for="(item, index) in continueWatching" :key="'continue-' + index">
+                        <div class="card-fixed tv-navigable-item">
+                            <div class="card-hover bg-amoled-card rounded-lg overflow-hidden shadow-lg cursor-pointer border border-amoled-border"
+                                @click="watchContent(item)">
+                                <div class="aspect-[2/3] relative">
+                                    <img :src="'https://image.tmdb.org/t/p/w500' + item.poster_path" :alt="item.title"
+                                        class="w-full h-full object-cover" @error="event => {
+                                            event.target.src = 'https://via.placeholder.com/300x450?text=No+Image';
+                                        }">
+                                    <div
+                                        class="card-overlay absolute inset-0 flex flex-col justify-end p-2 sm:p-3 md:p-4">
+                                        <h3 class="text-sm md:text-lg font-semibold" x-text="item.title || item.name">
+                                        </h3>
+                                        <p class="text-gray-400 text-xs md:text-sm mt-1"
+                                            x-text="'⭐ ' + (item.vote_average ? item.vote_average.toFixed(1) : 'N/A') + '/10'">
+                                        </p>
+                                    </div>
+                                    <div class="absolute top-2 right-2 flex space-x-2 z-20">
+                                        <button @click.stop.prevent="removeFromContinueWatching(item.id)"
+                                            class="bg-red-600 hover:bg-red-700 text-white p-1.5 sm:p-2 rounded-full transition-all z-20 relative cursor-pointer">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="h-4 w-4 sm:h-5 sm:w-5 pointer-events-none" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M6 18L18 6M6 6l12 12" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+        <!-- Community Recommendations -->
+        <div x-show="showRecommendations && recommendations.length > 0"
+            class="max-w-7xl mx-auto mt-8 sm:mt-12 fade-in fade-in-delay-3">
+            <div class="flex items-center justify-between mb-4 sm:mb-6">
+                <h2 class="text-xl sm:text-2xl font-bold text-white">Recommendations</h2>
+                <div class="flex bg-amoled-light rounded-lg p-1 border border-amoled-border">
+                    <button @click="recommendationsType = 'today'; loadRecommendations()"
+                        :class="recommendationsType === 'today' ? 'bg-blue-600 text-white' : 'text-gray-400 hover:text-white'"
+                        class="px-3 py-1 sm:px-4 sm:py-2 rounded-md text-sm font-medium transition-all">
+                        Today
+                    </button>
+                    <button @click="recommendationsType = 'month'; loadRecommendations()"
+                        :class="recommendationsType === 'month' ? 'bg-blue-600 text-white' : 'text-gray-400 hover:text-white'"
+                        class="px-3 py-1 sm:px-4 sm:py-2 rounded-md text-sm font-medium transition-all">
+                        Month
+                    </button>
+                </div>
+            </div>
+            <div class="scroll-container">
+                <div id="recommendations-container" class="horizontal-scroll">
+                    <template x-for="(item, index) in recommendations" :key="'rec-' + index">
+                        <div class="card-fixed tv-navigable-item">
+                            <div class="card-hover bg-amoled-card rounded-lg overflow-hidden shadow-lg cursor-pointer border border-amoled-border"
+                                @click="watchContent(item)">
+                                <div class="aspect-[2/3] relative">
+                                    <img :src="'https://image.tmdb.org/t/p/w500' + item.poster_path" :alt="item.title"
+                                        class="w-full h-full object-cover" @error="event => {
+                                                    event.target.src = 'https://via.placeholder.com/300x450?text=No+Image';
+                                                }">
+                                    <div
+                                        class="card-overlay absolute inset-0 flex flex-col justify-end p-2 sm:p-3 md:p-4">
+                                        <h3 class="text-sm md:text-lg font-semibold" x-text="item.title">
+                                        </h3>
+                                        <p class="text-gray-400 text-xs md:text-sm mt-1"
+                                            x-text="'⭐ ' + (item.vote_average ? item.vote_average.toFixed(1) : 'N/A') + '/10'">
+                                        </p>
+                                        <p class="text-gray-400 text-xs mt-1" x-text="'#' + item.rank">
+                                        </p>
+                                    </div>
+                                    <div class="absolute top-2 right-2 flex space-x-2 z-20">
+                                        <button @click.stop.prevent="toggleWatchlist(item)"
+                                            class="bg-black bg-opacity-75 hover:bg-opacity-90 text-white p-1.5 sm:p-2 rounded-full transition-all z-20 relative cursor-pointer"
+                                            :class="isInWatchlist(item.id) ? 'text-yellow-400' : 'text-white'">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="h-4 w-4 sm:h-5 sm:w-5 pointer-events-none"
+                                                :fill="isInWatchlist(item.id) ? 'currentColor' : 'none'"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M12 4v16m8-8H4" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+        <!-- Trending -->
+        <div x-show="showTrending && (getFilteredTrending() || []).length > 0"
+            class="max-w-7xl mx-auto mt-8 sm:mt-12 fade-in fade-in-delay-4">
+            <div class="flex items-center justify-between mb-4 sm:mb-6">
+                <h2 class="text-xl sm:text-2xl font-bold text-white">Trending</h2>
+                <div class="flex bg-amoled-light rounded-lg p-1 border border-amoled-border">
+                    <button @click="trendingType = 'movie'"
+                        :class="trendingType === 'movie' ? 'bg-blue-600 text-white' : 'text-gray-400 hover:text-white'"
+                        class="px-3 py-1 sm:px-4 sm:py-2 rounded-md text-sm font-medium transition-all">
+                        Movies
+                    </button>
+                    <button @click="trendingType = 'tv'"
+                        :class="trendingType === 'tv' ? 'bg-blue-600 text-white' : 'text-gray-400 hover:text-white'"
+                        class="px-3 py-1 sm:px-4 sm:py-2 rounded-md text-sm font-medium transition-all">
+                        TV Shows
+                    </button>
+                </div>
+            </div>
+            <div class="scroll-container">
+                <div id="trending-container" class="horizontal-scroll">
+                    <template x-for="(item, index) in getFilteredTrending()" :key="'trend-' + index">
+                        <div class="card-fixed tv-navigable-item">
+                            <div class="card-hover bg-amoled-card rounded-lg overflow-hidden shadow-lg cursor-pointer border border-amoled-border"
+                                @click="watchContent(item)">
+                                <div class="aspect-[2/3] relative">
+                                    <img :src="'https://image.tmdb.org/t/p/w500' + item.poster_path"
+                                        :alt="item.title || item.name" class="w-full h-full object-cover" @error="event => {
+                                            event.target.src = 'https://via.placeholder.com/300x450?text=No+Image';
+                                        }">
+                                    <div
+                                        class="card-overlay absolute inset-0 flex flex-col justify-end p-2 sm:p-3 md:p-4">
+                                        <h3 class="text-sm md:text-lg font-semibold" x-text="item.title || item.name">
+                                        </h3>
+                                        <p class="text-gray-400 text-xs md:text-sm mt-1"
+                                            x-text="'⭐ ' + (item.vote_average ? item.vote_average.toFixed(1) : 'N/A') + '/10'">
+                                        </p>
+                                    </div>
+                                    <div class="absolute top-2 right-2 flex space-x-2 z-20">
+                                        <button @click.stop.prevent="toggleWatchlist(item)"
+                                            class="bg-black bg-opacity-75 hover:bg-opacity-90 text-white p-1.5 sm:p-2 rounded-full transition-all z-20 relative cursor-pointer"
+                                            :class="isInWatchlist(item.id) ? 'text-yellow-400' : 'text-white'">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="h-4 w-4 sm:h-5 sm:w-5 pointer-events-none"
+                                                :fill="isInWatchlist(item.id) ? 'currentColor' : 'none'"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M12 4v16m8-8H4" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+        <!-- Horror Recommendations -->
+        <div x-show="showHorror && horrorRecommendations.length > 0"
+            class="max-w-7xl mx-auto mt-8 sm:mt-12 fade-in fade-in-delay-5">
+            <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Horror Recommendations</h2>
+            <div class="scroll-container">
+                <div id="horror-container" class="horizontal-scroll">
+                    <template x-for="(item, index) in horrorRecommendations" :key="'horror-' + index">
+                        <div class="card-fixed tv-navigable-item">
+                            <div class="card-hover bg-amoled-card rounded-lg overflow-hidden shadow-lg cursor-pointer border border-amoled-border"
+                                @click="watchContent(item)">
+                                <div class="aspect-[2/3] relative">
+                                    <img :src="'https://image.tmdb.org/t/p/w500' + item.poster_path" :alt="item.title"
+                                        class="w-full h-full object-cover" @error="event => {
+                                                    event.target.src = 'https://via.placeholder.com/300x450?text=No+Image';
+                                                }">
+                                    <div
+                                        class="card-overlay absolute inset-0 flex flex-col justify-end p-2 sm:p-3 md:p-4">
+                                        <h3 class="text-sm md:text-lg font-semibold" x-text="item.title">
+                                        </h3>
+                                        <p class="text-gray-400 text-xs md:text-sm mt-1"
+                                            x-text="'⭐ ' + (item.vote_average ? item.vote_average.toFixed(1) : 'N/A') + '/10'">
+                                        </p>
+                                        <p class="text-gray-400 text-xs mt-1" x-text="'#' + item.rank">
+                                        </p>
+                                    </div>
+                                    <div class="absolute top-2 right-2 flex space-x-2 z-20">
+                                        <button @click.stop.prevent="toggleWatchlist(item)"
+                                            class="bg-black bg-opacity-75 hover:bg-opacity-90 text-white p-1.5 sm:p-2 rounded-full transition-all z-20 relative cursor-pointer"
+                                            :class="isInWatchlist(item.id) ? 'text-yellow-400' : 'text-white'">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="h-4 w-4 sm:h-5 sm:w-5 pointer-events-none"
+                                                :fill="isInWatchlist(item.id) ? 'currentColor' : 'none'"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M12 4v16m8-8H4" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+        <!-- Thriller Recommendations -->
+        <div x-show="showThriller && thrillerRecommendations.length > 0"
+            class="max-w-7xl mx-auto mt-8 sm:mt-12 fade-in fade-in-delay-6">
+            <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Thriller Recommendations</h2>
+            <div class="scroll-container">
+                <div id="thriller-container" class="horizontal-scroll">
+                    <template x-for="(item, index) in thrillerRecommendations" :key="'thriller-' + index">
+                        <div class="card-fixed tv-navigable-item">
+                            <div class="card-hover bg-amoled-card rounded-lg overflow-hidden shadow-lg cursor-pointer border border-amoled-border"
+                                @click="watchContent(item)">
+                                <div class="aspect-[2/3] relative">
+                                    <img :src="'https://image.tmdb.org/t/p/w500' + item.poster_path" :alt="item.title"
+                                        class="w-full h-full object-cover" @error="event => {
+                                                    event.target.src = 'https://via.placeholder.com/300x450?text=No+Image';
+                                                }">
+                                    <div
+                                        class="card-overlay absolute inset-0 flex flex-col justify-end p-2 sm:p-3 md:p-4">
+                                        <h3 class="text-sm md:text-lg font-semibold" x-text="item.title">
+                                        </h3>
+                                        <p class="text-gray-400 text-xs md:text-sm mt-1"
+                                            x-text="'⭐ ' + (item.vote_average ? item.vote_average.toFixed(1) : 'N/A') + '/10'">
+                                        </p>
+                                        <p class="text-gray-400 text-xs mt-1" x-text="'#' + item.rank">
+                                        </p>
+                                    </div>
+                                    <div class="absolute top-2 right-2 flex space-x-2 z-20">
+                                        <button @click.stop.prevent="toggleWatchlist(item)"
+                                            class="bg-black bg-opacity-75 hover:bg-opacity-90 text-white p-1.5 sm:p-2 rounded-full transition-all z-20 relative cursor-pointer"
+                                            :class="isInWatchlist(item.id) ? 'text-yellow-400' : 'text-white'">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="h-4 w-4 sm:h-5 sm:w-5 pointer-events-none"
+                                                :fill="isInWatchlist(item.id) ? 'currentColor' : 'none'"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M12 4v16m8-8H4" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+        <!-- Comedy Recommendations -->
+        <div x-show="showComedy && comedyRecommendations.length > 0"
+            class="max-w-7xl mx-auto mt-8 sm:mt-12 fade-in fade-in-delay-7">
+            <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Comedy Recommendations</h2>
+            <div class="scroll-container">
+                <div id="comedy-container" class="horizontal-scroll">
+                    <template x-for="(item, index) in comedyRecommendations" :key="'comedy-' + index">
+                        <div class="card-fixed tv-navigable-item">
+                            <div class="card-hover bg-amoled-card rounded-lg overflow-hidden shadow-lg cursor-pointer border border-amoled-border"
+                                @click="watchContent(item)">
+                                <div class="aspect-[2/3] relative">
+                                    <img :src="'https://image.tmdb.org/t/p/w500' + item.poster_path" :alt="item.title"
+                                        class="w-full h-full object-cover" @error="event => {
+                                                    event.target.src = 'https://via.placeholder.com/300x450?text=No+Image';
+                                                }">
+                                    <div
+                                        class="card-overlay absolute inset-0 flex flex-col justify-end p-2 sm:p-3 md:p-4">
+                                        <h3 class="text-sm md:text-lg font-semibold" x-text="item.title">
+                                        </h3>
+                                        <p class="text-gray-400 text-xs md:text-sm mt-1"
+                                            x-text="'⭐ ' + (item.vote_average ? item.vote_average.toFixed(1) : 'N/A') + '/10'">
+                                        </p>
+                                        <p class="text-gray-400 text-xs mt-1" x-text="'#' + item.rank">
+                                        </p>
+                                    </div>
+                                    <div class="absolute top-2 right-2 flex space-x-2 z-20">
+                                        <button @click.stop.prevent="toggleWatchlist(item)"
+                                            class="bg-black bg-opacity-75 hover:bg-opacity-90 text-white p-1.5 sm:p-2 rounded-full transition-all z-20 relative cursor-pointer"
+                                            :class="isInWatchlist(item.id) ? 'text-yellow-400' : 'text-white'">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="h-4 w-4 sm:h-5 sm:w-5 pointer-events-none"
+                                                :fill="isInWatchlist(item.id) ? 'currentColor' : 'none'"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M12 4v16m8-8H4" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sad Recommendations -->
+        <div x-show="showSad && sadRecommendations.length > 0"
+            class="max-w-7xl mx-auto mt-8 sm:mt-12 fade-in fade-in-delay-8">
+            <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Sad Recommendations</h2>
+            <div class="scroll-container">
+                <div id="sad-container" class="horizontal-scroll">
+                    <template x-for="(item, index) in sadRecommendations" :key="'sad-' + index">
+                        <div class="card-fixed tv-navigable-item">
+                            <div class="card-hover bg-amoled-card rounded-lg overflow-hidden shadow-lg cursor-pointer border border-amoled-border"
+                                @click="watchContent(item)">
+                                <div class="aspect-[2/3] relative">
+                                    <img :src="'https://image.tmdb.org/t/p/w500' + item.poster_path" :alt="item.title"
+                                        class="w-full h-full object-cover" @error="event => {
+                                                    event.target.src = 'https://via.placeholder.com/300x450?text=No+Image';
+                                                }">
+                                    <div
+                                        class="card-overlay absolute inset-0 flex flex-col justify-end p-2 sm:p-3 md:p-4">
+                                        <h3 class="text-sm md:text-lg font-semibold" x-text="item.title">
+                                        </h3>
+                                        <p class="text-gray-400 text-xs md:text-sm mt-1"
+                                            x-text="'⭐ ' + (item.vote_average ? item.vote_average.toFixed(1) : 'N/A') + '/10'">
+                                        </p>
+                                        <p class="text-gray-400 text-xs mt-1" x-text="'#' + item.rank">
+                                        </p>
+                                    </div>
+                                    <div class="absolute top-2 right-2 flex space-x-2 z-20">
+                                        <button @click.stop.prevent="toggleWatchlist(item)"
+                                            class="bg-black bg-opacity-75 hover:bg-opacity-90 text-white p-1.5 sm:p-2 rounded-full transition-all z-20 relative cursor-pointer"
+                                            :class="isInWatchlist(item.id) ? 'text-yellow-400' : 'text-white'">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="h-4 w-4 sm:h-5 sm:w-5 pointer-events-none"
+                                                :fill="isInWatchlist(item.id) ? 'currentColor' : 'none'"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M12 4v16m8-8H4" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+        <!-- South Korean Recommendations -->
+        <div x-show="showSK && skRecommendations.length > 0"
+            class="max-w-7xl mx-auto mt-8 sm:mt-12 fade-in fade-in-delay-9">
+            <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">South Korean Recommendations</h2>
+            <div class="scroll-container">
+                <div id="sk-container" class="horizontal-scroll">
+                    <template x-for="(item, index) in skRecommendations" :key="'sk-' + index">
+                        <div class="card-fixed tv-navigable-item">
+                            <div class="card-hover bg-amoled-card rounded-lg overflow-hidden shadow-lg cursor-pointer border border-amoled-border"
+                                @click="watchContent(item)">
+                                <div class="aspect-[2/3] relative">
+                                    <img :src="'https://image.tmdb.org/t/p/w500' + item.poster_path" :alt="item.title"
+                                        class="w-full h-full object-cover" @error="event => {
+                                                    event.target.src = 'https://via.placeholder.com/300x450?text=No+Image';
+                                                }">
+                                    <div
+                                        class="card-overlay absolute inset-0 flex flex-col justify-end p-2 sm:p-3 md:p-4">
+                                        <h3 class="text-sm md:text-lg font-semibold" x-text="item.title">
+                                        </h3>
+                                        <p class="text-gray-400 text-xs md:text-sm mt-1"
+                                            x-text="'⭐ ' + (item.vote_average ? item.vote_average.toFixed(1) : 'N/A') + '/10'">
+                                        </p>
+                                        <p class="text-gray-400 text-xs mt-1" x-text="'#' + item.rank">
+                                        </p>
+                                    </div>
+                                    <div class="absolute top-2 right-2 flex space-x-2 z-20">
+                                        <button @click.stop.prevent="toggleWatchlist(item)"
+                                            class="bg-black bg-opacity-75 hover:bg-opacity-90 text-white p-1.5 sm:p-2 rounded-full transition-all z-20 relative cursor-pointer"
+                                            :class="isInWatchlist(item.id) ? 'text-yellow-400' : 'text-white'">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="h-4 w-4 sm:h-5 sm:w-5 pointer-events-none"
+                                                :fill="isInWatchlist(item.id) ? 'currentColor' : 'none'"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M12 4v16m8-8H4" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+        <!-- Romance Recommendations -->
+        <div x-show="showRomance && romanceRecommendations.length > 0"
+            class="max-w-7xl mx-auto mt-8 sm:mt-12 fade-in fade-in-delay-10">
+            <h2 class="text-xl sm:text-2xl font-bold text-white mb-4 sm:mb-6">Romance Recommendations</h2>
+            <div class="scroll-container">
+                <div id="romance-container" class="horizontal-scroll">
+                    <template x-for="(item, index) in romanceRecommendations" :key="'romance-' + index">
+                        <div class="card-fixed tv-navigable-item">
+                            <div class="card-hover bg-amoled-card rounded-lg overflow-hidden shadow-lg cursor-pointer border border-amoled-border"
+                                @click="watchContent(item)">
+                                <div class="aspect-[2/3] relative">
+                                    <img :src="'https://image.tmdb.org/t/p/w500' + item.poster_path" :alt="item.title"
+                                        class="w-full h-full object-cover" @error="event => {
+                                                    event.target.src = 'https://via.placeholder.com/300x450?text=No+Image';
+                                                }">
+                                    <div
+                                        class="card-overlay absolute inset-0 flex flex-col justify-end p-2 sm:p-3 md:p-4">
+                                        <h3 class="text-sm md:text-lg font-semibold" x-text="item.title">
+                                        </h3>
+                                        <p class="text-gray-400 text-xs md:text-sm mt-1"
+                                            x-text="'⭐ ' + (item.vote_average ? item.vote_average.toFixed(1) : 'N/A') + '/10'">
+                                        </p>
+                                        <p class="text-gray-400 text-xs mt-1" x-text="'#' + item.rank">
+                                        </p>
+                                    </div>
+                                    <div class="absolute top-2 right-2 flex space-x-2 z-20">
+                                        <button @click.stop.prevent="toggleWatchlist(item)"
+                                            class="bg-black bg-opacity-75 hover:bg-opacity-90 text-white p-1.5 sm:p-2 rounded-full transition-all z-20 relative cursor-pointer"
+                                            :class="isInWatchlist(item.id) ? 'text-yellow-400' : 'text-white'">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="h-4 w-4 sm:h-5 sm:w-5 pointer-events-none"
+                                                :fill="isInWatchlist(item.id) ? 'currentColor' : 'none'"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M12 4v16m8-8H4" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- No Results -->
+        <div x-show="results.length === 0 && searchQuery && !isLoading" class="text-center py-8 sm:py-12">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 sm:h-16 sm:w-16 text-gray-400 mx-auto mb-4"
+                fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.467-.881-6.08-2.33" />
+            </svg>
+            <h3 class="text-base sm:text-lg font-medium text-white mb-2">No results found</h3>
+            <p class="text-gray-400 text-sm sm:text-base">Try adjusting your search terms</p>
+        </div>
+
+        <!-- Initial State -->
+        <div x-show="!searchQuery" class="text-center py-8 sm:py-12">
+        </div>
+    </div>
+
+    <!-- Bottom Navigation (Mobile Only) -->
+    <div
+        class="fixed bottom-0 left-0 right-0 bg-amoled border-t border-amoled-border p-2 flex justify-around sm:hidden z-50">
+        <a href="#"
+            class="flex flex-col items-center justify-center text-gray-300 hover:text-white transition-colors w-full py-2 rounded-lg hover:bg-amoled-card">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+            </svg>
+        </a>
+        <a href="#" @click.prevent="focusSearch()"
+            class="flex flex-col items-center justify-center text-gray-300 hover:text-white transition-colors w-full py-2 rounded-lg hover:bg-amoled-card">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+        </a>
+        <a href="discover.html"
+            class="flex flex-col items-center justify-center text-gray-300 hover:text-white transition-colors w-full py-2 rounded-lg hover:bg-amoled-card">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M7 4V2a1 1 0 011-1h8a1 1 0 011 1v2M7 4H5a2 2 0 00-2 2v10a2 2 0 002 2h14a2 2 0 002-2V6a2 2 0 00-2-2h-2M7 4h10" />
+            </svg>
+        </a>
+    </div>
+
+    <script>
+        function searchApp() {
+            return {
+                searchQuery: '',
+                results: [],
+                isLoading: false,
+                watchlist: [],
+                continueWatching: [],
+                trending: [],
+                recommendations: [],
+                todayRecommendations: [],
+                monthRecommendations: [],
+                horrorRecommendations: [],
+                thrillerRecommendations: [],
+                comedyRecommendations: [],
+                sadRecommendations: [],
+                skRecommendations: [],
+                romanceRecommendations: [],
+                trendingType: 'movie', // 'movie' or 'tv'
+                recommendationsType: 'today', // 'today' or 'month'
+                defaultSource: 'vidfast', // Default source
+                apiKey: '1070730380f5fee0d87cf0382670b255',
+                showSearchBar: false,
+                showWatchlist: false,
+                showContinueWatching: false,
+                showDefaultSource: false,
+                showTrending: false,
+                showRecommendations: false,
+                showHorror: false,
+                showThriller: false,
+                showComedy: false,
+                showSad: false,
+                showSK: false,
+                showRomance: false,
+                // Navigation properties
+                currentSection: 0,
+                currentItem: 0,
+                sections: [
+                    'search',
+                    'watchlist',
+                    'continue-watching',
+                    'recommendations',
+                    'trending',
+                    'horror',
+                    'thriller',
+                    'comedy',
+                    'sad',
+                    'sk',
+                    'romance'
+                ],
+
+                isMobileDevice() {
+                    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+                        (window.innerWidth <= 768);
+                },
+
+                init() {
+                    this.loadWatchlist();
+                    this.loadContinueWatching();
+                    this.loadDefaultSource();
+                    this.loadTrending();
+                    this.loadTodayRecommendations();
+                    this.loadMonthRecommendations();
+                    this.loadHorrorRecommendations();
+                    this.loadThrillerRecommendations();
+                    this.loadComedyRecommendations();
+                    this.loadSadRecommendations();
+                    this.loadSKRecommendations();
+                    this.loadRomanceRecommendations();
+
+                    // Check for updates from watch.html every 2 seconds
+                    setInterval(() => {
+                        this.checkForContinueWatchingUpdates();
+                    }, 2000);
+
+                    // Progressive loading with fast delays
+                    setTimeout(() => { this.showSearchBar = true; }, 50);
+                    setTimeout(() => { this.showWatchlist = true; }, 100);
+                    setTimeout(() => { this.showContinueWatching = true; }, 200);
+                    setTimeout(() => { this.showTrending = true; }, 300);
+                    setTimeout(() => { this.showRecommendations = true; }, 400);
+                    setTimeout(() => { this.showHorror = true; }, 500);
+                    setTimeout(() => { this.showThriller = true; }, 600);
+                    setTimeout(() => { this.showComedy = true; }, 700);
+                    setTimeout(() => { this.showSad = true; }, 800);
+                    setTimeout(() => { this.showSK = true; }, 900);
+                    setTimeout(() => { this.showRomance = true; }, 1000);
+
+
+                    // Add mouse wheel support for horizontal scrolling
+                    this.initMouseWheelScrolling();
+
+                    // Always enable keyboard navigation
+                    this.initKeyboardNavigation();
+
+                    // Initialize focus (but don't auto-focus search on mobile to avoid keyboard popup)
+                    // setTimeout(() => {
+                    //     this.focusCurrentItem();
+                    // }, 1200); // Wait for content to load
+                }, loadWatchlist() {
+                    const saved = localStorage.getItem('streamSearch_watchlist');
+                    if (saved) {
+                        this.watchlist = JSON.parse(saved);
+                    }
+                },
+
+                saveWatchlist() {
+                    localStorage.setItem('streamSearch_watchlist', JSON.stringify(this.watchlist));
+                },
+
+                loadContinueWatching() {
+                    const saved = localStorage.getItem('streamSearch_continueWatching');
+                    if (saved) {
+                        this.continueWatching = JSON.parse(saved);
+                    }
+                },
+
+                saveContinueWatching() {
+                    localStorage.setItem('streamSearch_continueWatching', JSON.stringify(this.continueWatching));
+                },
+
+                addToContinueWatching(item) {
+                    // Remove if already exists
+                    this.continueWatching = this.continueWatching.filter(cw => cw.id !== item.id);
+
+                    // Add to beginning (most recent)
+                    this.continueWatching.unshift({
+                        id: item.id,
+                        title: item.title || item.name,
+                        media_type: item.media_type,
+                        poster_path: item.poster_path,
+                        release_date: item.release_date || item.first_air_date,
+                        vote_average: item.vote_average,
+                        overview: item.overview,
+                        added_at: new Date().toISOString()
+                    });
+
+                    // Keep only last 20 items
+                    if (this.continueWatching.length > 20) {
+                        this.continueWatching = this.continueWatching.slice(0, 20);
+                    }
+
+                    this.saveContinueWatching();
+                },
+
+                removeFromContinueWatching(itemId) {
+                    this.continueWatching = this.continueWatching.filter(item => item.id !== itemId);
+                    this.saveContinueWatching();
+                },
+
+                checkForContinueWatchingUpdates() {
+                    const lastUpdate = localStorage.getItem('streamSearch_continueWatching_update');
+                    if (lastUpdate) {
+                        const updateData = JSON.parse(lastUpdate);
+                        this.addToContinueWatching(updateData);
+                        localStorage.removeItem('streamSearch_continueWatching_update');
+                    }
+                },
+
+                loadDefaultSource() {
+                    // Always use vidfast as the source
+                    this.defaultSource = 'vidfast';
+                },
+
+                async loadTrending() {
+                    try {
+                        // Load trending movies
+                        const movieResponse = await fetch(`https://api.themoviedb.org/3/trending/movie/day?api_key=${this.apiKey}`);
+                        const movieData = await movieResponse.json();
+                        const movies = movieData.results.slice(0, 20).map(item => ({ ...item, media_type: 'movie' }));
+
+                        // Load trending TV shows
+                        const tvResponse = await fetch(`https://api.themoviedb.org/3/trending/tv/day?api_key=${this.apiKey}`);
+                        const tvData = await tvResponse.json();
+                        const tvShows = tvData.results.slice(0, 20).map(item => ({ ...item, media_type: 'tv' }));
+
+                        // Combine and store
+                        this.trending = [...movies, ...tvShows];
+                    } catch (error) {
+                        console.error('Error loading trending content:', error);
+                        this.trending = [];
+                    }
+                },
+
+                async loadTodayRecommendations() {
+                    try {
+                        const response = await fetch('./todayranked.json');
+                        if (!response.ok) {
+                            console.warn('Could not load today recommendations:', response.status);
+                            return;
+                        }
+                        const data = await response.json();
+                        const rankedMovies = data.ranked_movies || [];
+
+                        console.log('Loading today recommendations:', rankedMovies.length, 'movies');
+
+                        // Process all movies in parallel for initial load
+                        const moviePromises = rankedMovies.slice(0, 20).map(async (movie) => {
+                            try {
+                                const searchResponse = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${this.apiKey}&query=${encodeURIComponent(movie.title)}`);
+                                const searchData = await searchResponse.json();
+                                if (searchData.results && searchData.results.length > 0) {
+                                    const tmdbMovie = searchData.results[0];
+                                    return {
+                                        ...tmdbMovie,
+                                        media_type: 'movie',
+                                        reason: movie.reason,
+                                        rank: movie.rank
+                                    };
+                                }
+                                return null;
+                            } catch (error) {
+                                console.warn(`Failed to fetch TMDB data for ${movie.title}:`, error);
+                                return null;
+                            }
+                        });
+
+                        const results = await Promise.all(moviePromises);
+                        this.todayRecommendations = results.filter(result => result !== null && result.id);
+
+                        console.log('Today recommendations loaded:', this.todayRecommendations.length, 'movies with valid IDs');
+
+                        // Set initial recommendations to today
+                        this.loadRecommendations();
+                    } catch (error) {
+                        console.error('Error loading today recommendations:', error);
+                        this.todayRecommendations = [];
+                        this.loadRecommendations();
+                    }
+                },
+
+                async loadMonthRecommendations() {
+                    try {
+                        const response = await fetch('./monthranked.json');
+                        if (!response.ok) {
+                            console.warn('Could not load month recommendations:', response.status);
+                            return;
+                        }
+                        const data = await response.json();
+                        const rankedMovies = data.ranked_movies || [];
+
+                        console.log('Loading month recommendations:', rankedMovies.length, 'movies');
+
+                        // Process all movies in parallel for initial load
+                        const moviePromises = rankedMovies.slice(0, 20).map(async (movie) => {
+                            try {
+                                const searchResponse = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${this.apiKey}&query=${encodeURIComponent(movie.title)}`);
+                                const searchData = await searchResponse.json();
+                                if (searchData.results && searchData.results.length > 0) {
+                                    const tmdbMovie = searchData.results[0];
+                                    return {
+                                        ...tmdbMovie,
+                                        media_type: 'movie',
+                                        reason: movie.reason,
+                                        rank: movie.rank
+                                    };
+                                }
+                                return null;
+                            } catch (error) {
+                                console.warn(`Failed to fetch TMDB data for ${movie.title}:`, error);
+                                return null;
+                            }
+                        });
+
+                        const results = await Promise.all(moviePromises);
+                        this.monthRecommendations = results.filter(result => result !== null && result.id);
+
+                        console.log('Month recommendations loaded:', this.monthRecommendations.length, 'movies with valid IDs');
+
+                        // Set initial recommendations to month if that's the current type
+                        this.loadRecommendations();
+                    } catch (error) {
+                        console.error('Error loading month recommendations:', error);
+                        this.monthRecommendations = [];
+                        this.loadRecommendations();
+                    }
+                },
+
+                async loadHorrorRecommendations() {
+                    try {
+                        const response = await fetch('./horrorranked.json');
+                        if (!response.ok) {
+                            console.warn('Could not load horror recommendations:', response.status);
+                            return;
+                        }
+                        const data = await response.json();
+                        const rankedMovies = data.ranked_movies || [];
+
+                        console.log('Loading horror recommendations:', rankedMovies.length, 'movies');
+
+                        const moviePromises = rankedMovies.slice(0, 20).map(async (movie) => {
+                            try {
+                                const searchResponse = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${this.apiKey}&query=${encodeURIComponent(movie.title)}`);
+                                const searchData = await searchResponse.json();
+                                if (searchData.results && searchData.results.length > 0) {
+                                    const tmdbMovie = searchData.results[0];
+                                    return {
+                                        ...tmdbMovie,
+                                        media_type: 'movie',
+                                        reason: movie.reason,
+                                        rank: movie.rank
+                                    };
+                                }
+                                return null;
+                            } catch (error) {
+                                console.warn(`Failed to fetch TMDB data for ${movie.title}:`, error);
+                                return null;
+                            }
+                        });
+
+                        const results = await Promise.all(moviePromises);
+                        this.horrorRecommendations = results.filter(result => result !== null && result.id);
+
+                        console.log('Horror recommendations loaded:', this.horrorRecommendations.length, 'movies with valid IDs');
+                    } catch (error) {
+                        console.error('Error loading horror recommendations:', error);
+                        this.horrorRecommendations = [];
+                    }
+                },
+
+                async loadThrillerRecommendations() {
+                    try {
+                        const response = await fetch('./thrillerranked.json');
+                        if (!response.ok) {
+                            console.warn('Could not load thriller recommendations:', response.status);
+                            return;
+                        }
+                        const data = await response.json();
+                        const rankedMovies = data.ranked_movies || [];
+
+                        console.log('Loading thriller recommendations:', rankedMovies.length, 'movies');
+
+                        const moviePromises = rankedMovies.slice(0, 20).map(async (movie) => {
+                            try {
+                                const searchResponse = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${this.apiKey}&query=${encodeURIComponent(movie.title)}`);
+                                const searchData = await searchResponse.json();
+                                if (searchData.results && searchData.results.length > 0) {
+                                    const tmdbMovie = searchData.results[0];
+                                    return {
+                                        ...tmdbMovie,
+                                        media_type: 'movie',
+                                        reason: movie.reason,
+                                        rank: movie.rank
+                                    };
+                                }
+                                return null;
+                            } catch (error) {
+                                console.warn(`Failed to fetch TMDB data for ${movie.title}:`, error);
+                                return null;
+                            }
+                        });
+
+                        const results = await Promise.all(moviePromises);
+                        this.thrillerRecommendations = results.filter(result => result !== null && result.id);
+
+                        console.log('Thriller recommendations loaded:', this.thrillerRecommendations.length, 'movies with valid IDs');
+                    } catch (error) {
+                        console.error('Error loading thriller recommendations:', error);
+                        this.thrillerRecommendations = [];
+                    }
+                },
+
+                async loadComedyRecommendations() {
+                    try {
+                        const response = await fetch('./comedyranked.json');
+                        if (!response.ok) {
+                            console.warn('Could not load comedy recommendations:', response.status);
+                            return;
+                        }
+                        const data = await response.json();
+                        const rankedMovies = data.ranked_movies || [];
+
+                        console.log('Loading comedy recommendations:', rankedMovies.length, 'movies');
+
+                        const moviePromises = rankedMovies.slice(0, 20).map(async (movie) => {
+                            try {
+                                const searchResponse = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${this.apiKey}&query=${encodeURIComponent(movie.title)}`);
+                                const searchData = await searchResponse.json();
+                                if (searchData.results && searchData.results.length > 0) {
+                                    const tmdbMovie = searchData.results[0];
+                                    return {
+                                        ...tmdbMovie,
+                                        media_type: 'movie',
+                                        reason: movie.reason,
+                                        rank: movie.rank
+                                    };
+                                }
+                                return null;
+                            } catch (error) {
+                                console.warn(`Failed to fetch TMDB data for ${movie.title}:`, error);
+                                return null;
+                            }
+                        });
+
+                        const results = await Promise.all(moviePromises);
+                        this.comedyRecommendations = results.filter(result => result !== null && result.id);
+
+                        console.log('Comedy recommendations loaded:', this.comedyRecommendations.length, 'movies with valid IDs');
+                    } catch (error) {
+                        console.error('Error loading comedy recommendations:', error);
+                        this.comedyRecommendations = [];
+                    }
+                },
+
+                async loadSadRecommendations() {
+                    try {
+                        const response = await fetch('./sadranked.json');
+                        if (!response.ok) {
+                            console.warn('Could not load sad recommendations:', response.status);
+                            return;
+                        }
+                        const data = await response.json();
+                        const rankedMovies = data.ranked_movies || [];
+
+                        console.log('Loading sad recommendations:', rankedMovies.length, 'movies');
+
+                        const moviePromises = rankedMovies.slice(0, 20).map(async (movie) => {
+                            try {
+                                const searchResponse = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${this.apiKey}&query=${encodeURIComponent(movie.title)}`);
+                                const searchData = await searchResponse.json();
+                                if (searchData.results && searchData.results.length > 0) {
+                                    const tmdbMovie = searchData.results[0];
+                                    return {
+                                        ...tmdbMovie,
+                                        media_type: 'movie',
+                                        reason: movie.reason,
+                                        rank: movie.rank
+                                    };
+                                }
+                                return null;
+                            } catch (error) {
+                                console.warn(`Failed to fetch TMDB data for ${movie.title}:`, error);
+                                return null;
+                            }
+                        });
+
+                        const results = await Promise.all(moviePromises);
+                        this.sadRecommendations = results.filter(result => result !== null && result.id);
+
+                        console.log('Sad recommendations loaded:', this.sadRecommendations.length, 'movies with valid IDs');
+                    } catch (error) {
+                        console.error('Error loading sad recommendations:', error);
+                        this.sadRecommendations = [];
+                    }
+                },
+
+                async loadSKRecommendations() {
+                    try {
+                        const response = await fetch('./skranked.json');
+                        if (!response.ok) {
+                            console.warn('Could not load SK recommendations:', response.status);
+                            return;
+                        }
+                        const data = await response.json();
+                        const rankedMovies = data.ranked_movies || [];
+
+                        console.log('Loading SK recommendations:', rankedMovies.length, 'movies');
+
+                        const moviePromises = rankedMovies.slice(0, 20).map(async (movie) => {
+                            try {
+                                const searchResponse = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${this.apiKey}&query=${encodeURIComponent(movie.title)}`);
+                                const searchData = await searchResponse.json();
+                                if (searchData.results && searchData.results.length > 0) {
+                                    const tmdbMovie = searchData.results[0];
+                                    return {
+                                        ...tmdbMovie,
+                                        media_type: 'movie',
+                                        reason: movie.reason,
+                                        rank: movie.rank
+                                    };
+                                }
+                                return null;
+                            } catch (error) {
+                                console.warn(`Failed to fetch TMDB data for ${movie.title}:`, error);
+                                return null;
+                            }
+                        });
+
+                        const results = await Promise.all(moviePromises);
+                        this.skRecommendations = results.filter(result => result !== null && result.id);
+
+                        console.log('SK recommendations loaded:', this.skRecommendations.length, 'movies with valid IDs');
+                    } catch (error) {
+                        console.error('Error loading SK recommendations:', error);
+                        this.skRecommendations = [];
+                    }
+                },
+
+                async loadRomanceRecommendations() {
+                    try {
+                        const response = await fetch('./romanceranked.json');
+                        if (!response.ok) {
+                            console.warn('Could not load romance recommendations:', response.status);
+                            return;
+                        }
+                        const data = await response.json();
+                        const rankedMovies = data.ranked_movies || [];
+
+                        console.log('Loading romance recommendations:', rankedMovies.length, 'movies');
+
+                        const moviePromises = rankedMovies.slice(0, 20).map(async (movie) => {
+                            try {
+                                const searchResponse = await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${this.apiKey}&query=${encodeURIComponent(movie.title)}`);
+                                const searchData = await searchResponse.json();
+                                if (searchData.results && searchData.results.length > 0) {
+                                    const tmdbMovie = searchData.results[0];
+                                    return {
+                                        ...tmdbMovie,
+                                        media_type: 'movie',
+                                        reason: movie.reason,
+                                        rank: movie.rank
+                                    };
+                                }
+                                return null;
+                            } catch (error) {
+                                console.warn(`Failed to fetch TMDB data for ${movie.title}:`, error);
+                                return null;
+                            }
+                        });
+
+                        const results = await Promise.all(moviePromises);
+                        this.romanceRecommendations = results.filter(result => result !== null && result.id);
+
+                        console.log('Romance recommendations loaded:', this.romanceRecommendations.length, 'movies with valid IDs');
+                    } catch (error) {
+                        console.error('Error loading romance recommendations:', error);
+                        this.romanceRecommendations = [];
+                    }
+                },
+
+                async loadRecommendations() {
+                    // This function now just switches between pre-loaded data
+                    if (this.recommendationsType === 'today') {
+                        this.recommendations = this.todayRecommendations || [];
+                    } else {
+                        this.recommendations = this.monthRecommendations || [];
+                    }
+                },
+
+                getFilteredTrending() {
+                    return (this.trending || []).filter(item => item && item.media_type === this.trendingType);
+                },
+
+                scrollLeft(containerId) {
+                    const container = document.getElementById(containerId);
+                    if (container) {
+                        container.scrollBy({ left: -300, behavior: 'smooth' });
+                    }
+                },
+
+                scrollRight(containerId) {
+                    const container = document.getElementById(containerId);
+                    if (container) {
+                        container.scrollBy({ left: 300, behavior: 'smooth' });
+                    }
+                },
+
+                scrollLeftRecommendations() {
+                    this.scrollLeft('recommendations-container');
+                },
+
+                scrollRightRecommendations() {
+                    this.scrollRight('recommendations-container');
+                },
+
+                saveDefaultSource() {
+                    try {
+                        localStorage.setItem('streamSearch_defaultSource', this.defaultSource);
+                    } catch (error) {
+                        console.error('Error saving default source to localStorage:', error);
+                    }
+                },
+
+                updateDefaultSource(sourceId) {
+                    this.defaultSource = sourceId;
+                    this.saveDefaultSource();
+                },
+
+                isInWatchlist(itemId) {
+                    return this.watchlist.some(item => item.id === itemId);
+                },
+
+                toggleWatchlist(item) {
+                    console.log('Toggle watchlist called for:', item.title || item.name);
+                    const index = this.watchlist.findIndex(watchlistItem => watchlistItem.id === item.id);
+                    if (index > -1) {
+                        // Remove from watchlist
+                        this.watchlist.splice(index, 1);
+                        console.log('Removed from watchlist');
+                    } else {
+                        // Add to watchlist
+                        this.watchlist.push({
+                            id: item.id,
+                            title: item.title || item.name,
+                            media_type: item.media_type,
+                            poster_path: item.poster_path,
+                            release_date: item.release_date || item.first_air_date,
+                            vote_average: item.vote_average,
+                            overview: item.overview
+                        });
+                        console.log('Added to watchlist');
+                    }
+                    this.saveWatchlist();
+                    console.log('Current watchlist:', this.watchlist);
+                },
+
+                async searchContent() {
+                    if (!this.searchQuery.trim()) {
+                        this.results = [];
+                        return;
+                    }
+
+                    this.isLoading = true;
+
+                    try {
+                        const url = `https://api.themoviedb.org/3/search/multi?api_key=${this.apiKey}&query=${encodeURIComponent(this.searchQuery)}&include_adult=false`;
+                        console.log('Searching:', url);
+
+                        const response = await fetch(url);
+
+                        if (!response.ok) {
+                            throw new Error(`API request failed: ${response.status}`);
+                        }
+
+                        const data = await response.json();
+                        console.log('API Response:', data);
+
+                        // Filter out people and only show movies and TV shows
+                        this.results = data.results.filter(item =>
+                            item.media_type === 'movie' || item.media_type === 'tv'
+                        );
+
+                        console.log('Filtered results:', this.results);
+
+                    } catch (error) {
+                        console.error('Search error:', error);
+                        this.results = [];
+                    } finally {
+                        this.isLoading = false;
+                    }
+                },
+
+                watchContent(item) {
+                    const type = item.media_type === 'movie' ? 'movie' : 'tv';
+                    window.location.href = `watch.html?id=${item.id}&type=${type}`;
+                },
+
+                initMouseWheelScrolling() {
+                    const scrollContainers = [
+                        'results-container',
+                        'watchlist-container',
+                        'continue-watching-container',
+                        'trending-container',
+                        'recommendations-container',
+                        'horror-container',
+                        'thriller-container',
+                        'comedy-container',
+                        'sad-container',
+                        'sk-container',
+                        'romance-container'
+                    ];
+
+                    scrollContainers.forEach(containerId => {
+                        const container = document.getElementById(containerId);
+                        if (container) {
+                            container.addEventListener('wheel', (e) => {
+                                this.handleMouseWheel(e, containerId);
+                            }, { passive: false });
+                        }
+                    });
+                },
+
+                handleMouseWheel(e, containerId) {
+                    e.preventDefault();
+                    const container = document.getElementById(containerId);
+                    if (!container) return;
+
+                    // Convert vertical scroll to horizontal scroll
+                    const scrollAmount = e.deltaY * 2; // Multiply by 2 for more responsive scrolling
+                    container.scrollBy({
+                        left: scrollAmount,
+                        behavior: 'smooth'
+                    });
+                },
+
+                initKeyboardNavigation() {
+                    document.addEventListener('keydown', (e) => {
+                        switch (e.key) {
+                            case 'ArrowUp':
+                                e.preventDefault();
+                                this.navigateUp();
+                                break;
+                            case 'ArrowDown':
+                                e.preventDefault();
+                                this.navigateDown();
+                                break;
+                            case 'ArrowLeft':
+                                e.preventDefault();
+                                this.navigateLeft();
+                                break;
+                            case 'ArrowRight':
+                                e.preventDefault();
+                                this.navigateRight();
+                                break;
+                            case 'Enter':
+                                e.preventDefault();
+                                this.selectCurrentItem();
+                                break;
+                        }
+                    });
+                },
+
+                navigateUp() {
+                    if (this.currentSection > 0) {
+                        this.currentSection--;
+                        this.currentItem = 0;
+                        this.focusCurrentItem();
+                        this.scrollToCurrentSection();
+                    }
+                },
+
+                navigateDown() {
+                    if (this.currentSection < this.sections.length - 1) {
+                        this.currentSection++;
+                        this.currentItem = 0;
+                        this.focusCurrentItem();
+                        this.scrollToCurrentSection();
+                    }
+                },
+
+                navigateLeft() {
+                    const currentSectionItems = this.getCurrentSectionItems();
+                    if (currentSectionItems && this.currentItem > 0) {
+                        this.currentItem--;
+                        this.focusCurrentItem();
+                        this.scrollToCurrentItem();
+                    }
+                },
+
+                navigateRight() {
+                    const currentSectionItems = this.getCurrentSectionItems();
+                    if (currentSectionItems && this.currentItem < currentSectionItems.length - 1) {
+                        this.currentItem++;
+                        this.focusCurrentItem();
+                        this.scrollToCurrentItem();
+                    }
+                },
+
+                getCurrentSectionItems() {
+                    const section = this.sections[this.currentSection];
+                    switch (section) {
+                        case 'search':
+                            // Always allow navigation to search box, even with no results
+                            return this.results.length > 0 ? this.results : ['search-placeholder'];
+                        case 'watchlist':
+                            return this.watchlist;
+                        case 'continue-watching':
+                            return this.continueWatching;
+                        case 'trending':
+                            return this.getFilteredTrending();
+                        case 'recommendations':
+                            return this.recommendations;
+                        case 'horror':
+                            return this.horrorRecommendations;
+                        case 'thriller':
+                            return this.thrillerRecommendations;
+                        case 'comedy':
+                            return this.comedyRecommendations;
+                        case 'sad':
+                            return this.sadRecommendations;
+                        case 'sk':
+                            return this.skRecommendations;
+                        case 'romance':
+                            return this.romanceRecommendations;
+                        default:
+                            return null;
+                    }
+                },
+
+                focusCurrentItem() {
+                    // Clear previous focus
+                    this.clearFocus();
+
+                    // Add focus to current section
+                    setTimeout(() => {
+                        const section = this.sections[this.currentSection];
+
+                        // Skip highlighting for search box as it has its own focus styles
+                        if (section === 'search') {
+                            if (this.results.length > 0) {
+                                // Focus results if available
+                                const container = document.getElementById('results-container');
+                                if (container) {
+                                    container.classList.add('tv-focused-section');
+                                    const items = container.querySelectorAll('.tv-navigable-item');
+                                    if (items[this.currentItem]) {
+                                        items[this.currentItem].classList.add('tv-focused-item');
+                                    }
+                                }
+                            } else {
+                                // Focus the search input instead (but not on mobile to avoid keyboard popup)
+                                if (!this.isMobileDevice()) {
+                                    const searchInput = document.querySelector('.search-input');
+                                    if (searchInput) {
+                                        searchInput.focus();
+                                    }
+                                }
+                            }
+                            return;
+                        }
+
+                        const container = document.getElementById(`${section}-container`);
+                        if (container) {
+                            // container.classList.add('tv-focused-section'); // Removed to only highlight cards, not background
+
+                            // Focus specific item if it exists
+                            const items = container.querySelectorAll('.tv-navigable-item');
+                            if (items[this.currentItem]) {
+                                items[this.currentItem].classList.add('tv-focused-item');
+                            }
+                        }
+                    }, 10);
+                },
+
+                clearFocus() {
+                    // Clear all focus classes
+                    document.querySelectorAll('.tv-focused-section').forEach(el => {
+                        el.classList.remove('tv-focused-section');
+                    });
+                    document.querySelectorAll('.tv-focused-item').forEach(el => {
+                        el.classList.remove('tv-focused-item');
+                    });
+                },
+
+                scrollToCurrentItem() {
+                    const section = this.sections[this.currentSection];
+                    const container = section === 'search' ? document.getElementById('results-container') : document.getElementById(`${section}-container`);
+                    if (container) {
+                        const items = container.querySelectorAll('.tv-navigable-item');
+                        if (items[this.currentItem]) {
+                            const item = items[this.currentItem];
+                            const containerRect = container.getBoundingClientRect();
+                            const itemRect = item.getBoundingClientRect();
+
+                            if (itemRect.left < containerRect.left) {
+                                container.scrollBy({ left: itemRect.left - containerRect.left - 20, behavior: 'smooth' });
+                            } else if (itemRect.right > containerRect.right) {
+                                container.scrollBy({ left: itemRect.right - containerRect.right + 20, behavior: 'smooth' });
+                            }
+                        }
+                    }
+                },
+
+                scrollToCurrentSection() {
+                    const section = this.sections[this.currentSection];
+
+                    // Find the section element based on the section name
+                    let sectionElement = null;
+
+                    switch (section) {
+                        case 'search':
+                            if (this.results.length > 0) {
+                                sectionElement = document.querySelector('[x-show*="results.length > 0"]');
+                            } else {
+                                sectionElement = document.querySelector('[x-show="showSearchBar"]');
+                            }
+                            break;
+                        case 'watchlist':
+                            sectionElement = document.querySelector('[x-show*="showWatchlist"]');
+                            break;
+                        case 'continue-watching':
+                            sectionElement = document.querySelector('[x-show*="showContinueWatching"]');
+                            break;
+                        case 'recommendations':
+                            sectionElement = document.querySelector('[x-show*="showRecommendations"]');
+                            break;
+                        case 'trending':
+                            sectionElement = document.querySelector('[x-show*="showTrending"]');
+                            break;
+                        case 'horror':
+                            sectionElement = document.querySelector('[x-show*="showHorror"]');
+                            break;
+                        case 'thriller':
+                            sectionElement = document.querySelector('[x-show*="showThriller"]');
+                            break;
+                        case 'comedy':
+                            sectionElement = document.querySelector('[x-show*="showComedy"]');
+                            break;
+                        case 'sad':
+                            sectionElement = document.querySelector('[x-show*="showSad"]');
+                            break;
+                        case 'sk':
+                            sectionElement = document.querySelector('[x-show*="showSK"]');
+                            break;
+                        case 'romance':
+                            sectionElement = document.querySelector('[x-show*="showRomance"]');
+                            break;
+                    }
+
+                    if (sectionElement) {
+                        const elementRect = sectionElement.getBoundingClientRect();
+                        const viewportHeight = window.innerHeight;
+
+                        // Check if the section is not fully visible
+                        if (elementRect.top < 120) {
+                            // Section is too high, scroll up to show it
+                            window.scrollBy({
+                                top: elementRect.top - 150,
+                                behavior: 'smooth'
+                            });
+                        } else if (elementRect.bottom > viewportHeight - 120) {
+                            // Section is too low, scroll down to show it
+                            window.scrollBy({
+                                top: elementRect.bottom - viewportHeight + 150,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                },
+
+                selectCurrentItem() {
+                    const section = this.sections[this.currentSection];
+
+                    // Special handling for search box
+                    if (section === 'search') {
+                        if (this.results.length > 0) {
+                            if (this.results[this.currentItem]) {
+                                this.watchContent(this.results[this.currentItem]);
+                            }
+                        } else {
+                            // Focus search input (but not on mobile to avoid keyboard popup)
+                            if (!this.isMobileDevice()) {
+                                const searchInput = document.querySelector('.search-input');
+                                if (searchInput) {
+                                    searchInput.focus();
+                                }
+                            }
+                        }
+                        return;
+                    }
+
+                    const currentSectionItems = this.getCurrentSectionItems();
+                    if (currentSectionItems && currentSectionItems[this.currentItem]) {
+                        this.watchContent(currentSectionItems[this.currentItem]);
+                    }
+                },
+
+                focusSearch() {
+                    const searchInput = document.querySelector('.search-input');
+                    if (searchInput) {
+                        searchInput.focus();
+                        searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
+</content>

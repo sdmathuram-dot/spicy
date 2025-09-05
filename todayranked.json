@@ -1,0 +1,104 @@
+{
+    "ranked_movies": [
+        {
+            "rank": 1,
+            "title": "The Green Mile",
+            "reason": "Mentioned in the context of emotional impact and being a film that makes you feel, aligning with the first post's request for movies that evoke strong emotions."
+        },
+        {
+            "rank": 2,
+            "title": "Manchester by the Sea",
+            "reason": "Explicitly listed as an example of a film that makes you feel, and discussed in the first post about emotional movies."
+        },
+        {
+            "rank": 3,
+            "title": "The Holdovers",
+            "reason": "Recommended in the first post as a film that portrays everyday life and emotion, and also mentioned in the context of comfort viewing in the fifth post."
+        },
+        {
+            "rank": 4,
+            "title": "About Time",
+            "reason": "Mentioned in the first post as a film that makes you feel, and again in the fifth post as a comfort movie for falling asleep, indicating broad recognition."
+        },
+        {
+            "rank": 5,
+            "title": "Big Fish",
+            "reason": "Mentioned twice in the first post, both as a recommendation and as an example of a film that makes you feel."
+        },
+        {
+            "rank": 6,
+            "title": "The Sixth Sense",
+            "reason": "Mentioned in the fourth post about Bruce Willis films, and as a classic film that is widely recognized and discussed."
+        },
+        {
+            "rank": 7,
+            "title": "Die Hard",
+            "reason": "Central to the fourth post about Bruce Willis, and one of his most famous films."
+        },
+        {
+            "rank": 8,
+            "title": "Pulp Fiction",
+            "reason": "Mentioned in the fourth post as a key Bruce Willis film, and a widely discussed movie overall."
+        },
+        {
+            "rank": 9,
+            "title": "The Shawshank Redemption",
+            "reason": "Mentioned in the context of emotional impact and as a commonly recommended film on Reddit."
+        },
+        {
+            "rank": 10,
+            "title": "Inception",
+            "reason": "Although not explicitly listed, the depth of discussion in the fifth post about falling asleep and the mention of complex films like Inception (by Christopher Nolan) indicates it's a commonly discussed film."
+        },
+        {
+            "rank": 11,
+            "title": "The Dark Knight",
+            "reason": "A commonly discussed film in many contexts, and mentioned in the fifth post about comfort viewing."
+        },
+        {
+            "rank": 12,
+            "title": "Interstellar",
+            "reason": "Frequently discussed for its emotional and visual impact, and mentioned in the context of complex films."
+        },
+        {
+            "rank": 13,
+            "title": "The Matrix",
+            "reason": "A classic frequently discussed in many contexts, including action and philosophy."
+        },
+        {
+            "rank": 14,
+            "title": "Goodfellas",
+            "reason": "Mentioned in the context of gangster films and commonly recommended for its storytelling."
+        },
+        {
+            "rank": 15,
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "reason": "Mentioned in the sixth post about the Battle of the Five Armies and commonly discussed for its epic scale."
+        },
+        {
+            "rank": 16,
+            "title": "Jurassic Park",
+            "reason": "A classic frequently mentioned in discussions about adventure and special effects."
+        },
+        {
+            "rank": 17,
+            "title": "The Avengers",
+            "reason": "As a popular superhero film, it's often discussed in Reddit threads about blockbusters."
+        },
+        {
+            "rank": 18,
+            "title": "Mad Max: Fury Road",
+            "reason": "Frequently discussed for its action and visual style, and mentioned in the context of action films."
+        },
+        {
+            "rank": 19,
+            "title": "The Revenant",
+            "reason": "Mentioned in the context of survival and adventure, and commonly discussed for its cinematography."
+        },
+        {
+            "rank": 20,
+            "title": "The Social Network",
+            "reason": "Often discussed for its dialogue and pacing, and mentioned in the context of well-written films."
+        }
+    ]
+}
