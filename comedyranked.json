@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Coming to America",
-            "reason": "Most frequently recommended comedy in the discussions, praised for its humor, memorable scenes, and status as a perfect romcom."
+            "title": "The Big Lebowski",
+            "reason": "Frequently mentioned for iconic scenes like the Corvette scene and Walter spreading the ashes, cited as a classic comedy with memorable moments."
         },
         {
             "rank": 2,
-            "title": "Dumb and Dumber",
-            "reason": "Highly quoted and beloved for its iconic scenes and absurd humor, frequently mentioned as a top comedy choice."
+            "title": "Coming to America",
+            "reason": "Highly recommended in multiple threads, praised for its humor and cultural impact, often chosen over other comedies."
         },
         {
             "rank": 3,
-            "title": "The Death of Stalin",
-            "reason": "Praised as a brilliant, unique dark comedy with perfect performances and historical absurdity, generating significant discussion."
+            "title": "Dumb and Dumber",
+            "reason": "Consistently brought up for its quotable lines and absurd humor, considered a staple in comedy discussions."
         },
         {
             "rank": 4,
-            "title": "Tropic Thunder",
-            "reason": "Cited as a great, edgy comedy with a fantastic cast and memorable performances, including Tom Cruise's cameo."
+            "title": "Hot Rod",
+            "reason": "Highlighted for specific hilarious moments like 'pools are perfect for holding water,' gaining cult status among fans."
         },
         {
             "rank": 5,
-            "title": "Game Night",
-            "reason": "Highlighted as an unexpectedly great modern mystery-comedy with witty writing and strong performances, especially from Rachel McAdams."
+            "title": "Tropic Thunder",
+            "reason": "Praised for its satirical humor and standout performances, particularly Robert Downey Jr.'s character."
         },
         {
             "rank": 6,
-            "title": "The Other Guys",
-            "reason": "Frequently mentioned as a favorite comedy with genius cast and hilarious writing, including memorable scenes like the bribery gag."
+            "title": "Raising Arizona",
+            "reason": "Mentioned multiple times for its unique comedy style and John Goodman's performance, often cited as a hidden gem."
         },
         {
             "rank": 7,
-            "title": "Hot Fuzz",
-            "reason": "Recommended for its great script, callbacks, and jokes, often cited as a top-tier comedy with clever writing."
+            "title": "Ghostbusters",
+            "reason": "Iconic quotes and scenes frequently referenced, solidifying its place as a comedy classic."
         },
         {
             "rank": 8,
-            "title": "Superbad",
-            "reason": "Consistently mentioned as a favorite comedy, beloved for its humor and relatable teenage antics."
+            "title": "Austin Powers",
+            "reason": "Noted for its absurd humor and memorable scenes, such as turning the golf cart around."
         },
         {
             "rank": 9,
-            "title": "Anchorman",
-            "reason": "Noted for its iconic comedy scenes and ensemble cast, including memorable cameos in the sequel."
+            "title": "Scary Movie 3",
+            "reason": "Highlighted for its parody elements and specific comedic scenes, considered a standout in the series."
         },
         {
             "rank": 10,
-            "title": "Borat",
-            "reason": "Recommended for its shock humor and satirical comedy, often highlighted as a standout choice."
+            "title": "Bruce Almighty",
+            "reason": "Mentioned for Steve Carell's news scene, praised for its editing and comedic timing."
         },
         {
             "rank": 11,
-            "title": "This Is the End",
-            "reason": "Praised for its meta-humor and celebrity cameos, including Channing Tatum's unexpected role."
+            "title": "Happy Gilmore",
+            "reason": "Quoted for its memorable lines and Adam Sandler's performance, often brought up in comedy discussions."
         },
         {
             "rank": 12,
-            "title": "Zombieland",
-            "reason": "Mentioned for Bill Murray's memorable cameo, which steals the movie and adds to its comedic appeal."
+            "title": "Rat Race",
+            "reason": "Praised for Jon Lovitz's performance and the WWII veterans rally scene, noted for its chaotic humor."
         },
         {
             "rank": 13,
-            "title": "The Princess Bride",
-            "reason": "Recommended as an iconic lighthearted comedy with timeless humor and charm."
+            "title": "Billu",
+            "reason": "Discussed extensively in Bollywood contexts, appreciated for its emotional depth and Irrfan Khan's performance."
         },
         {
             "rank": 14,
-            "title": "Bad Santa",
-            "reason": "Highlighted for its dark humor and memorable performances, particularly Billy Bob Thornton's role."
+            "title": "A Nightmare on Elm Street 3: Dream Warriors",
+            "reason": "Highlighted for balancing horror and comedy, with creative kills and a memorable soundtrack."
         },
         {
             "rank": 15,
-            "title": "True Lies",
-            "reason": "Cited as a perfect action-comedy with Arnold Schwarzenegger, blending humor and excitement seamlessly."
+            "title": "Extreme Job",
+            "reason": "Mentioned in Korean comedy discussions, praised for its blend of action and humor."
         },
         {
             "rank": 16,
-            "title": "Kindergarten Cop",
-            "reason": "Frequently mentioned as Arnold Schwarzenegger's best comedy, loved for its quotable lines and humor."
+            "title": "The Princess Bride",
+            "reason": "Recommended for its lighthearted romance and comedy, often cited as a feel-good film."
         },
         {
             "rank": 17,
-            "title": "Dirty Rotten Scoundrels",
-            "reason": "Praised as comedic perfection with no wasted scenes or dialogue, often listed as a top favorite."
+            "title": "Legally Blonde",
+            "reason": "Suggested as an iconic comedy, especially for its empowering and humorous storyline."
         },
         {
             "rank": 18,
-            "title": "The Nice Guys",
-            "reason": "Recommended as an underrated comedy with hilarious performances from Ryan Gosling and Russell Crowe."
+            "title": "School of Rock",
+            "reason": "Praised for its humor and heart, frequently recommended for lighthearted viewing."
         },
         {
             "rank": 19,
-            "title": "Clueless",
-            "reason": "Suggested as an iconic lighthearted comedy, especially for those new to Western films."
+            "title": "Galaxy Quest",
+            "reason": "Noted for its satirical take on sci-fi and comedy, gaining a cult following."
         },
         {
             "rank": 20,
-            "title": "Pink Flamingos",
-            "reason": "Mentioned as a disturbing yet hilarious comedy with shock value, fitting requests for twisted humor."
+            "title": "The Nice Guys",
+            "reason": "Recommended as an underrated action-comedy, praised for its chemistry and humor."
         }
     ]
 }
