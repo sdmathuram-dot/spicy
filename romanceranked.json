@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "The Princess Bride",
-            "reason": "Consistently recommended across multiple threads as a delightful, heartwarming, and classic romance-comedy-adventure that appeals to a wide audience."
+            "title": "Pride and Prejudice",
+            "reason": "Extremely high frequency of mentions across multiple threads, consistently praised for its romantic tension, yearning male lead (Mr. Darcy), and classic, well-executed story. Recommended in both 'romance movies when a man is yearning' and 'good romance movies' threads."
         },
         {
             "rank": 2,
-            "title": "Notting Hill",
-            "reason": "Frequently mentioned as a top-tier romance with a yearning male lead, cited for its charm and as a prime example of the genre."
+            "title": "The Princess Bride",
+            "reason": "A perennial favorite mentioned in multiple threads ('comedy romance', 'sweet and fluffy', 'date night'). Universally loved for its blend of romance, comedy, and adventure, making it a safe and highly recommended choice."
         },
         {
             "rank": 3,
-            "title": "While You Were Sleeping",
-            "reason": "Highly recommended in multiple requests for sweet, fluffy romances, praised for its cozy and heartwarming story."
+            "title": "Notting Hill",
+            "reason": "Specifically recommended in the 'yearning' thread and listed among top rom-coms. Known for its charming leads and heartwarming story, it's a staple of the genre."
         },
         {
             "rank": 4,
             "title": "The Holiday",
-            "reason": "Often suggested as a feel-good, cozy romance movie perfect for a lighthearted watch."
+            "reason": "Frequently suggested in requests for 'sweet and fluffy' and 'date night' movies. Celebrated for its cozy, feel-good atmosphere and dual romantic storylines."
         },
         {
             "rank": 5,
-            "title": "Pride and Prejudice",
-            "reason": "Recommended multiple times for its portrayal of a yearning male lead (Mr. Darcy) and its status as a classic romance, with both the 1995 and 2005 versions mentioned."
+            "title": "10 Things I Hate About You",
+            "reason": "A classic modern rom-com mentioned in multiple suggestion threads ('comedy romance', 'sweet and fluffy', 'date night'). Loved for its chemistry, wit, and modern Shakespearean adaptation."
         },
         {
             "rank": 6,
-            "title": "Stardust",
-            "reason": "Suggested as a fantastic blend of romance, comedy, and fantasy that provides a warm, cozy feeling."
+            "title": "While You Were Sleeping",
+            "reason": "Highly recommended in the 'sweet and fluffy' thread, with multiple users specifically calling it out. Praised for its warm, comforting, and humorous take on romance."
         },
         {
             "rank": 7,
-            "title": "10 Things I Hate About You",
-            "reason": "A frequently cited classic rom-com that is consistently recommended for its fun story and great chemistry."
+            "title": "Serendipity",
+            "reason": "Recommended in the 'yearning' thread and listed among top romantic comedies. Its theme of fate and longing resonates strongly with fans of the genre."
         },
         {
             "rank": 8,
-            "title": "Serendipity",
-            "reason": "Recommended in threads about yearning and gentle male leads, noted for its romantic and fate-driven plot."
+            "title": "Stardust",
+            "reason": "Suggested as a 'sweet and fluffy' option that blends romance, comedy, and fantasy. Its unique charm and adventurous spirit make it a standout recommendation."
         },
         {
             "rank": 9,
-            "title": "13 Going on 30",
-            "reason": "Listed as a personal favorite and a top rom-com in multiple requests for lighthearted, fun movies."
+            "title": "Kate & Leopold",
+            "reason": "Explicitly mentioned in the 'yearning' thread ('Hugh Jackman is a great yearner') and recommended for date nights. Known for its fish-out-of-water charm and romantic leads."
         },
         {
             "rank": 10,
-            "title": "You've Got Mail",
-            "reason": "A classic Nora Ephron rom-com that is repeatedly suggested for its comforting and nostalgic feel."
+            "title": "Amelie",
+            "reason": "Highly recommended as a 'foreign romance' and for 'date night'. Its whimsical, creative, and deeply romantic story makes it a unique and beloved film."
         },
         {
             "rank": 11,
-            "title": "About Time",
-            "reason": "Mentioned in discussions about romance movies written by men and also recommended as a sweet, thoughtful romantic film."
+            "title": "North & South",
+            "reason": "Heavily recommended in the 'yearning' thread, with users stating 'Mr. Thornton practically invented yearning!' This miniseries is a benchmark for romantic period dramas."
         },
         {
             "rank": 12,
-            "title": "Amelie",
-            "reason": "Highly recommended in the foreign film thread, praised for its creativity, quirkiness, and beautiful cinematography."
+            "title": "Crazy, Stupid, Love",
+            "reason": "Listed in multiple threads for 'comedy romance' and 'date night'. Its clever writing, ensemble cast, and heartfelt moments make it a modern favorite."
         },
         {
             "rank": 13,
-            "title": "Four Weddings and a Funeral",
-            "reason": "Cited as an example of a romance movie written by a man and also recommended as a classic British rom-com."
+            "title": "How to Lose a Guy in 10 Days",
+            "reason": "A frequently mentioned rom-com in 'sweet and fluffy' and 'date night' threads. Its high-concept premise and chemistry between leads keep it popular."
         },
         {
             "rank": 14,
-            "title": "Kate & Leopold",
-            "reason": "Recommended for its portrayal of a yearning gentleman (Hugh Jackman) and noted for its quotable lines and charm."
+            "title": "Before Sunrise",
+            "reason": "Recommended in the 'yearning' thread and suggested for meaningful date nights. The entire trilogy is praised for its deep, realistic, and profound exploration of love and connection."
         },
         {
             "rank": 15,
-            "title": "The Proposal",
-            "reason": "Frequently listed alongside other top rom-coms for its fun premise and chemistry between Sandra Bullock and Ryan Reynolds."
+            "title": "Ever After",
+            "reason": "Suggested as a 'sweet and fluffy' Cinderella adaptation. Its strength and charm make it a enduringly popular romantic fairytale."
         },
         {
             "rank": 16,
-            "title": "Ever After",
-            "reason": "Suggested as a sweet, fluffy Cinderella-inspired romance that feels like a warm hug."
+            "title": "You've Got Mail",
+            "reason": "A top recommendation in the 'comedy romance' and 'sweet and fluffy' threads. Its cozy, nostalgic take on modern romance resonates with many."
         },
         {
             "rank": 17,
             "title": "My Big Fat Greek Wedding",
-            "reason": "A commonly recommended rom-com praised for its heartwarming and humorous family dynamics."
+            "reason": "Recommended as a 'good romance' and a 'sweet and fluffy' film. Its cultural humor and heartfelt story make it a universally appealing rom-com."
         },
         {
             "rank": 18,
-            "title": "Leap Year",
-            "reason": "Recommended for its comforting, rainy-day vibe and as a lighthearted travel romance."
+            "title": "13 Going on 30",
+            "reason": "Called a 'favorite romcom' in the 'sweet and fluffy' thread. Its fun premise and charming performance by Jennifer Garner make it a beloved rewatch."
         },
         {
             "rank": 19,
-            "title": "When Harry Met Sally",
-            "reason": "Cited as a quintessential rom-com written by a woman (Nora Ephron) and a benchmark for the genre."
+            "title": "Leap Year",
+            "reason": "Multiple recommendations for having a 'rainy comforting warm hug kinda vibe'. A go-to for a light, travel-based romantic comedy."
         },
         {
             "rank": 20,
-            "title": "North & South",
-            "reason": "Highly recommended in the yearning thread for its intense and passionate male lead (Richard Armitage), though it is a miniseries, its impact in romance discussions earned it a spot."
+            "title": "The Proposal",
+            "reason": "Frequently mentioned alongside other top rom-coms. The chemistry between Ryan Reynolds and Sandra Bullock and its fun premise keep it in high regard."
         }
     ]
 }

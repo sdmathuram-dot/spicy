@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Burning",
-            "reason": "Extensively discussed and highly recommended across multiple posts. Praised as a tense, well-constructed thriller with an open-ended twist, and frequently compared to 'Parasite' and 'The Handmaiden'. Considered the most accessible of Lee Chang-dong's films."
+            "title": "Oldboy",
+            "reason": "Extensively discussed as the original, superior South Korean film that was remade (unauthorized adaptation) into the Bollywood movie 'Zinda'. Praised for its raw narrative, tension, and shocking twist ending, which the remake lacked."
         },
         {
             "rank": 2,
-            "title": "Oldboy",
-            "reason": "Mentioned as the original South Korean film that 'Zinda' is an unauthorized adaptation of. The discussion around 'Zinda' inherently brings attention to 'Oldboy' as a classic and superior film."
+            "title": "Zinda",
+            "reason": "A central topic of discussion as an unauthorized Bollywood adaptation of 'Oldboy'. Received mixed reviews but was noted for its great soundtrack and decent performances, though criticized for failing to capture the essence of the original."
         },
         {
             "rank": 3,
-            "title": "Peppermint Candy",
-            "reason": "Highly recommended as a heartbreaking masterpiece that chronicles a man's descent alongside modern South Korean history. Described as emotionally impactful and groundbreaking."
+            "title": "3670",
+            "reason": "Highly recommended as one of the best queer films ever made in Korea. Praised for its realistic depiction of Korean gay culture and its compelling coming-of-age story about a North Korean defector."
         },
         {
             "rank": 4,
-            "title": "Oasis",
-            "reason": "Discussed as an uncomfortable yet powerful love story that raises important points about the treatment of people with disabilities. Noted for its strong performances and emotional weight."
+            "title": "The Negotiation",
+            "reason": "Prominently featured and promoted across multiple subreddits as a 'Best Korean Thriller Movie'. Starring Hyun Bin and Son Ye-jin, it was described as a suspenseful, action-packed film about a crisis negotiator."
         },
         {
             "rank": 5,
-            "title": "Secret Sunshine",
-            "reason": "Recommended as a heavy and well-done examination of grief and religion. Praised for its exploration of deep themes and strong acting."
+            "title": "After Yang",
+            "reason": "Mentioned as the previous film by director Kogonada, which 'made nothing' at the box office, providing context for the discussion around his new project, 'A Big Bold Beautiful Journey'."
         },
         {
             "rank": 6,
-            "title": "Poetry",
-            "reason": "Frequently mentioned in the comments as a must-see Lee Chang-dong film, with some users calling it his masterpiece and better than 'Burning'. Described as a film about empathy."
+            "title": "A Big Bold Beautiful Journey",
+            "reason": "Discussed as an upcoming film with a script by Seth Reiss (co-writer of 'The Menu') and directed by Kogonada. The analysis focused on its box office potential and Sony's significant investment amidst muted marketing."
         },
         {
             "rank": 7,
-            "title": "The Negotiation",
-            "reason": "Promoted across multiple subreddits as a 'Best Korean Thriller Movie' starring Hyun Bin and Son Ye-jin. The repeated promotional posts increase its visibility and discussion."
+            "title": "The Menu",
+            "reason": "Cited as a previous, successful work by Seth Reiss, who co-wrote the script for the discussed film 'A Big Bold Beautiful Journey', adding credibility to the new project."
         },
         {
             "rank": 8,
-            "title": "3670",
-            "reason": "Specifically recommended as one of the best queer films ever made in Korea. The post provides a detailed and passionate recommendation, highlighting its realistic depiction of Korean gay culture and its status as a coming-of-age story."
+            "title": "Mist Whispers Like a Woman",
+            "reason": "Mentioned as one of the films starring the disappeared actress Yoon Young-sil, providing historical context to the unresolved mystery discussed in the thread."
         },
         {
             "rank": 9,
-            "title": "Zinda",
-            "reason": "Discussed as an unauthorized Bollywood adaptation of 'Oldboy'. The conversation, while mixed, brings attention to the film's soundtrack and performances, creating a notable discussion point."
+            "title": "What will we become and where will we meet again",
+            "reason": "Another film starring the disappeared actress Yoon Young-sil, cited to establish her career in the 1970s and 80s as part of the mystery's background."
         },
         {
             "rank": 10,
-            "title": "A Big Bold Beautiful Journey",
-            "reason": "Analyzed for its potential box office performance. The post discusses its high-profile cast (Margot Robbie, Colin Farrell), its director, and its acquisition cost, generating speculative discussion about its commercial prospects."
+            "title": "Shootout at Lokhandwala",
+            "reason": "Mentioned in a comment about the music team 'Strings', who contributed to 'Zinda', also worked on this film, connecting the discussion of soundtracks across Bollywood movies."
         },
         {
             "rank": 11,
-            "title": "After Yang",
-            "reason": "Mentioned as the previous film by director Kogonada, which 'made nothing' at the box office. This reference provides context for the discussion around his new film, 'A Big Bold Beautiful Journey'."
+            "title": "Reservoir Dogs",
+            "reason": "Referenced in a critique of the director of 'Zinda', who was known for copying classics and had previously made a 'terrible version' of this film, adding context to the director's style."
         },
         {
             "rank": 12,
-            "title": "Green Fish",
-            "reason": "Mentioned in comments as part of Lee Chang-dong's filmography that should be watched to complete it. Its mention, though brief, adds it to the list of discussed films."
+            "title": "Barbie",
+            "reason": "Referenced in a box office analysis comment that claimed 'Barbie was a fluke' and that Margot Robbie is not a draw, contrasting the performance of that film with the potential of 'A Big Bold Beautiful Journey'."
         },
         {
             "rank": 13,
-            "title": "The Handmaiden",
-            "reason": "Used as a point of comparison for 'Burning', indicating it is a well-known and respected film within the community discussing South Korean cinema."
+            "title": "Caught Stealing",
+            "reason": "Used as a box office comp in the analysis for 'A Big Bold Beautiful Journey', with its poor ticket sales cited to illustrate the potential underperformance of the discussed film."
         },
         {
             "rank": 14,
-            "title": "Parasite",
-            "reason": "Used as a point of comparison for 'Burning', solidifying its status as a benchmark for high-quality, critically regarded South Korean thrillers."
+            "title": "The Roses",
+            "reason": "Another film used as a box office comparison point in the analysis for 'A Big Bold Beautiful Journey', highlighting the soft pre-sales and marketing push for the latter."
         },
         {
             "rank": 15,
-            "title": "Mist Whispers Like a Woman",
-            "reason": "Mentioned in the historical context of the unresolved mystery post as one of the films actress Yoon Young-sil starred in. This tangential mention places it in the discussion."
+            "title": "Oldboy (Hollywood Remake)",
+            "reason": "Briefly mentioned as being 'even worse than Zinda', providing a point of comparison for the quality of international remakes of the original Korean classic."
         },
         {
             "rank": 16,
-            "title": "What will we become and where will we meet again",
-            "reason": "Mentioned in the historical context of the unresolved mystery post as one of the films actress Yoon Young-sil starred in. This tangential mention places it in the discussion."
+            "title": "MacMurder!",
+            "reason": "Listed in the DFW events post as a whodunnit comedy-murder mystery playing in Dallas, included as it was part of a large list of cultural events that also featured K-pop concerts."
         },
         {
             "rank": 17,
-            "title": "The Menu",
-            "reason": "Mentioned as a previous work by the screenwriter of 'A Big Bold Beautiful Journey', Seth Reiss. This connection is used to gauge the potential quality of the new film."
+            "title": "Carrie: the musical",
+            "reason": "Listed in the DFW events post as a musical adaptation playing in Denton, included as part of the broader cultural event listings that contained movie-related discussions."
         },
         {
             "rank": 18,
-            "title": "Shootout at Lokhandwala",
-            "reason": "Mentioned in a comment about the 'Zinda' soundtrack, as the composers also contributed a song to this film. This tangential connection brings it into the discussion."
+            "title": "James and The Giant Peach",
+            "reason": "Listed in the DFW events post as a stage adaptation playing in Bedford, included as it was part of the large event list that contextualized the K-pop concert discussions."
         },
         {
             "rank": 19,
-            "title": "Josee, the Tiger and the Fish",
-            "reason": "Mentioned in a negative, argumentative comment comparing 'Oasis' to it, claiming 'Oasis' is a ripoff. This controversial mention adds it to the list of discussed films."
+            "title": "Deathtrap",
+            "reason": "Listed in the DFW events post as a thrilling dark comedy playing in Pilot Point, included to represent the variety of performances listed alongside the K-pop event promotions."
         },
         {
             "rank": 20,
-            "title": "Whispering Corridors 6",
-            "reason": "Mentioned in a comment as a film that serendipitously provided context for understanding 'Peppermint Candy'. This unique, personal connection gets it a mention."
+            "title": "Frozen Jr.",
+            "reason": "Listed in the DFW events post as a youth theater production, included to complete the list of top 20 movies and movie-related cultural events mentioned across the provided discussions."
         }
     ]
 }
