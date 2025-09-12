@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "The Wailing",
-            "reason": "Extensively recommended as a top-tier investigative horror thriller with a perfect blend of mystery, occultism, and a shocking community-based twist."
+            "title": "The Winter Soldier",
+            "reason": "Extensively praised as one of the best MCU films, celebrated for its espionage thriller genre, gripping action sequences, and emotional depth."
         },
         {
             "rank": 2,
-            "title": "Oldboy",
-            "reason": "Frequently cited as a seminal Korean thriller with intense twists and a gripping narrative, often listed among the best in the genre."
+            "title": "Shutter Island",
+            "reason": "Frequently cited as a gateway film into the mystery thriller genre, known for its mind-bending plot and psychological depth."
         },
         {
             "rank": 3,
-            "title": "Silence of the Lambs",
-            "reason": "Consistently recommended as a classic investigative thriller with psychological depth and iconic performances."
+            "title": "Se7en",
+            "reason": "Consistently recommended as a top-tier thriller, renowned for its dark atmosphere, shocking twists, and masterful storytelling."
         },
         {
             "rank": 4,
-            "title": "Memories of Murder",
-            "reason": "Highly praised Korean thriller based on real events, noted for its suspenseful storytelling and atmospheric tension."
+            "title": "Silence of the Lambs",
+            "reason": "A classic psychological thriller often listed among the best, famous for its iconic characters and intense cat-and-mouse narrative."
         },
         {
             "rank": 5,
-            "title": "Parasite",
-            "reason": "Widely discussed for its masterful blend of thriller, dark comedy, and social commentary, often listed as a must-watch."
+            "title": "Nightcrawler",
+            "reason": "Highlighted for its unhinged protagonist and critique of media morality, frequently mentioned alongside other psychological thrillers."
         },
         {
             "rank": 6,
-            "title": "Prisoners",
-            "reason": "Frequently recommended for its intense, nail-biting plot and strong performances in the mystery thriller genre."
+            "title": "Oldboy",
+            "reason": "A cornerstone of Korean cinema, repeatedly recommended for its brutal revenge story and unforgettable twist."
         },
         {
             "rank": 7,
-            "title": "Shutter Island",
-            "reason": "Often mentioned as a gateway film into mystery thrillers, praised for its mind-bending plot and psychological depth."
+            "title": "Memories of Murder",
+            "reason": "Often suggested as a masterclass in investigative thriller filmmaking, praised for its atmosphere and based-on-true-events story."
         },
         {
             "rank": 8,
-            "title": "Nightcrawler",
-            "reason": "Highlighted for its unhinged protagonist and gripping thriller elements, often described as a standout in modern cinema."
+            "title": "The Wicker Man",
+            "reason": "Recommended for its unique blend of folk horror and investigative mystery, creating a deeply unsettling experience."
         },
         {
             "rank": 9,
-            "title": "Se7en",
-            "reason": "Consistently recommended for its dark, investigative plot and shocking twists, considered a benchmark for thriller films."
+            "title": "Prisoners",
+            "reason": "Frequently brought up as a nail-biting and emotionally draining thriller about a desperate search for missing children."
         },
         {
             "rank": 10,
-            "title": "The Handmaiden",
-            "reason": "Praised as a top Korean thriller with intricate plotting, suspense, and dramatic twists."
+            "title": "Gone Girl",
+            "reason": "A modern thriller staple known for its sharp twists, dark commentary on marriage, and being a prime example of David Fincher's work."
         },
         {
             "rank": 11,
-            "title": "Zodiac",
-            "reason": "Recommended for its meticulous investigative narrative and atmospheric tension, based on real events."
+            "title": "The Thing",
+            "reason": "A horror-thriller masterpiece mentioned for its paranoia, practical effects, and isolated, tense atmosphere."
         },
         {
             "rank": 12,
-            "title": "I Saw the Devil",
-            "reason": "Noted for its intense, revenge-driven plot and brutal thriller elements, often listed among the best Korean thrillers."
+            "title": "Zodiac",
+            "reason": "Another Fincher film praised for its meticulous, slow-burn investigation into the real-life serial killer, creating palpable tension."
         },
         {
             "rank": 13,
-            "title": "Cure",
-            "reason": "Highlighted as an underrated investigative horror thriller with a psychologically unsettling plot."
+            "title": "The Usual Suspects",
+            "reason": "A quintessential 90s thriller celebrated for its clever plot structure and one of the most famous twists in cinema history."
         },
         {
             "rank": 14,
-            "title": "The Ninth Gate",
-            "reason": "Recommended for its occult mystery and investigative themes, blending thriller and supernatural elements."
+            "title": "Parasite",
+            "reason": "Recommended across threads for its brilliant genre-blending, social commentary, and thrilling, unpredictable narrative."
         },
         {
             "rank": 15,
-            "title": "The Wicker Man",
-            "reason": "Frequently suggested for its community-based mystery and horror, with a classic twist ending."
+            "title": "Hereditary",
+            "reason": "Frequently suggested as a modern horror-thriller essential, known for its family trauma and deeply disturbing atmosphere."
         },
         {
             "rank": 16,
-            "title": "The Invisible Guest",
-            "reason": "Praised for its clever twists and engaging mystery plot, often compared to its remake 'Badla'."
+            "title": "Cure",
+            "reason": "A highly recommended Japanese psychological thriller noted for its hypnotic and unsettling investigation into a series of murders."
         },
         {
             "rank": 17,
-            "title": "Angel Heart",
-            "reason": "Recommended for its dark, occult-inspired investigative plot and psychological thrills."
+            "title": "The Wailing",
+            "reason": "A Korean horror-thriller praised for its blend of occult mystery, investigative elements, and shocking revelations."
         },
         {
             "rank": 18,
-            "title": "Noroi: The Curse",
-            "reason": "Highlighted as a found-footage investigative horror film with a realistic, slow-burn mystery."
+            "title": "Memento",
+            "reason": "A groundbreaking thriller mentioned for its unique reverse narrative structure and exploration of memory and obsession."
         },
         {
             "rank": 19,
-            "title": "The Chaser",
-            "reason": "Noted for its intense, fast-paced thriller narrative and based on real events."
+            "title": "Fight Club",
+            "reason": "A cultural phenomenon often discussed for its psychological thrills, twist ending, and commentary on modern masculinity."
         },
         {
             "rank": 20,
-            "title": "Longlegs",
-            "reason": "Recently discussed for its investigative horror elements and suspenseful plot, despite mixed reviews."
+            "title": "Taxi Driver",
+            "reason": "The archetypal loner character study, repeatedly recommended for its portrayal of urban isolation and descent into madness."
         }
     ]
 }
