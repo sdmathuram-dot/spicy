@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "The Silence of the Lambs",
-            "reason": "Highlighted for Anthony Hopkins' iconic and chilling delivery of 'Good evening, Clarice,' which was specifically mentioned as an award-worthy performance."
+            "title": "Poltergeist",
+            "reason": "Most frequently recommended for being a classic horror film with a lasting impact, especially noted for its memorable scenes and influence on the genre."
         },
         {
             "rank": 2,
-            "title": "Aliens",
-            "reason": "Frequently quoted ('Game over, man!', 'Get away from her, you bitch!') for its memorable and impactful line delivery."
+            "title": "Tucker & Dale vs. Evil",
+            "reason": "Highly recommended as a fun, subversive horror-comedy that subverts genre tropes, making it a favorite for both horror and comedy fans."
         },
         {
             "rank": 3,
-            "title": "Pulp Fiction",
-            "reason": "Quoted multiple times ('Say what again, motherfucker') and widely recognized for its iconic dialogue and performances."
+            "title": "Cabin in the Woods",
+            "reason": "Praised for its meta-commentary on horror tropes and its entertaining, self-aware plot, making it a standout in the genre."
         },
         {
             "rank": 4,
-            "title": "The Princess Bride",
-            "reason": "Mentioned for its classic line 'Hello. My name is Inigo Montoya. You killed my father. Prepare to die.'"
+            "title": "Drag Me to Hell",
+            "reason": "Recommended for its blend of horror and humor, along with strong directorial style, making it a memorable watch."
         },
         {
             "rank": 5,
-            "title": "Blade Runner",
-            "reason": "Cited for the profound and beautifully delivered line 'All those moments will be lost in time, like tears in rain.'"
+            "title": "You're Next",
+            "reason": "Noted for its intense home-invasion plot and strong audience reception, making it a must-watch for thriller fans."
         },
         {
             "rank": 6,
-            "title": "The Big Lebowski",
-            "reason": "Quoted ('Shut the fuck up, Donnie!') and used as a benchmark for quirky, crime-comedy films in discussions."
+            "title": "The Ring",
+            "reason": "Consistently mentioned as a classic horror film with a strong impact, especially for its iconic scenes and cultural impact."
         },
         {
             "rank": 7,
-            "title": "Clue",
-            "reason": "Quoted ('Flames... on the side of my face...') and recommended as a top mystery comedy."
+            "title": "The Conjuring",
+            "reason": "Frequently cited as a modern horror classic, praised for its storytelling and scare factor."
         },
         {
             "rank": 8,
-            "title": "Blazing Saddles",
-            "reason": "Recommended as one of the funniest movies ever, topping the list in the 'funniest movie' thread."
+            "title": "A Quiet Place",
+            "reason": "Highlighted for its unique premise and execution, making it a standout in recent horror."
         },
         {
             "rank": 9,
-            "title": "Young Frankenstein",
-            "reason": "Also recommended as one of the funniest movies, frequently mentioned alongside Blazing Saddles."
+            "title": "Coraline",
+            "reason": "Recommended as a family-friendly horror with deep themes, making it a favorite for both kids and adults."
         },
         {
             "rank": 10,
-            "title": "Airplane!",
-            "reason": "Consistently cited as a top-tier comedy film in the 'funniest movie' discussion."
+            "title": "The Wailing",
+            "reason": "Praised for its complex plot and blend of horror and mystery, making it a standout in international cinema."
         },
         {
             "rank": 11,
-            "title": "Dumb & Dumber",
-            "reason": "Listed as a quintessential comedy, recommended for its humor and feel-good factor."
+            "title": "Train to Busan",
+            "reason": "Frequently recommended as one of the best zombie films, noted for its emotional depth and action sequences."
         },
         {
             "rank": 12,
-            "title": "Tropic Thunder",
-            "reason": "Recommended as an extremely funny movie, noted for its comedic performances and satire."
+            "title": "Let the Right One In",
+            "reason": "Highlighted for its unique take on the vampire genre and its emotional depth."
         },
         {
             "rank": 13,
-            "title": "What We Do in the Shadows",
-            "reason": "Suggested as a hilarious mockumentary-style comedy."
+            "title": "The Orphanage",
+            "reason": "Noted for its strong narrative and emotional impact, making it a standout in the horror-drama genre."
         },
         {
             "rank": 14,
-            "title": "Galaxy Quest",
-            "reason": "Recommended for its humor and beloved status as a sci-fi comedy."
+            "title": "The Others",
+            "reason": "Recommended for its twist ending and atmospheric horror, making it a memorable watch."
         },
         {
             "rank": 15,
-            "title": "Raising Arizona",
-            "reason": "Praised for inducing non-stop laughter and being a top comedy choice."
+            "title": "The Descent",
+            "reason": "Praised for its intense, claustrophobic horror and strong character development."
         },
         {
             "rank": 16,
-            "title": "Fight Club",
-            "reason": "Recommended for its intense, dark themes and young male protagonist, matching the request for an adrenaline-rushing film."
+            "title": "Scream",
+            "reason": "A staple in the horror genre, known for its meta-commentary and suspense."
         },
         {
             "rank": 17,
-            "title": "Taxi Driver",
-            "reason": "Suggested as a film that matches rage and frustration, featuring a young male protagonist."
+            "title": "The Cabin in the Woods",
+            "reason": "Noted for its deconstruction of horror tropes and entertaining plot."
         },
         {
             "rank": 18,
-            "title": "Chinatown",
-            "reason": "Highly recommended as a top mystery film and a classic in the genre."
+            "title": "Stigmata",
+            "reason": "Mentioned for its unique take on religious horror, making it a topic of discussion."
         },
         {
             "rank": 19,
-            "title": "The Prestige",
-            "reason": "Frequently cited as one of the best mystery films with a great plot twist, mentioned multiple times across threads."
+            "title": "Disturbia",
+            "reason": "Recommended as a solid thriller with a strong performance from the lead, making it a good watch."
         },
         {
             "rank": 20,
-            "title": "The Usual Suspects",
-            "reason": "Recommended as a must-watch mystery film known for its iconic twist and clever storytelling."
+            "title": "Signs",
+            "reason": "Noted for its divisive but memorable plot and atmosphere, making it a topic of discussion."
         }
     ]
 }
