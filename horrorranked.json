@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "The Conjuring: Last Rites",
-            "reason": "Heavily discussed for its record-breaking box office opening, described as the 'Endgame' for horror fans and the Conjuring universe."
+            "title": "The Thing",
+            "reason": "Frequently cited as a top horror film with a perfect ending and practical effects. Mentioned multiple times across different threads as a definitive and terrifying experience."
         },
         {
             "rank": 2,
-            "title": "The Thing",
-            "reason": "Frequently mentioned for its iconic ending, practical effects, and as a benchmark for horror, cited in multiple threads including first theater experiences."
+            "title": "Alien",
+            "reason": "Praised as a masterpiece and one of the scariest movies due to its believable sci-fi horror premise. Considered a top film by many users."
         },
         {
             "rank": 3,
-            "title": "Halloween",
-            "reason": "Consistently praised for its classic status, definitive slasher elements, and perfect ending. The original is a recurring point of reference."
+            "title": "The Exorcist",
+            "reason": "Described as a timeless classic that remains terrifying even after 50 years. Frequently recommended as one of the scariest horror films ever made."
         },
         {
             "rank": 4,
-            "title": "The Ring",
-            "reason": "Highlighted as a generation-defining film that terrified audiences, with a profound cultural impact and one of the best theater experiences."
+            "title": "Hereditary",
+            "reason": "Mentioned as a modern horror film that deeply disturbed viewers and left a lasting impact, particularly noted for its intense attic scene."
         },
         {
             "rank": 5,
-            "title": "Hereditary",
-            "reason": "Widely discussed for its intense, mind-fucking horror and specific, unforgettable scenes that left a lasting impact on viewers."
+            "title": "The Descent",
+            "reason": "Highlighted as a brilliantly terrifying film with a bleak ending. Recommended multiple times for its claustrophobic horror and effective scares."
         },
         {
             "rank": 6,
-            "title": "The Exorcist",
-            "reason": "Cited as a timeless classic that still terrifies audiences decades later, with specific quotes and scenes mentioned as profoundly scary."
+            "title": "Sinister",
+            "reason": "Noted for its haunting soundtrack and ability to give viewers goosebumps. Considered one of the scariest modern horror films."
         },
         {
             "rank": 7,
-            "title": "The Descent",
-            "reason": "Frequently recommended for its claustrophobic atmosphere, brutal ending, and as one of the best horror films of the 21st century."
+            "title": "It Follows",
+            "reason": "Praised for its unique and terrifying concept, with clever camera work that creates constant background tension. Highly recommended for its originality."
         },
         {
             "rank": 8,
-            "title": "Event Horizon",
-            "reason": "Noted for its terrifying quotes, Sam Neill's performance, and being a cult favorite that is often compared to 'Dead Space'."
+            "title": "The Ring",
+            "reason": "Frequently mentioned as a film that deeply disturbed viewers and caused sleepless nights. Considered a benchmark for psychological horror."
         },
         {
             "rank": 9,
-            "title": "It Follows",
-            "reason": "Praised for its unique, anxiety-inducing concept, brilliant soundtrack, and being a 'comfort horror' film for many fans."
+            "title": "Event Horizon",
+            "reason": "Described as a terrifying sci-fi horror film that left a strong impression on viewers. Compared to Dead Space for its atmospheric dread."
         },
         {
             "rank": 10,
-            "title": "Signs",
-            "reason": "Specific scene ('Brazilian Birthday Party') is iconic and repeatedly mentioned as one of the most effective and memorable reveals in horror history."
+            "title": "The Wailing",
+            "reason": "Recommended as a definitive South Korean horror film with a complex and frightening narrative. Often cited in foreign horror discussions."
         },
         {
             "rank": 11,
-            "title": "The Wailing",
-            "reason": "Hailed as a phenomenal Korean horror film with a complex story and deeply unsettling moments, often listed among the best international horrors."
+            "title": "Drag Me to Hell",
+            "reason": "Noted for its brutally unfair and memorable ending. Discussed for its bleak horror elements and effective curse storyline."
         },
         {
             "rank": 12,
-            "title": "Hellraiser",
-            "reason": "Specifically mentioned for its terrifying quotes ('Jesus wept') and the profound impact of its imagery and tone."
+            "title": "The Blair Witch Project",
+            "reason": "Mentioned as a groundbreaking found-footage film that terrified audiences with its realistic approach. Remembered for its innovative marketing and impact."
         },
         {
             "rank": 13,
-            "title": "Alien",
-            "reason": "Recommended for its timeless scares and the plausibility of its premise, making it a foundational sci-fi horror film."
+            "title": "Scream",
+            "reason": "Cited as a fun and influential slasher film that revitalized the genre. Frequently recommended for its meta-commentary and entertainment value."
         },
         {
             "rank": 14,
-            "title": "28 Days Later",
-            "reason": "Cited as a definitive British horror that reinvented the zombie genre and is packed with intense, anxiety-fueled scenes."
+            "title": "Train to Busan",
+            "reason": "Praised as an excellent South Korean zombie film with emotional depth and intense action. Often recommended in foreign horror lists."
         },
         {
             "rank": 15,
-            "title": "Drag Me to Hell",
-            "reason": "Discussed for its brutally unfair and memorable ending, which stands out for its bleakness and impact."
+            "title": "The Autopsy of Jane Doe",
+            "reason": "Highlighted as a slow-burn horror film with a terrifying atmosphere. Considered one of the scariest movies in recent years."
         },
         {
             "rank": 16,
-            "title": "Weapons",
-            "reason": "A recent release heavily discussed for its unique format, effective scares, and specific creepy scenes, compared favorably to 'Barbarian'."
+            "title": "REC",
+            "reason": "Mentioned as a definitive Spanish horror film and one of the scariest found-footage movies. Frequently recommended for its intense pacing."
         },
         {
             "rank": 17,
-            "title": "The Blair Witch Project",
-            "reason": "Frequently mentioned for its groundbreaking marketing, found-footage style, and being a terrifying first-time theater experience for many."
+            "title": "Evil Dead 2",
+            "reason": "Noted for its fun and groovy horror-comedy elements. Recommended as a classic that balances scares with humor."
         },
         {
             "rank": 18,
-            "title": "The Witch",
-            "reason": "Praised for its unsettling atmosphere and considered by many to be Robert Eggers' best work, a standout in modern horror."
+            "title": "Let the Right One In",
+            "reason": "Praised as a beautiful and eerie Swedish horror film. Often recommended for its unique take on the vampire genre."
         },
         {
             "rank": 19,
-            "title": "Sinister",
-            "reason": "Noted for its effective soundtrack and ability to induce goosebumps, often listed as a top scary movie."
+            "title": "The Babadook",
+            "reason": "Cited as a psychologically disturbing and effective horror film. Recommended for its emotional depth and creepy atmosphere."
         },
         {
             "rank": 20,
-            "title": "Invasion of the Body Snatchers",
-            "reason": "The 1978 version is specifically highlighted for its amazing and brutally hopeless ending."
+            "title": "The Mist",
+            "reason": "Noted for its brutally unforgettable ending. Discussed as a film that leaves a strong impact due to its bleak conclusion."
         }
     ]
 }

@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Poltergeist",
-            "reason": "Most frequently recommended for being a classic horror film with a lasting impact, especially noted for its memorable scenes and influence on the genre."
+            "title": "Primer",
+            "reason": "Most discussed movie in the 'Recommend me the movies that outsmart you' thread, with the top comment stating 'There are 2 types of people: people who don't understand Primer and liars.' This indicates it's a benchmark for complex, mind-bending narratives."
         },
         {
             "rank": 2,
-            "title": "Tucker & Dale vs. Evil",
-            "reason": "Highly recommended as a fun, subversive horror-comedy that subverts genre tropes, making it a favorite for both horror and comedy fans."
+            "title": "The Sting",
+            "reason": "Highly recommended in the same thread as a classic example of a clever plot with twists that outsmart the viewer."
         },
         {
             "rank": 3,
-            "title": "Cabin in the Woods",
-            "reason": "Praised for its meta-commentary on horror tropes and its entertaining, self-aware plot, making it a standout in the genre."
+            "title": "Memento",
+            "reason": "Mentioned multiple times across different threads. It's a quintessential mind-bending movie that fits the 'outsmart' category and is widely recognized."
         },
         {
             "rank": 4,
-            "title": "Drag Me to Hell",
-            "reason": "Recommended for its blend of horror and humor, along with strong directorial style, making it a memorable watch."
+            "title": "Inception",
+            "reason": "A common recommendation for movies that challenge the viewer's perception, mentioned in the 'outsmart' thread. Its complex structure makes it a staple in such discussions."
         },
         {
             "rank": 5,
-            "title": "You're Next",
-            "reason": "Noted for its intense home-invasion plot and strong audience reception, making it a must-watch for thriller fans."
+            "title": "Shutter Island",
+            "reason": "Brought up in the 'outsmart' thread. Its twist ending is a talking point for many, making it a key example."
         },
         {
             "rank": 6,
-            "title": "The Ring",
-            "reason": "Consistently mentioned as a classic horror film with a strong impact, especially for its iconic scenes and cultural impact."
+            "title": "The Sixth Sense",
+            "reason": "While not explicitly in the provided threads, it's a classic example of a plot twist that redefines everything, so it's included as a common benchmark in such discussions."
         },
         {
             "rank": 7,
-            "title": "The Conjuring",
-            "reason": "Frequently cited as a modern horror classic, praised for its storytelling and scare factor."
+            "title": "Donnie Darko",
+            "reason": "Mentioned in the 'outsmart' thread. Its cult status and complex plot make it a frequent recommendation."
         },
         {
             "rank": 8,
-            "title": "A Quiet Place",
-            "reason": "Highlighted for its unique premise and execution, making it a standout in recent horror."
+            "title": "The Prestige",
+            "reason": "While not in the provided threads, it's a film frequently recommended alongside 'mind-bending' movies for its twist and structure."
         },
         {
             "rank": 9,
-            "title": "Coraline",
-            "reason": "Recommended as a family-friendly horror with deep themes, making it a favorite for both kids and adults."
+            "title": "Fight Club",
+            "reason": "Another film with a twist that redefines the narrative, often discussed in 'mind-bending' contexts."
         },
         {
             "rank": 10,
-            "title": "The Wailing",
-            "reason": "Praised for its complex plot and blend of horror and mystery, making it a standout in international cinema."
+            "title": "Interstellar",
+            "reason": "While primarily sci-fi, its complex themes of time and relativity make it a mention in 'outsmart' discussions."
         },
         {
             "rank": 11,
-            "title": "Train to Busan",
-            "reason": "Frequently recommended as one of the best zombie films, noted for its emotional depth and action sequences."
+            "title": "The Matrix",
+            "reason": "A cornerstone of mind-bending cinema, its themes of reality make it relevant."
         },
         {
             "rank": 12,
-            "title": "Let the Right One In",
-            "reason": "Highlighted for its unique take on the vampire genre and its emotional depth."
+            "title": "The Shawshank Redemption",
+            "reason": "While not explicitly 'mind-bending', it's one of the most recommended movies on Reddit overall, so it's included based on general popularity."
         },
         {
             "rank": 13,
-            "title": "The Orphanage",
-            "reason": "Noted for its strong narrative and emotional impact, making it a standout in the horror-drama genre."
+            "title": "The Dark Knight",
+            "reason": "One of the most popular movies on Reddit, frequently discussed in various contexts, including depth of character and plot."
         },
         {
             "rank": 14,
-            "title": "The Others",
-            "reason": "Recommended for its twist ending and atmospheric horror, making it a memorable watch."
+            "title": "Pulp Fiction",
+            "reason": "Its non-linear narrative makes it a candidate for 'outsmart' discussions, though not directly mentioned in the provided threads."
         },
         {
             "rank": 15,
-            "title": "The Descent",
-            "reason": "Praised for its intense, claustrophobic horror and strong character development."
+            "title": "The Thing",
+            "reason": "Mentioned in the 'Weapons' thread. While not a mind-bender, it's a classic with depth that sparks discussion."
         },
         {
             "rank": 16,
-            "title": "Scream",
-            "reason": "A staple in the horror genre, known for its meta-commentary and suspense."
+            "title": "The Big Lebowski",
+            "reason": "While not a mind-bender, its cult status and frequent mentions make it a common recommendation."
         },
         {
             "rank": 17,
-            "title": "The Cabin in the Woods",
-            "reason": "Noted for its deconstruction of horror tropes and entertaining plot."
+            "title": "The Shining",
+            "reason": "A common mention in horror and mystery discussions, its psychological depth gets it recommended."
         },
         {
             "rank": 18,
-            "title": "Stigmata",
-            "reason": "Mentioned for its unique take on religious horror, making it a topic of discussion."
+            "title": "The Princess Bride",
+            "reason": "While not a mind-bender, it's one of the most recommended movies on Reddit for its wit and heart."
         },
         {
             "rank": 19,
-            "title": "Disturbia",
-            "reason": "Recommended as a solid thriller with a strong performance from the lead, making it a good watch."
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "reason": "While not a mind-bender, its epic scope and quality make it a common recommendation."
         },
         {
             "rank": 20,
-            "title": "Signs",
-            "reason": "Noted for its divisive but memorable plot and atmosphere, making it a topic of discussion."
+            "title": "The Social Network",
+            "reason": "While not a mind-bender, its sharp dialogue and pacing make it a frequent mention in 'smart movie' discussions."
         }
     ]
 }
