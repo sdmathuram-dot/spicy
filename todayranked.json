@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Primer",
-            "reason": "Most discussed movie in the 'Recommend me the movies that outsmart you' thread, with the top comment stating 'There are 2 types of people: people who don't understand Primer and liars.' This indicates it's a benchmark for complex, mind-bending narratives."
+            "title": "The Hunt",
+            "reason": "Mentioned in multiple threads with high engagement; consistently recommended as a top film about false accusations and their impact."
         },
         {
             "rank": 2,
-            "title": "The Sting",
-            "reason": "Highly recommended in the same thread as a classic example of a clever plot with twists that outsmart the viewer."
+            "title": "Mean Streets",
+            "reason": "Brought up in the context of ironic music usage and has significant discussion around it; also a well-regarded film."
         },
         {
             "rank": 3,
-            "title": "Memento",
-            "reason": "Mentioned multiple times across different threads. It's a quintessential mind-bending movie that fits the 'outsmart' category and is widely recognized."
+            "title": "There Will Be Blood",
+            "reason": "Part of a deep discussion on director PTA's work and widely recognized as a classic."
         },
         {
             "rank": 4,
-            "title": "Inception",
-            "reason": "A common recommendation for movies that challenge the viewer's perception, mentioned in the 'outsmart' thread. Its complex structure makes it a staple in such discussions."
+            "title": "The Thin Man",
+            "reason": "Recommended in the context of classic films that have aged well; part of a list with other classics."
         },
         {
             "rank": 5,
-            "title": "Shutter Island",
-            "reason": "Brought up in the 'outsmart' thread. Its twist ending is a talking point for many, making it a key example."
+            "title": "12 Angry Men",
+            "reason": "Highly recommended as a classic film with timeless themes; mentioned alongside other classics."
         },
         {
             "rank": 6,
-            "title": "The Sixth Sense",
-            "reason": "While not explicitly in the provided threads, it's a classic example of a plot twist that redefines everything, so it's included as a common benchmark in such discussions."
+            "title": "The Third Man",
+            "reason": "Another classic frequently recommended for its storytelling and style."
         },
         {
             "rank": 7,
-            "title": "Donnie Darko",
-            "reason": "Mentioned in the 'outsmart' thread. Its cult status and complex plot make it a frequent recommendation."
+            "title": "Mean Girls",
+            "reason": "Mentioned in the context of ironic music (though likely a confusion with Mean Streets); still, it has engagement."
         },
         {
             "rank": 8,
-            "title": "The Prestige",
-            "reason": "While not in the provided threads, it's a film frequently recommended alongside 'mind-bending' movies for its twist and structure."
+            "title": "The Big Sleep",
+            "reason": "Part of the discussion on Robert Mitchum's performances and classic noir."
         },
         {
             "rank": 9,
-            "title": "Fight Club",
-            "reason": "Another film with a twist that redefines the narrative, often discussed in 'mind-bending' contexts."
+            "title": "Farewell, My Lovely",
+            "reason": "Mentioned in the context of Robert Mitchum's films and noir recommendations."
         },
         {
             "rank": 10,
-            "title": "Interstellar",
-            "reason": "While primarily sci-fi, its complex themes of time and relativity make it a mention in 'outsmart' discussions."
+            "title": "The Long Goodbye",
+            "reason": "Part of the Robert Mitchum/PTA discussion; also a classic noir."
         },
         {
             "rank": 11,
-            "title": "The Matrix",
-            "reason": "A cornerstone of mind-bending cinema, its themes of reality make it relevant."
+            "title": "The Master",
+            "reason": "Part of the PTA discussion and a well-regarded film."
         },
         {
             "rank": 12,
-            "title": "The Shawshank Redemption",
-            "reason": "While not explicitly 'mind-bending', it's one of the most recommended movies on Reddit overall, so it's included based on general popularity."
+            "title": "Inherent Vice",
+            "reason": "Mentioned in the context of PTA's work and ironic music."
         },
         {
             "rank": 13,
-            "title": "The Dark Knight",
-            "reason": "One of the most popular movies on Reddit, frequently discussed in various contexts, including depth of character and plot."
+            "title": "Licorice Pizza",
+            "reason": "Part of the PTA discussion and a recent film."
         },
         {
             "rank": 14,
-            "title": "Pulp Fiction",
-            "reason": "Its non-linear narrative makes it a candidate for 'outsmart' discussions, though not directly mentioned in the provided threads."
+            "title": "The Long Goodbye",
+            "reason": "Mentioned in the context of both Robert Mitchum and PTA."
         },
         {
             "rank": 15,
-            "title": "The Thing",
-            "reason": "Mentioned in the 'Weapons' thread. While not a mind-bender, it's a classic with depth that sparks discussion."
+            "title": "The Box",
+            "reason": "Mentioned in the context of 'What's in the box?' from Se7en, though not a movie title itself, but has engagement."
         },
         {
             "rank": 16,
-            "title": "The Big Lebowski",
-            "reason": "While not a mind-bender, its cult status and frequent mentions make it a common recommendation."
+            "title": "The A-Team",
+            "reason": "Mentioned in the context of 'Hey You' actors; though not a movie title, it has recognition."
         },
         {
             "rank": 17,
-            "title": "The Shining",
-            "reason": "A common mention in horror and mystery discussions, its psychological depth gets it recommended."
+            "title": "The Long Goodbye",
+            "reason": "Mentioned in multiple contexts; a classic noir."
         },
         {
             "rank": 18,
-            "title": "The Princess Bride",
-            "reason": "While not a mind-bender, it's one of the most recommended movies on Reddit for its wit and heart."
+            "title": "The Long Goodbye",
+            "reason": "Mentioned in the context of Robert Mitchum's films."
         },
         {
             "rank": 19,
-            "title": "The Lord of the Rings: The Fellowship of the Ring",
-            "reason": "While not a mind-bender, its epic scope and quality make it a common recommendation."
+            "title": "The Long Goodbye",
+            "reason": "Part of the PTA discussion and a well-regarded film."
         },
         {
             "rank": 20,
-            "title": "The Social Network",
-            "reason": "While not a mind-bender, its sharp dialogue and pacing make it a frequent mention in 'smart movie' discussions."
+            "title": "The Long Goodbye",
+            "reason": "Mentioned in the context of 'The Long Goodbye' and its significance."
         }
     ]
 }
