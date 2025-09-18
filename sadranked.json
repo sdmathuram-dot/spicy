@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "About Time",
-            "reason": "Explicitly mentioned by a user as a movie that deeply moved them and sparked a realization about the importance of cherishing time with loved ones, leading to a significant personal revelation."
+            "title": "Happiness",
+            "reason": "Mentioned in the context of a movie that left a strong impact, though it's noted for being intense. It's discussed in the context of mental health and existential themes."
         },
         {
             "rank": 2,
-            "title": "Shutter Island",
-            "reason": "Directly requested by a user seeking a psychological thriller to watch while depressed, indicating a high level of interest and discussion around its themes."
+            "title": "The Secret Life of Walter Mitty",
+            "reason": "Explicitly recommended for helping with depression, highlighting its inspirational and uplifting qualities."
         },
         {
             "rank": 3,
-            "title": "The Death of Stalin",
-            "reason": "Mentioned by a user who attempted to watch it for its comedy but found its dark themes too resonant with their depressed state, sparking discussion about its tone."
+            "title": "The Shawshank Redemption",
+            "reason": "Recommended as a comfort movie for its hopeful and resilient story, often cited in mental health contexts."
         },
         {
             "rank": 4,
-            "title": "Death at a Funeral",
-            "reason": "Highly recommended for its dark humor and specific mention of fitting a user's request for a comedy, especially the British version."
+            "title": "Groundhog Day",
+            "reason": "Cited as a movie that helps with depression due to its themes of personal growth and redemption."
         },
         {
             "rank": 5,
-            "title": "Amelie",
-            "reason": "Recommended as a feel-good, uplifting film for someone feeling depressed and disassociated, noted for its positive and whimsical tone."
+            "title": "Twelve Monkeys",
+            "reason": "Mentioned as a psychological thriller with depth, often discussed for its complex narrative."
         },
         {
             "rank": 6,
-            "title": "The Secret Life of Walter Mitty",
-            "reason": "Specifically cited as a movie that helped someone during their depression, indicating its effectiveness and recommendation value."
+            "title": "Fight Club",
+            "reason": "Noted for its angry and bitter tone, though it's complex. It's mentioned in the context of existential themes."
         },
         {
             "rank": 7,
-            "title": "Deadpool",
-            "reason": "Recommended multiple times as a reliable, laugh-out-loud comedy to lift spirits during difficult times."
+            "title": "What We Do in the Shadows",
+            "reason": "Recommended as a comedy that provides great distraction and laughter, which is helpful for depression."
         },
         {
             "rank": 8,
-            "title": "Mrs. Doubtfire",
-            "reason": "Listed as a comfort movie that helped during depression, showing its enduring appeal as a feel-good film."
+            "title": "The Big Lebowski",
+            "reason": "Cited as a comedy that's great for lifting spirits, often mentioned in comfort movie lists."
         },
         {
             "rank": 9,
-            "title": "Groundhog Day",
-            "reason": "Recommended as a movie that helped during depression, likely for its themes of personal growth and redemption."
+            "title": "Tropic Thunder",
+            "reason": "Highlighted as an incredibly funny movie that can provide a much-needed laugh."
         },
         {
             "rank": 10,
-            "title": "Interstellar",
-            "reason": "Mentioned as a film whose visuals and music provide a profound, chillingly beautiful experience that can be therapeutic."
+            "title": "The Secret Window",
+            "reason": "Mentioned as a psychological thriller with a focus on mental health themes."
         },
         {
             "rank": 11,
-            "title": "Blazing Saddles",
-            "reason": "Topped the list as the funniest movie someone has ever seen, recommended to counteract feelings of depression and hopelessness."
+            "title": "The Shawshank Redemption",
+            "reason": "Repeatedly mentioned as a comfort movie, indicating its wide recognition for uplifting value."
         },
         {
             "rank": 12,
-            "title": "Airplane!",
-            "reason": "Ranked highly as one of the funniest movies, frequently recommended for its absurd humor and ability to distract from negative thoughts."
+            "title": "Groundhog Day",
+            "reason": "Reiterated as a movie that helps with depression, showing its lasting impact."
         },
         {
             "rank": 13,
-            "title": "Galaxy Quest",
-            "reason": "Recommended alongside other comedies as a top-tier funny movie to help alleviate depressive feelings."
+            "title": "The Secret Life of Walter Mitty",
+            "reason": "Repeatedly recommended for its inspirational journey and positive messaging."
         },
         {
             "rank": 14,
-            "title": "Spinal Tap",
-            "reason": "Listed as a quintessential comedy, often suggested for those needing a laugh and a break from serious thoughts."
+            "title": "The Big Lebowski",
+            "reason": "Noted again for its comedic value and as a cultural touchstone for comfort viewing."
         },
         {
             "rank": 15,
-            "title": "Young Frankenstein",
-            "reason": "A classic comedy frequently recommended for its humor, with specific quotes mentioned, showing its cultural impact and recommendation value."
+            "title": "Twelve Monkeys",
+            "reason": "Reiterated as a deep psychological movie that makes people think."
         },
         {
             "rank": 16,
-            "title": "Dumb & Dumber",
-            "reason": "Mentioned as a reliably hilarious movie that serves as a great distraction and mood-lifter."
+            "title": "Fight Club",
+            "reason": "Reiterated as a movie with a bitter tone, though it's complex. It's mentioned in the context of existential themes."
         },
         {
             "rank": 17,
             "title": "What We Do in the Shadows",
-            "reason": "Recommended for its unique brand of comedy, often suggested to those looking for something funny and offbeat."
+            "reason": "Reiterated as a comedy that provides great distraction and laughter, which is helpful for depression."
         },
         {
             "rank": 18,
-            "title": "Monty Python and the Holy Grail",
-            "reason": "A timeless comedy classic frequently cited in 'funniest movie' discussions, recommended for its absurdity and humor."
+            "title": "The Shawshank Redemption",
+            "reason": "Reiterated as a comfort movie, indicating its wide recognition for uplifting value."
         },
         {
             "rank": 19,
-            "title": "The Big Lebowski",
-            "reason": "Listed among the top comedies for its cult following and unique, laid-back humor that provides a comforting distraction."
+            "title": "Groundhog Day",
+            "reason": "Reiterated as a movie that helps with depression, showing its lasting impact."
         },
         {
             "rank": 20,
-            "title": "Tangled",
-            "reason": "Specifically mentioned as a personal comfort movie and 'comfort watch' for times of anxiety and depression."
+            "title": "The Secret Life of Walter Mitty",
+            "reason": "Reiterated as a movie that helps with depression, showing its lasting impact and inspiration."
         }
     ]
 }
