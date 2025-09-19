@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "The Zone of Interest",
-            "reason": "Highly recommended as one of the most disturbing and brilliant films, frequently mentioned in discussions about impactful and unsettling cinema."
+            "title": "Primer",
+            "reason": "Most frequently mentioned and highly recommended for its extreme complexity and layered narrative, requiring multiple viewings to understand."
         },
         {
             "rank": 2,
-            "title": "Weapons",
-            "reason": "Extensively discussed for its box office success and critical reception, though some viewers found its themes murky and unresolved."
+            "title": "Memento",
+            "reason": "Extensively discussed as a complex film that rewards multiple viewings, though some debate exists about its comprehensibility."
         },
         {
             "rank": 3,
-            "title": "Yi Yi",
-            "reason": "Praised as a nostalgic slice-of-life masterpiece with profound empathy for its characters, generating significant analytical discussion."
+            "title": "Mulholland Drive",
+            "reason": "Frequently cited as a challenging, abstract film that demands repeat viewings to fully grasp its narrative."
         },
         {
             "rank": 4,
-            "title": "Hellboy II: The Golden Army",
-            "reason": "Highlighted for its underrated antagonist performance and overall excellence, with lamentation over the discontinuation of its universe."
+            "title": "The Big Lebowski",
+            "reason": "Mentioned as a film that required multiple viewings for audiences to understand its characters and plot intricacies."
         },
         {
             "rank": 5,
-            "title": "Hereditary",
-            "reason": "Frequently referenced as a prime example of art horror or elevated horror that serves as a vehicle for underlying messages."
+            "title": "Synecdoche, New York",
+            "reason": "Recommended as a complex, layered film that takes time to understand and appreciate fully."
         },
         {
             "rank": 6,
-            "title": "Crouching Tiger, Hidden Dragon",
-            "reason": "Discussed for its engagement with Chinese philosophical concepts, wuxia style, and exceptional score and cinematography."
+            "title": "Midsommar",
+            "reason": "Discussed as a film that requires a rewatch to understand its deeper meanings about breakups and letting go."
         },
         {
             "rank": 7,
-            "title": "The Game",
-            "reason": "Central to a post seeking similar confusing, reality-bending movies, leading to many recommendations in the comments."
+            "title": "Interstellar",
+            "reason": "Mentioned as a film that becomes better understood with each viewing."
         },
         {
             "rank": 8,
-            "title": "Infinity Pool",
-            "reason": "Top recommendation in a thread about disturbing yet brilliant films from the last five years."
+            "title": "Upstream Color",
+            "reason": "Recommended alongside Primer as another complex, interpretive film from the same director."
         },
         {
             "rank": 9,
-            "title": "Possessor",
-            "reason": "Another top recommendation for disturbing and brilliant films, often paired with other modern horror gems."
+            "title": "Akira",
+            "reason": "Cited as a film that requires multiple viewings to fully comprehend."
         },
         {
             "rank": 10,
-            "title": "Midsommar",
-            "reason": "Directly recommended as a disturbing film, solidifying its status in the modern horror canon."
+            "title": "Three Days of the Condor",
+            "reason": "The original request film that sparked numerous recommendations of similar tense, smart thrillers."
         },
         {
             "rank": 11,
-            "title": "The Prestige",
-            "reason": "Mentioned as having one of the most unforgettable movie endings of all time."
+            "title": "All the President's Men",
+            "reason": "Top recommendation for films similar to Three Days of the Condor, representing 70s political thrillers."
         },
         {
             "rank": 12,
-            "title": "Se7en",
-            "reason": "Cited for its unforgettable ending and as a recommendation for movies with a similar tone to 'The Game'."
+            "title": "The Parallax View",
+            "reason": "Highly recommended alongside other 70s political thrillers similar to Three Days of the Condor."
         },
         {
             "rank": 13,
-            "title": "The Mist",
-            "reason": "Topped the list for the most unforgettable movie ending in a dedicated discussion."
+            "title": "The Day of the Jackal",
+            "reason": "Frequently suggested as a similar tense, smart thriller to Three Days of the Condor."
         },
         {
             "rank": 14,
-            "title": "Mad God",
-            "reason": "Recommended as a disturbing and brilliant film from the last five years."
+            "title": "Marathon Man",
+            "reason": "Recommended multiple times as having a similar feel to Three Days of the Condor."
         },
         {
             "rank": 15,
-            "title": "The Coffee Table",
-            "reason": "Suggested as a hidden gem in the disturbing film category."
+            "title": "The Conversation",
+            "reason": "Suggested as an excellent film with similar suspenseful themes to the requested movies."
         },
         {
             "rank": 16,
-            "title": "The Sadness",
-            "reason": "Included in a list of disturbing post-2020s films."
+            "title": "Tucker and Dale vs Evil",
+            "reason": "The original favorite horror comedy mentioned in the request, sparking numerous similar recommendations."
         },
         {
             "rank": 17,
-            "title": "Red Rooms",
-            "reason": "Recommended in the same thread seeking disturbing and brilliant films."
+            "title": "Cabin in the Woods",
+            "reason": "Top recommendation for horror comedies with brutal deaths, praised for satirizing horror tropes."
         },
         {
             "rank": 18,
-            "title": "Beau is Afraid",
-            "reason": "Listed as a disturbing, creepy, or unsettling post-2020s film."
+            "title": "Shaun of the Dead",
+            "reason": "Frequently recommended as a classic horror comedy with brutal elements."
         },
         {
             "rank": 19,
-            "title": "Saltburn",
-            "reason": "Mentioned alongside other unsettling modern films."
+            "title": "Evil Dead 3: Army of Darkness",
+            "reason": "Recommended alongside other horror comedies with brutal deaths."
         },
         {
             "rank": 20,
-            "title": "The Menu",
-            "reason": "Included in a list of disturbing and unsettling contemporary films."
+            "title": "Zombieland",
+            "reason": "Mentioned as a popular horror comedy recommendation in the thread."
         }
     ]
 }
