@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Happiness",
-            "reason": "Mentioned in the context of a movie that left a strong impact, though it's noted for being intense. It's discussed in the context of mental health and existential themes."
+            "title": "Fight Club",
+            "reason": "Frequently recommended for its raw, angry critique of modern consumerist society and its portrayal of disillusioned, bitter characters."
         },
         {
             "rank": 2,
-            "title": "The Secret Life of Walter Mitty",
-            "reason": "Explicitly recommended for helping with depression, highlighting its inspirational and uplifting qualities."
+            "title": "Taxi Driver",
+            "reason": "Consistently mentioned as a quintessential film about alienation, bitterness, and urban decay, fitting the request for angry and bitter tones."
         },
         {
             "rank": 3,
-            "title": "The Shawshank Redemption",
-            "reason": "Recommended as a comfort movie for its hopeful and resilient story, often cited in mental health contexts."
+            "title": "No Country for Old Men",
+            "reason": "Recommended multiple times for its bleak, unforgiving portrayal of a cruel world with no sugar-coating."
         },
         {
             "rank": 4,
-            "title": "Groundhog Day",
-            "reason": "Cited as a movie that helps with depression due to its themes of personal growth and redemption."
+            "title": "There Will Be Blood",
+            "reason": "Highlighted for its intense, bitter character study and exploration of greed and cruelty."
         },
         {
             "rank": 5,
-            "title": "Twelve Monkeys",
-            "reason": "Mentioned as a psychological thriller with depth, often discussed for its complex narrative."
+            "title": "Parasite",
+            "reason": "Recommended for its sharp social commentary on class inequality and the brutal realities of being a 'cog in the machine'."
         },
         {
             "rank": 6,
-            "title": "Fight Club",
-            "reason": "Noted for its angry and bitter tone, though it's complex. It's mentioned in the context of existential themes."
+            "title": "Falling Down",
+            "reason": "Specifically suggested as a film about an angry man lashing out at a cruel world, matching the requested tone perfectly."
         },
         {
             "rank": 7,
-            "title": "What We Do in the Shadows",
-            "reason": "Recommended as a comedy that provides great distraction and laughter, which is helpful for depression."
+            "title": "Oldboy",
+            "reason": "Mentioned for its dark, vengeful, and brutal narrative that doesn't shy away from cruelty."
         },
         {
             "rank": 8,
-            "title": "The Big Lebowski",
-            "reason": "Cited as a comedy that's great for lifting spirits, often mentioned in comfort movie lists."
+            "title": "Dredd",
+            "reason": "Recommended for its depiction of a miserable, violent urban hellscape where everyone is a cog in a machine."
         },
         {
             "rank": 9,
-            "title": "Tropic Thunder",
-            "reason": "Highlighted as an incredibly funny movie that can provide a much-needed laugh."
+            "title": "Naked",
+            "reason": "Directly suggested as the exact film for an angry and bitter tone, featuring some of the shittiest human beings imaginable."
         },
         {
             "rank": 10,
-            "title": "The Secret Window",
-            "reason": "Mentioned as a psychological thriller with a focus on mental health themes."
+            "title": "I Saw the Devil",
+            "reason": "Recommended for its intense, brutal, and vengeful storyline that exemplifies a cruel world."
         },
         {
             "rank": 11,
-            "title": "The Shawshank Redemption",
-            "reason": "Repeatedly mentioned as a comfort movie, indicating its wide recognition for uplifting value."
+            "title": "American History X",
+            "reason": "Mentioned for its portrayal of bitter racism and the cycle of violence and hatred."
         },
         {
             "rank": 12,
-            "title": "Groundhog Day",
-            "reason": "Reiterated as a movie that helps with depression, showing its lasting impact."
+            "title": "Full Metal Jacket",
+            "reason": "Recommended for its bitter and angry depiction of the dehumanizing effects of war."
         },
         {
             "rank": 13,
-            "title": "The Secret Life of Walter Mitty",
-            "reason": "Repeatedly recommended for its inspirational journey and positive messaging."
+            "title": "Menace II Society",
+            "reason": "Suggested for its gritty, unforgiving look at urban violence and a cruel environment."
         },
         {
             "rank": 14,
-            "title": "The Big Lebowski",
-            "reason": "Noted again for its comedic value and as a cultural touchstone for comfort viewing."
+            "title": "Snowtown",
+            "reason": "Recommended for its depressing and brutal true-story portrayal of some of the worst human beings."
         },
         {
             "rank": 15,
-            "title": "Twelve Monkeys",
-            "reason": "Reiterated as a deep psychological movie that makes people think."
+            "title": "Henry: Portrait of a Serial Killer",
+            "reason": "Mentioned for its unflinching and disturbing look at a violent, bitter character."
         },
         {
             "rank": 16,
-            "title": "Fight Club",
-            "reason": "Reiterated as a movie with a bitter tone, though it's complex. It's mentioned in the context of existential themes."
+            "title": "Three Billboards Outside Ebbing, Missouri",
+            "reason": "Suggested for its angry, bitter tone and characters fueled by rage and grief."
         },
         {
             "rank": 17,
-            "title": "What We Do in the Shadows",
-            "reason": "Reiterated as a comedy that provides great distraction and laughter, which is helpful for depression."
+            "title": "Revolutionary Road",
+            "reason": "Recommended for its bitter depiction of suburban disillusionment and miserable characters."
         },
         {
             "rank": 18,
-            "title": "The Shawshank Redemption",
-            "reason": "Reiterated as a comfort movie, indicating its wide recognition for uplifting value."
+            "title": "Aguirre, the Wrath of God",
+            "reason": "Mentioned for its portrayal of madness and bitter ambition in a cruel, unforgiving environment."
         },
         {
             "rank": 19,
-            "title": "Groundhog Day",
-            "reason": "Reiterated as a movie that helps with depression, showing its lasting impact."
+            "title": "Sexy Beast",
+            "reason": "Suggested for its angry, volatile characters and gritty tone."
         },
         {
             "rank": 20,
-            "title": "The Secret Life of Walter Mitty",
-            "reason": "Reiterated as a movie that helps with depression, showing its lasting impact and inspiration."
+            "title": "Blazing Saddles",
+            "reason": "Included as a contrast; while a comedy, it was the most frequently mentioned 'funniest movie' and deals with bitter topics like racism through satire, showing up often in discussions."
         }
     ]
 }
