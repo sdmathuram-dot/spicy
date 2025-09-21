@@ -2,103 +2,98 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Fight Club",
-            "reason": "Frequently recommended for its raw, angry critique of modern consumerist society and its portrayal of disillusioned, bitter characters."
+            "title": "Shutter Island",
+            "reason": "Explicitly mentioned by the user as a film they wanted to watch due to its psychological themes, indicating a high level of interest and relevance."
         },
         {
             "rank": 2,
-            "title": "Taxi Driver",
-            "reason": "Consistently mentioned as a quintessential film about alienation, bitterness, and urban decay, fitting the request for angry and bitter tones."
+            "title": "The Secret Life of Walter Mitty",
+            "reason": "Top recommendation in the 'Whats a movie that helped you during depression?' thread, cited for its uplifting and inspiring qualities."
         },
         {
             "rank": 3,
-            "title": "No Country for Old Men",
-            "reason": "Recommended multiple times for its bleak, unforgiving portrayal of a cruel world with no sugar-coating."
+            "title": "Death at a Funeral",
+            "reason": "Top recommendation in the 'Movie recs for someone depressed & disassociated' thread, praised for its dark humor and fitting the user's request for a comedy."
         },
         {
             "rank": 4,
-            "title": "There Will Be Blood",
-            "reason": "Highlighted for its intense, bitter character study and exploration of greed and cruelty."
+            "title": "Mulholland Drive",
+            "reason": "Highly recommended psychological thriller from the same thread, known for its deep psychological and surreal elements."
         },
         {
             "rank": 5,
-            "title": "Parasite",
-            "reason": "Recommended for its sharp social commentary on class inequality and the brutal realities of being a 'cog in the machine'."
+            "title": "Black Swan",
+            "reason": "Another top psychological thriller recommendation, frequently discussed for its intense psychological drama."
         },
         {
             "rank": 6,
-            "title": "Falling Down",
-            "reason": "Specifically suggested as a film about an angry man lashing out at a cruel world, matching the requested tone perfectly."
+            "title": "Prisoners",
+            "reason": "Recommended psychological thriller, noted for its gripping and intense narrative."
         },
         {
             "rank": 7,
-            "title": "Oldboy",
-            "reason": "Mentioned for its dark, vengeful, and brutal narrative that doesn't shy away from cruelty."
+            "title": "Clue",
+            "reason": "Recommended comedy, mentioned for its humor and timing, though the user noted they'd have to rent it."
         },
         {
             "rank": 8,
-            "title": "Dredd",
-            "reason": "Recommended for its depiction of a miserable, violent urban hellscape where everyone is a cog in a machine."
+            "title": "Twelve Monkeys",
+            "reason": "Recommended sci-fi psychological thriller, a classic in the genre."
         },
         {
             "rank": 9,
-            "title": "Naked",
-            "reason": "Directly suggested as the exact film for an angry and bitter tone, featuring some of the shittiest human beings imaginable."
+            "title": "Brigsby Bear",
+            "reason": "Recommended as a hidden gem comedy with a unique, heartwarming story and a stacked cast."
         },
         {
             "rank": 10,
-            "title": "I Saw the Devil",
-            "reason": "Recommended for its intense, brutal, and vengeful storyline that exemplifies a cruel world."
+            "title": "Groundhog Day",
+            "reason": "Recommended as a film that helps during depression, known for its themes of self-improvement and redemption."
         },
         {
             "rank": 11,
-            "title": "American History X",
-            "reason": "Mentioned for its portrayal of bitter racism and the cycle of violence and hatred."
-        },
-        {
-            "rank": 12,
-            "title": "Full Metal Jacket",
-            "reason": "Recommended for its bitter and angry depiction of the dehumanizing effects of war."
+            "title": "Shawshank Redemption",
+            "reason": "Recommended alongside Groundhog Day for its hopeful and inspiring message."
         },
         {
             "rank": 13,
-            "title": "Menace II Society",
-            "reason": "Suggested for its gritty, unforgiving look at urban violence and a cruel environment."
+            "title": "Manchester by the Sea",
+            "reason": "Mentioned in a comment as a beautifully crafted, depressing film for those seeking a sad tone."
         },
         {
             "rank": 14,
-            "title": "Snowtown",
-            "reason": "Recommended for its depressing and brutal true-story portrayal of some of the worst human beings."
+            "title": "Eternal Sunshine of the Spotless Mind",
+            "reason": "Honorable mention for a depressing tone, renowned for its unique take on love and memory."
         },
         {
             "rank": 15,
-            "title": "Henry: Portrait of a Serial Killer",
-            "reason": "Mentioned for its unflinching and disturbing look at a violent, bitter character."
+            "title": "Grave of the Fireflies",
+            "reason": "Multiple recommendations for a sad ending, known as one of the most heartbreaking films ever made."
         },
         {
             "rank": 16,
-            "title": "Three Billboards Outside Ebbing, Missouri",
-            "reason": "Suggested for its angry, bitter tone and characters fueled by rage and grief."
+            "title": "Call Me by Your Name",
+            "reason": "Recommended for a sad/broken love ending, fitting the user's request for depressing love stories."
         },
         {
             "rank": 17,
-            "title": "Revolutionary Road",
-            "reason": "Recommended for its bitter depiction of suburban disillusionment and miserable characters."
+            "title": "Requiem for a Dream",
+            "reason": "Recommended for a sad ending, infamous for its intense and depressing portrayal of addiction."
         },
         {
             "rank": 18,
-            "title": "Aguirre, the Wrath of God",
-            "reason": "Mentioned for its portrayal of madness and bitter ambition in a cruel, unforgiving environment."
+            "title": "Dead Poets Society",
+            "reason": "Recommended for a sad ending, a classic film with emotional depth."
         },
         {
             "rank": 19,
-            "title": "Sexy Beast",
-            "reason": "Suggested for its angry, volatile characters and gritty tone."
+            "title": "Incendies",
+            "reason": "Highly recommended for a devastatingly sad and impactful story, described as a life-changing film."
         },
         {
             "rank": 20,
-            "title": "Blazing Saddles",
-            "reason": "Included as a contrast; while a comedy, it was the most frequently mentioned 'funniest movie' and deals with bitter topics like racism through satire, showing up often in discussions."
+            "title": "La La Land",
+            "reason": "Recommended for its bittersweet, broken love ending that fits the user's request."
         }
     ]
 }
