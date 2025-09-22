@@ -2,98 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Shutter Island",
-            "reason": "Explicitly mentioned by the user as a film they wanted to watch due to its psychological themes, indicating a high level of interest and relevance."
+            "title": "Requiem for a Dream",
+            "reason": "Most frequently mentioned and highly upvoted as an intensely depressing film that leaves a lasting impact, often cited as a powerful anti-drug narrative."
         },
         {
             "rank": 2,
-            "title": "The Secret Life of Walter Mitty",
-            "reason": "Top recommendation in the 'Whats a movie that helped you during depression?' thread, cited for its uplifting and inspiring qualities."
+            "title": "Grave of the Fireflies",
+            "reason": "Consistently brought up across multiple threads as one of the most emotionally devastating and depressing films ever made."
         },
         {
             "rank": 3,
-            "title": "Death at a Funeral",
-            "reason": "Top recommendation in the 'Movie recs for someone depressed & disassociated' thread, praised for its dark humor and fitting the user's request for a comedy."
+            "title": "Manchester by the Sea",
+            "reason": "Explicitly mentioned as a film that causes deep depression and also listed as a personal 'comfort' movie for its realistic portrayal of grief."
         },
         {
             "rank": 4,
-            "title": "Mulholland Drive",
-            "reason": "Highly recommended psychological thriller from the same thread, known for its deep psychological and surreal elements."
+            "title": "Come and See",
+            "reason": "Recommended in a list of favorite sad movies and mentioned in the original 'depressing movies' thread for its harrowing portrayal of war."
         },
         {
             "rank": 5,
-            "title": "Black Swan",
-            "reason": "Another top psychological thriller recommendation, frequently discussed for its intense psychological drama."
+            "title": "The Green Mile",
+            "reason": "Highlighted as a major omission in the depressing movies list, noted for being even more depressing in its book form."
         },
         {
             "rank": 6,
-            "title": "Prisoners",
-            "reason": "Recommended psychological thriller, noted for its gripping and intense narrative."
+            "title": "The Mist",
+            "reason": "A top-voted comment citing its famously bleak and depressing ending."
         },
         {
             "rank": 7,
-            "title": "Clue",
-            "reason": "Recommended comedy, mentioned for its humor and timing, though the user noted they'd have to rent it."
+            "title": "Dear Zachary",
+            "reason": "Directly mentioned as a documentary known for being profoundly sad and emotionally draining."
         },
         {
             "rank": 8,
-            "title": "Twelve Monkeys",
-            "reason": "Recommended sci-fi psychological thriller, a classic in the genre."
+            "title": "The Road",
+            "reason": "Mentioned with strong emotional language ('Fuck that movie') indicating its deeply depressing and hopeless atmosphere."
         },
         {
             "rank": 9,
-            "title": "Brigsby Bear",
-            "reason": "Recommended as a hidden gem comedy with a unique, heartwarming story and a stacked cast."
+            "title": "Melancholia",
+            "reason": "Listed among the top movies that leave viewers feeling depressed, fitting its thematic title."
         },
         {
             "rank": 10,
-            "title": "Groundhog Day",
-            "reason": "Recommended as a film that helps during depression, known for its themes of self-improvement and redemption."
+            "title": "Boy in the Striped Pajamas",
+            "reason": "Included in the list of films that cause a depressed feeling, known for its tragic Holocaust narrative."
         },
         {
             "rank": 11,
-            "title": "Shawshank Redemption",
-            "reason": "Recommended alongside Groundhog Day for its hopeful and inspiring message."
+            "title": "Million Dollar Baby",
+            "reason": "Named as a film that results in a depressed feeling for hours after viewing."
+        },
+        {
+            "rank": 12,
+            "title": "Brokeback Mountain",
+            "reason": "Cited as a best picture contender that was beaten by a less deserving film (Crash) and mentioned for its depressing story."
         },
         {
             "rank": 13,
-            "title": "Manchester by the Sea",
-            "reason": "Mentioned in a comment as a beautifully crafted, depressing film for those seeking a sad tone."
+            "title": "Kids",
+            "reason": "A top-voted entry in the thread asking for movies that cause depression."
         },
         {
             "rank": 14,
-            "title": "Eternal Sunshine of the Spotless Mind",
-            "reason": "Honorable mention for a depressing tone, renowned for its unique take on love and memory."
+            "title": "Old Yeller",
+            "reason": "A classic film mentioned for its enduringly sad and depressing finale."
         },
         {
             "rank": 15,
-            "title": "Grave of the Fireflies",
-            "reason": "Multiple recommendations for a sad ending, known as one of the most heartbreaking films ever made."
+            "title": "The Pianist",
+            "reason": "Listed as a personal 'comfort' movie by a user who finds catharsis in depressing films, indicating its powerful and somber tone."
         },
         {
             "rank": 16,
-            "title": "Call Me by Your Name",
-            "reason": "Recommended for a sad/broken love ending, fitting the user's request for depressing love stories."
+            "title": "Shutter Island",
+            "reason": "Specifically requested by a user seeking a psychologically heavy film to watch while feeling depressed and dissociated."
         },
         {
             "rank": 17,
-            "title": "Requiem for a Dream",
-            "reason": "Recommended for a sad ending, infamous for its intense and depressing portrayal of addiction."
+            "title": "Mulholland Drive",
+            "reason": "Recommended as a top psychological thriller for someone seeking a film they can 'break down,' indicating complex and potentially depressing themes."
         },
         {
             "rank": 18,
-            "title": "Dead Poets Society",
-            "reason": "Recommended for a sad ending, a classic film with emotional depth."
+            "title": "Black Swan",
+            "reason": "Suggested as a psychological thriller recommendation, known for its dark and intense descent into madness."
         },
         {
             "rank": 19,
-            "title": "Incendies",
-            "reason": "Highly recommended for a devastatingly sad and impactful story, described as a life-changing film."
+            "title": "The Secret Life of Walter Mitty",
+            "reason": "The top answer to a question about a movie that helped someone during depression, suggesting it has an uplifting or inspiring effect against sadness."
         },
         {
             "rank": 20,
-            "title": "La La Land",
-            "reason": "Recommended for its bittersweet, broken love ending that fits the user's request."
+            "title": "The Shawshank Redemption",
+            "reason": "Recommended as a film that helps during depression, implying its themes of hope and perseverance are impactful for viewers in a low state."
         }
     ]
 }
