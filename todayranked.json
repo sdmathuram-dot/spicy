@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Palm Springs",
-            "reason": "Highly recommended multiple times as a top-tier comedy, especially praised in the context of the COVID era."
+            "title": "Pulp Fiction",
+            "reason": "Frequently cited for its iconic 'Royale with Cheese' burger scene, which is used as the prime example of a legendary, dialogue-heavy food moment in cinema."
         },
         {
             "rank": 2,
-            "title": "Parasite",
-            "reason": "Frequently suggested as a prime example of a movie with a narrative that completely flips upside down."
+            "title": "District 9",
+            "reason": "Top-voted recommendation for a movie that teases a non-existent sequel, creating lasting audience anticipation."
         },
         {
             "rank": 3,
-            "title": "My Cousin Vinny",
-            "reason": "Recommended as a classic comedy and also suggested as a lighthearted film suitable for watching with a grandparent."
+            "title": "Mulholland Drive",
+            "reason": "Consistently mentioned as a mind-blowing film with an unpredictable plot and specifically highlighted for its frightening, non-violent Winkie's Diner scene."
         },
         {
             "rank": 4,
-            "title": "Primal Fear",
-            "reason": "Top recommendation for a thriller with a shocking twist that changes the entire narrative."
+            "title": "No Country for Old Men",
+            "reason": "Recommended for its frightening non-violent coin toss scene and as a prime example of characters making stupid, consequential decisions."
         },
         {
             "rank": 5,
-            "title": "Fight Club",
-            "reason": "A quintessential example of a film where the ending completely re-contextualizes the entire story."
+            "title": "Goodfellas",
+            "reason": "Highlighted for its iconic prison dinner scene, a landmark food moment in film history."
         },
         {
             "rank": 6,
-            "title": "The Princess Bride",
-            "reason": "Highly recommended as a fun, lighthearted, and universally enjoyable film perfect for family viewing."
+            "title": "The Usual Suspects",
+            "reason": "Frequently recommended as a film with a mind-blowing, unpredictable plot twist."
         },
         {
             "rank": 7,
-            "title": "Oldboy",
-            "reason": "Frequently cited for its infamous and mind-bending plot twist that redefines the movie."
+            "title": "Shutter Island",
+            "reason": "Top-voted suggestion for a movie with an unpredictable plot twist that leaves viewers rethinking everything."
         },
         {
             "rank": 8,
             "title": "Memento",
-            "reason": "Consistently recommended for its unique, non-linear structure and narrative-reversing reveal."
+            "reason": "Mentioned multiple times as an incredible, mind-blowing film with an unpredictable narrative structure."
         },
         {
             "rank": 9,
-            "title": "The Others",
-            "reason": "Suggested as a great psychological thriller with a famous twist ending."
+            "title": "Fargo",
+            "reason": "Recommended as a key example of a film where characters make extremely stupid decisions with dire consequences."
         },
         {
             "rank": 10,
-            "title": "Bowfinger",
-            "reason": "Passionately recommended as a must-see hidden gem comedy starring Steve Martin and Eddie Murphy."
+            "title": "Inglourious Basterds",
+            "reason": "Cited for its iconic apple strudel scene, a standout food moment in modern cinema."
         },
         {
             "rank": 11,
-            "title": "Young Frankenstein",
-            "reason": "Listed among the essential classic comedies that everyone should see."
+            "title": "Dune",
+            "reason": "Discussed in the context of a 'chosen one' narrative with complex moral implications, mentioned multiple times."
         },
         {
             "rank": 12,
-            "title": "Blazing Saddles",
-            "reason": "Recommended as a foundational and hilarious classic comedy."
+            "title": "Dredd",
+            "reason": "Highlighted as a film that far exceeded expectations and is considered one of the best action films of its decade."
         },
         {
             "rank": 13,
-            "title": "Groundhog Day",
-            "reason": "Cited as a classic comedy with a brilliant and timeless premise."
+            "title": "Certified Copy",
+            "reason": "The subject of deep analysis and a starting point for discussing filmmakers like Abbas Kiarostami; described as a favorite film."
         },
         {
             "rank": 14,
-            "title": "Chinatown",
-            "reason": "Mentioned by the OP as an all-time favorite thriller, setting the standard for the genre in the requested era."
+            "title": "A Woman Under the Influence",
+            "reason": "The subject of a lengthy, detailed analysis post exploring its use of Swan Lake as a thematic device and its portrayal of mental health."
         },
         {
             "rank": 15,
-            "title": "The Conversation",
-            "reason": "Recommended multiple times as a top-tier, must-see psychological thriller from the 70s."
+            "title": "When Harry Met Sally",
+            "reason": "Instantly recommended for its iconic deli scene ('I'll have what she's having'), a legendary food moment."
         },
         {
             "rank": 16,
-            "title": "Monty Python and the Holy Grail",
-            "reason": "Listed as an essential, foundational comedy that is universally praised."
+            "title": "Pirates of the Caribbean",
+            "reason": "Discussed as a film based on a ride that wildly exceeded expectations and became a cultural juggernaut."
         },
         {
             "rank": 17,
-            "title": "The Death of Stalin",
-            "reason": "The subject of a highly-upvoted post praising it as a hilarious and memorable dark comedy with an excellent cast."
+            "title": "Galaxy Quest",
+            "reason": "Mentioned as a film that was funnier and more perfect than expected, with a beloved cast."
         },
         {
             "rank": 18,
-            "title": "Sorry To Bother You",
-            "reason": "Recommended for its wildly unexpected and genre-flipping third act."
+            "title": "Manchester by the Sea",
+            "reason": "The central point of a comparative analysis with 'Sorry, Baby', discussed for its portrayal of blue-collar trauma."
         },
         {
             "rank": 19,
-            "title": "The Sixth Sense",
-            "reason": "Suggested for its famous twist ending that became a cultural phenomenon."
+            "title": "Zodiac",
+            "reason": "Recommended for its frightening basement scene, a masterclass in building tension without violence."
         },
         {
             "rank": 20,
-            "title": "Dead Man",
-            "reason": "Analyzed in-depth as a masterpiece of surrealist western filmmaking within a director's filmography review."
+            "title": "Garden State",
+            "reason": "The subject of a discussion thread analyzing its use of the 'manic pixie dream girl' trope and its place in romantic cinema."
         }
     ]
 }

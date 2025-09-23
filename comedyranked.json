@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "The Naked Gun",
-            "reason": "Extensively discussed across multiple threads, praised as a comedy classic, and mentioned in the context of the new remake and its success in theaters."
+            "title": "Airplane!",
+            "reason": "Frequently cited as a pinnacle of comedy filmmaking and a classic example of the genre from the discussions about David Zucker's work and the art of comedy."
         },
         {
             "rank": 2,
-            "title": "Airplane!",
-            "reason": "Frequently referenced as a benchmark for great comedy films, especially in discussions about David Zucker's work and the genre's excellence."
+            "title": "The Naked Gun",
+            "reason": "Highly recommended and discussed as a modern comedy success and a benchmark for the genre, especially in the context of its recent reboot and David Zucker's legacy."
         },
         {
             "rank": 3,
-            "title": "Hereditary",
-            "reason": "Mentioned multiple times as an example of horror excellence, with Toni Collette's performance highlighted as Oscar-worthy."
+            "title": "Shaun of the Dead",
+            "reason": "Consistently brought up as a top-tier horror-comedy and a prime example of successful British comedy filmmaking."
         },
         {
             "rank": 4,
-            "title": "Good Will Hunting",
-            "reason": "Cited as an example of a comedic actor (Robin Williams) excelling in a dramatic role and winning an Oscar."
+            "title": "What We Do in the Shadows",
+            "reason": "Mentioned as a modern classic in the horror-comedy genre and a go-to recommendation for a fun movie night."
         },
         {
             "rank": 5,
-            "title": "Eternal Sunshine of the Spotless Mind",
-            "reason": "Noted for Jim Carrey's acclaimed dramatic performance in a film blending comedy and drama."
+            "title": "Tucker and Dale vs Evil",
+            "reason": "Frequently recommended as a hilarious and clever horror-comedy that subverts genre tropes."
         },
         {
             "rank": 6,
-            "title": "Barry",
-            "reason": "Highlighted as a show where Bill Hader demonstrated exceptional range, transitioning from comedy to drama."
+            "title": "Hereditary",
+            "reason": "Discussed not as a comedy, but as a prime example of a horror film whose performances (Toni Collette) were unjustly overlooked by the Oscars, highlighting the bias against genre films."
         },
         {
             "rank": 7,
-            "title": "Mrs. Doubtfire",
-            "reason": "Recommended as a family-friendly comedy from the 90s, fitting the request for clean, enjoyable films."
+            "title": "Eternal Sunshine of the Spotless Mind",
+            "reason": "Cited as an example of a comedic actor (Jim Carrey) delivering an acclaimed dramatic performance that was still overlooked by awards shows."
         },
         {
             "rank": 8,
-            "title": "Home Alone",
-            "reason": "Frequently suggested in family comedy recommendations, recognized for its timeless humor."
+            "title": "Mrs. Doubtfire",
+            "reason": "Listed among the top family-friendly comedies from the 80s/90s that are still beloved and recommended for all ages."
         },
         {
             "rank": 9,
-            "title": "The Big Short",
-            "reason": "Mentioned as an example of a director (Adam McKay) successfully transitioning from comedy to drama."
+            "title": "Home Alone",
+            "reason": "A perennial favorite and highly recommended family comedy from the requested era."
         },
         {
             "rank": 10,
-            "title": "My Cousin Vinny",
-            "reason": "Cited as one of the few genuine comedies to win an Oscar (Marisa Tomei)."
+            "title": "The Big Short",
+            "reason": "Mentioned as an example of a director (Adam McKay) successfully transitioning from broad comedy to acclaimed dramatic filmmaking."
         },
         {
             "rank": 11,
-            "title": "Little Miss Sunshine",
-            "reason": "Noted as a comedy with Oscar recognition (Alan Arkin) and a blend of humor and heart."
+            "title": "Bram Stoker's Dracula",
+            "reason": "Extensively debated for its tonal shifts and its approach as an adaptation, with many finding its over-the-top style unintentionally comedic."
         },
         {
             "rank": 12,
-            "title": "What's Up, Doc?",
-            "reason": "Praised as a squeaky-clean, hilarious comedy that's perfect for family viewing."
+            "title": "Barry",
+            "reason": "The TV show was highlighted as an example of a comedic actor (Bill Hader) delivering an astounding dramatic performance in a genre-blending series."
         },
         {
             "rank": 13,
-            "title": "The Truman Show",
-            "reason": "Referenced for Jim Carrey's dramatic performance in a film that blends comedy and existential themes."
+            "title": "My Cousin Vinny",
+            "reason": "Referenced as one of the few genuine comedies to win a major Oscar (Marisa Tomei for Best Supporting Actress)."
         },
         {
             "rank": 14,
-            "title": "Superman",
-            "reason": "Discussed in the context of James Gunn's take, embracing corniness and fun."
+            "title": "Little Miss Sunshine",
+            "reason": "Noted as a comedy that received significant Oscar recognition, including a win for Alan Arkin."
         },
         {
             "rank": 15,
-            "title": "Dracula",
-            "reason": "Analyzed in-depth, with Coppola's adaptation criticized for its over-sexualization and comedic tone compared to the novel."
+            "title": "The Truman Show",
+            "reason": "Another example of Jim Carrey's acclaimed dramatic work that was overlooked by the Academy during awards season."
         },
         {
             "rank": 16,
-            "title": "North Dallas Forty",
-            "reason": "Mentioned as a superior film about the dehumanizing effects of professional football, compared to 'HIM'."
+            "title": "Withnail and I",
+            "reason": "Recommended multiple times as a cult classic offbeat British comedy with a dedicated following."
         },
         {
             "rank": 17,
-            "title": "Everything Everywhere All at Once",
-            "reason": "Noted as a film that blends comedy and drama but is often categorized as drama for awards."
+            "title": "Idle Hands",
+            "reason": "A frequently suggested fun horror-comedy for a movie night."
         },
         {
             "rank": 18,
-            "title": "The Hangover",
-            "reason": "Discussed as a comedy that justified a high budget and became a cultural phenomenon."
+            "title": "Kindergarten Cop",
+            "reason": "Listed among the recommended family comedies from the 90s that are still popular today."
         },
         {
             "rank": 19,
-            "title": "Anchorman",
-            "reason": "Referenced in the context of the 2000s comedy boom led by Judd Apatow and his group."
+            "title": "Zombieland",
+            "reason": "Suggested as a successful and fun modern horror-comedy."
         },
         {
             "rank": 20,
-            "title": "Scary Movie",
-            "reason": "Mentioned in discussions about David Zucker's work and the spoof genre's impact."
+            "title": "A Fish Called Wanda",
+            "reason": "Recommended as a classic example of British comedy filmmaking."
         }
     ]
 }
