@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Fight Club",
-            "reason": "Extensively analyzed and discussed for its deep themes of masculinity, consumerism, and finding balance, making it the most critically examined film across all subreddits."
+            "title": "Lord of the Rings",
+            "reason": "Frequently recommended as the ultimate comfort movie trilogy, praised for its rewatchability and epic scale that provides a perfect escape."
         },
         {
             "rank": 2,
-            "title": "The Grand Budapest Hotel",
-            "reason": "Consistently recommended as both a feel-good comfort film and a visually stunning masterpiece, appearing in multiple threads."
+            "title": "The Princess Bride",
+            "reason": "Consistently mentioned across multiple threads as a classic comfort film that combines romance, adventure, and humor."
         },
         {
             "rank": 3,
-            "title": "The Princess Bride",
-            "reason": "Frequently mentioned as a classic warm blanket comfort film that is endlessly rewatchable and leaves viewers smiling."
+            "title": "Ferris Bueller's Day Off",
+            "reason": "Recommended as a feel-good comfort movie that captures the spirit of adventure and rebellion."
         },
         {
             "rank": 4,
-            "title": "Swiss Army Man",
-            "reason": "Highlighted as an extremely weird, thought-provoking film that also serves as a surprisingly feel-good experience with a unique ending."
+            "title": "Clue",
+            "reason": "Frequently suggested as a comfort movie with great rewatch value due to its clever plot and multiple endings."
         },
         {
             "rank": 5,
-            "title": "Almost Famous",
-            "reason": "Recommended as a cozy, comforting film that feels like a warm blanket and is perfect for endless rewatches."
+            "title": "My Cousin Vinny",
+            "reason": "Highly recommended as a comfort comedy with memorable performances and quotable dialogue."
         },
         {
             "rank": 6,
-            "title": "Galaxy Quest",
-            "reason": "Listed as a top-tier comfort film that is hilarious, heartwarming, and highly rewatchable."
+            "title": "The Secret Life of Walter Mitty",
+            "reason": "Central to a discussion about inspiring 'life journey' films that encourage personal growth and adventure."
         },
         {
             "rank": 7,
-            "title": "Secretary",
-            "reason": "Praised as an underrated hidden gem with depth, strong character development, and nuanced storytelling."
+            "title": "The Way",
+            "reason": "Frequently discussed as an inspiring soul-searching film about personal transformation and the Camino de Santiago pilgrimage."
         },
         {
             "rank": 8,
-            "title": "Moon",
-            "reason": "Recommended as a shockingly underrated film with a standout performance by Sam Rockwell and deep, thoughtful storytelling."
+            "title": "Forgetting Sarah Marshall",
+            "reason": "Top recommendation for someone dealing with heartbreak, praised for its humorous yet genuine portrayal of post-breakup recovery."
         },
         {
             "rank": 9,
-            "title": "Being John Malkovich",
-            "reason": "Suggested as an extremely weird and psychological film that makes viewers think 'WTF' due to its surreal and unique premise."
+            "title": "Young Frankenstein",
+            "reason": "Recommended as a classic comfort comedy with brilliant parody and memorable performances."
         },
         {
             "rank": 10,
-            "title": "Gladiator",
-            "reason": "Mentioned as a film where the villain's death is intensely satisfying, contributing to its iconic status."
+            "title": "The Breakfast Club",
+            "reason": "Suggested as a comfort coming-of-age film that explores teenage struggles and relationships."
         },
         {
             "rank": 11,
-            "title": "Walk Hard: The Dewey Cox Story",
-            "reason": "Celebrated as one of the best comedy films, with John C. Reilly's performance being particularly praised."
+            "title": "Innerspace",
+            "reason": "Highlighted as an underrated 80s comedy with impressive special effects and Martin Short's performance."
         },
         {
             "rank": 12,
-            "title": "My Cousin Vinny",
-            "reason": "Recommended as a feel-good film with a funny and earned happy ending that leaves viewers smiling."
+            "title": "Death to Smoochy",
+            "reason": "Top recommendation for films with meaningful clown characters, featuring Robin Williams and Edward Norton."
         },
         {
             "rank": 13,
-            "title": "Boiling Point",
-            "reason": "Critically analyzed for its unique directing style, thematic depth, and as a standout film in Kitano's filmography."
+            "title": "Under the Tuscan Sun",
+            "reason": "Recommended in both heartbreak and soul-searching contexts as a film about rediscovering purpose after personal tragedy."
         },
         {
             "rank": 14,
-            "title": "Shawshank Redemption",
-            "reason": "Listed as a film that leaves viewers feeling good and smiling by the credits due to its hopeful and uplifting ending."
+            "title": "Wild",
+            "reason": "Discussed as a soul-searching journey film based on Cheryl Strayed's memoir about hiking the Pacific Crest Trail."
         },
         {
             "rank": 15,
-            "title": "Inglourious Basterds",
-            "reason": "Mentioned as a film where the bad guys' deaths are particularly satisfying and cathartic."
+            "title": "Tron: Legacy",
+            "reason": "Extensively discussed for its groundbreaking visuals and iconic Daft Punk soundtrack, despite mixed reviews of the plot."
         },
         {
             "rank": 16,
-            "title": "Death to Smoochy",
-            "reason": "Suggested as an underrated hidden gem with a cult following and unique storytelling."
+            "title": "Shakes the Clown",
+            "reason": "Recommended as a cult classic about clowns, described as 'the Citizen Kane of alcoholic clown movies'."
         },
         {
             "rank": 17,
-            "title": "Eraserhead",
-            "reason": "Recommended as an extremely weird, psychological film that feels like a fever dream and leaves viewers unsettled."
+            "title": "Better Off Dead",
+            "reason": "Highlighted as an underrated 80s comedy that was overlooked during its time but gained cult status."
         },
         {
             "rank": 18,
-            "title": "The Secret Life of Walter Mitty",
-            "reason": "Praised for its gorgeous cinematography and as an underrated film with depth and strong visual storytelling."
+            "title": "The Straight Story",
+            "reason": "Recommended as a soul-searching film about a man's cross-country journey on a lawnmower to reconcile with his brother."
         },
         {
             "rank": 19,
-            "title": "Pleasantville",
-            "reason": "Listed as a feel-good film that leaves viewers smiling and offers a thoughtful, uplifting message."
+            "title": "Belladonna of Sadness",
+            "reason": "Extensively analyzed as a feminist masterpiece with powerful themes of sexual liberation and patriarchal oppression."
         },
         {
             "rank": 20,
-            "title": "The Departed",
-            "reason": "Mentioned as a film with a satisfying ending where the bad guys get their comeuppance, leading to viewer catharsis."
+            "title": "A League of Their Own",
+            "reason": "Recommended as a comfort sports comedy with heart and memorable performances."
         }
     ]
 }

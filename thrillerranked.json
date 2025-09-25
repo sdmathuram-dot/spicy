@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "One Battle After Another",
-            "reason": "Overwhelmingly praised in multiple review threads with perfect or near-perfect scores. Universally hailed as a masterpiece, a potential Best Picture winner, and Paul Thomas Anderson's best work, blending action, comedy, and deep social commentary."
+            "title": "Gone Girl",
+            "reason": "Highly recommended across multiple threads for its mind-bending plot and major twists, frequently cited as a top thriller."
         },
         {
             "rank": 2,
-            "title": "Gone Girl",
-            "reason": "Frequently recommended across multiple threads as a top-tier thriller with a major plot twist, specifically requested for its mind-bending nature."
+            "title": "Shutter Island",
+            "reason": "Frequently mentioned as a top psychological thriller with a major plot twist, often compared to other mind-bending films."
         },
         {
             "rank": 3,
-            "title": "Shutter Island",
-            "reason": "Highly recommended and described as 'GOATED' in a thriller request thread. Often mentioned alongside other psychological thrillers like Inception and Fight Club."
+            "title": "Prisoners",
+            "reason": "Recommended multiple times for its intense, high-stakes thriller elements and gripping narrative."
         },
         {
             "rank": 4,
             "title": "Children of Men",
-            "reason": "Recommended multiple times as a top dystopian thriller, specifically suggested for a high-stakes movie night. Described as 'amazing' and worthy of a group watch."
+            "reason": "Praised as a top dystopian thriller with high tension and compelling storytelling, frequently suggested for movie nights."
         },
         {
             "rank": 5,
-            "title": "Primal Fear",
-            "reason": "Recommended multiple times in a thread requesting law/lawyer thrillers. Cited as a clever and engaging legal thriller."
+            "title": "Dark",
+            "reason": "Highly discussed as a mind-bending thriller series with complex twists, often recommended in Netflix and thriller threads."
         },
         {
             "rank": 6,
-            "title": "The Game",
-            "reason": "Recommended for a high-stakes/tense movie night. While the original poster found it disappointing, its recommendation places it highly in the discussion."
+            "title": "Primal Fear",
+            "reason": "Frequently recommended in legal thriller discussions for its clever plot and standout performances."
         },
         {
             "rank": 7,
-            "title": "Fight Club",
-            "reason": "Explicitly listed by a user as a liked movie and recommended in a thriller thread. A classic frequently associated with mind-bending plots."
+            "title": "The Menu",
+            "reason": "Highlighted for its dark culinary edge and suspenseful themes, often suggested for thriller nights with a food vibe."
         },
         {
             "rank": 8,
-            "title": "Dark",
-            "reason": "Recommended multiple times as a top German thriller series on Netflix. Specifically suggested for its complex, mind-bending plot."
+            "title": "Event Horizon",
+            "reason": "Commonly recommended as a top space horror/thriller, known for its intense and chilling atmosphere."
         },
         {
             "rank": 9,
-            "title": "A Few Good Men",
-            "reason": "Recommended several times in a thread for law/lawyer movies. A classic legal thriller frequently suggested to a law student."
+            "title": "Se7en",
+            "reason": "Frequently mentioned as a classic thriller with dark themes and a gripping plot, often cited in must-watch lists."
         },
         {
             "rank": 10,
-            "title": "Prisoners",
-            "reason": "Recommended in multiple threads for both thriller and high-stakes movie nights. Described as 'damn good' and tense."
+            "title": "Andhadhun",
+            "reason": "Highlighted in Indian cinema threads as a top thriller without police investigation, praised for its twists and storytelling."
         },
         {
             "rank": 11,
-            "title": "Sneakers",
-            "reason": "The subject of a dedicated, highly-upvoted post praising it as a classic, clever tech-thriller that has aged well. Described as a must-watch."
+            "title": "Fight Club",
+            "reason": "Recommended for its mind-bending plot and major twists, often listed among top psychological thrillers."
         },
         {
             "rank": 12,
-            "title": "The Lincoln Lawyer",
-            "reason": "Recommended in the law/lawyer thread, with the series noted as being particularly good. A modern legal thriller staple."
+            "title": "The Game",
+            "reason": "Suggested as a high-stakes thriller with suspenseful elements, though noted to be divisive in some audiences."
         },
         {
             "rank": 13,
-            "title": "Event Horizon",
-            "reason": "The most recommended space horror film across multiple comments. Consistently cited as the correct answer for a space-based thriller."
+            "title": "Alien",
+            "reason": "Frequently recommended as a top space horror/thriller, known for its tension and iconic scenes."
         },
         {
             "rank": 14,
-            "title": "Alien",
-            "reason": "Recommended as a foundational space horror film. A classic that is a go-to suggestion in the genre."
+            "title": "A Few Good Men",
+            "reason": "Often cited in legal thriller discussions for its compelling courtroom drama and standout performances."
         },
         {
             "rank": 15,
             "title": "Wind River",
-            "reason": "Recommended twice for a high-stakes movie night. Described as a 'damn good' thriller."
+            "reason": "Recommended for its thriller elements and high-stakes narrative, often mentioned alongside other tense films."
         },
         {
             "rank": 16,
-            "title": "Andhadhun",
-            "reason": "Listed by the OP in an Indian cinema thread as an example of the type of thriller they wanted. A benchmark for the genre in that discussion."
+            "title": "The Lincoln Lawyer",
+            "reason": "Praised in legal thriller threads for its engaging plot and realistic portrayal of law practices."
         },
         {
             "rank": 17,
             "title": "The Others",
-            "reason": "Recommended as a slow-burn mystery that fits the criteria of starting ordinarily before a subtle anomaly is discovered."
+            "reason": "Suggested as a slow-burn thriller with a gripping reveal, often recommended for its unsettling atmosphere."
         },
         {
             "rank": 18,
-            "title": "Sunshine",
-            "reason": "Recommended as a space thriller that evokes a sense of dread. A less conventional but well-regarded suggestion."
+            "title": "I Saw the Devil",
+            "reason": "Highlighted in thriller discussions for its intense and brutal narrative, frequently recommended for fans of the genre."
         },
         {
             "rank": 19,
-            "title": "My Cousin Vinny",
-            "reason": "Recommended in the law/lawyer thread. A classic comedy-thriller that is both entertaining and insightful about the legal process."
+            "title": "Sneakers",
+            "reason": "Praised for its clever plot and charming execution, often recommended as a tech thriller that aged well."
         },
         {
             "rank": 20,
-            "title": "The Verdict",
-            "reason": "Recommended multiple times in the law/lawyer thread. An older classic legal drama held in high esteem."
+            "title": "The Sinner",
+            "reason": "Recommended as a thriller series with compelling mysteries, often mentioned in Netflix and thriller threads."
         }
     ]
 }
