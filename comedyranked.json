@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Airplane!",
-            "reason": "Most frequently mentioned across multiple threads, especially in the context of comedy writing and as a benchmark for spoof comedies. The director's AMA and the movie's iconic status make it a top mention."
+            "title": "Shaun of the Dead",
+            "reason": "Frequently recommended as a top-tier comedy horror film, praised for its perfect blend of humor and horror, and mentioned across multiple threads."
         },
         {
             "rank": 2,
-            "title": "Shaun of the Dead",
-            "reason": "A consistent recommendation in comedy-horror threads, often cited alongside films like 'Tucker and Dale vs Evil' as a prime example of the genre."
+            "title": "Tucker and Dale vs Evil",
+            "reason": "Highly recommended in comedy horror discussions, often cited as a modern classic for its hilarious subversion of horror tropes."
         },
         {
             "rank": 3,
-            "title": "Dodgeball: A True Underdog Story",
-            "reason": "Highlighted in sports-comedy discussions, with several users noting its rewatchability and quotability."
+            "title": "Cabin in the Woods",
+            "reason": "Widely suggested in horror comedy threads for its meta-commentary on the genre and clever, spoiler-heavy twists."
         },
         {
             "rank": 4,
-            "title": "Tucker and Dale vs Evil",
-            "reason": "Frequently brought up as a recommendation for those looking for horror-comedies, often in the same breath as 'Shaun of the Dead'."
+            "title": "Rush Hour",
+            "reason": "Central to the discussion about interracial comedy duos, praised for its successful blend of action and comedy, and considered a benchmark for the genre."
         },
         {
             "rank": 5,
-            "title": "The Naked Gun: From the Files of Police Squad!",
-            "reason": "Mentioned in the context of the director's work and as a classic in comedy, especially in threads about detective spoofs."
+            "title": "Hot Fuzz",
+            "reason": "Recommended alongside Shaun of the Dead as part of the Cornetto Trilogy, celebrated for its sharp writing and action-comedy blend."
         },
         {
             "rank": 6,
-            "title": "Hot Fuzz",
-            "reason": "Cited alongside 'Shaun of the Dead' as another Edgar Wright film that blends action and comedy, often in lists of great comedies."
+            "title": "The Blues Brothers",
+            "reason": "Frequently listed as a top 80s comedy, noted for its iconic musical numbers and chaotic energy."
         },
         {
             "rank": 7,
-            "title": "Rush Hour",
-            "reason": "Brought up in discussions about interracial buddy comedies and as a successful franchise in that subgenre."
+            "title": "This Is Spinal Tap",
+            "reason": "The quintessential mockumentary about a talentless band, consistently recommended as the gold standard for music comedies."
         },
         {
             "rank": 8,
-            "title": "Happy Gilmore",
-            "reason": "A staple in sports-comedy discussions, often noted for its rewatchability and humor."
+            "title": "Caddyshack",
+            "reason": "Cited as one of the most iconic sports comedies, known for its memorable characters and quotable lines."
         },
         {
             "rank": 9,
-            "title": "The Other Guys",
-            "reason": "Mentioned in action-comedy contexts and as an example of a successful buddy-cop movie with comedic elements."
+            "title": "Airplane!",
+            "reason": "Recommended as a seminal 80s comedy, famous for its rapid-fire gags and influence on the spoof genre."
         },
         {
             "rank": 10,
-            "title": "The Lost City",
-            "reason": "Recent release that's been mentioned in adventure-comedy discussions, showing the genre's evolution."
+            "title": "Return of the Living Dead",
+            "reason": "Highlighted as a gold standard in comedy horror, appreciated for its equal balance of laughs and scares."
         },
         {
             "rank": 11,
-            "title": "Zombieland",
-            "reason": "Brought up in horror-comedy threads and as a example of a successful hybrid genre film."
+            "title": "Harold and Kumar Go to White Castle",
+            "reason": "A key example in the discussion about interracial comedy franchises, praised for its stoner humor and cultural impact."
         },
         {
             "rank": 12,
-            "title": "21 Jump Street",
-            "reason": "Cited in discussions about modern action-comedies and their impact on the genre."
+            "title": "Major League",
+            "reason": "Frequently mentioned as an iconic sports comedy, loved for its underdog story and humorous team dynamics."
         },
         {
             "rank": 13,
-            "title": "Superbad",
-            "reason": "Often mentioned in threads about coming-of-age comedies and as a benchmark for R-rated humor."
+            "title": "Evil Dead 2",
+            "reason": "Recommended in horror comedy threads for its unique blend of slapstick humor and over-the-top gore."
         },
         {
             "rank": 14,
-            "title": "The Hangover",
-            "reason": "A franchise-starter that's frequently cited in discussions about ensemble comedies."
+            "title": "The Nice Guys",
+            "reason": "Suggested as a great modern comedy that bombed but shouldn't have, praised for its chemistry between leads and witty script."
         },
         {
             "rank": 15,
-            "title": "Step Brothers",
-            "reason": "Brought up in threads about slapstick and improv-based comedies."
+            "title": "What We Do in the Shadows",
+            "reason": "Recommended in both film and series form, celebrated for its mockumentary style and hilarious vampire humor."
         },
         {
             "rank": 16,
-            "title": "Ghostbusters",
-            "reason": "Mentioned in both horror-comedy and general comedy contexts, a classic with lasting appeal."
+            "title": "Young Frankenstein",
+            "reason": "Frequently suggested as a classic comedy horror, known for its Mel Brooks-style humor and iconic performances."
         },
         {
             "rank": 17,
-            "title": "The Lost City",
-            "reason": "Noted as a recent example of adventure-comedy, showing the genre's evolution beyond the '80s and '90s."
+            "title": "Cool Runnings",
+            "reason": "Discussed as a charming and iconic sports comedy, loved for its heartwarming story and humorous characters."
         },
         {
             "rank": 18,
-            "title": "Thor: Ragnarok",
-            "reason": "Brought up in discussions about action-comedies and how superhero films can incorporate humor."
+            "title": "National Lampoon's Christmas Vacation",
+            "reason": "Cited in multiple threads for its iconic comedy scenes and status as a holiday classic."
         },
         {
             "rank": 19,
-            "title": "The Nice Guys",
-            "reason": "Cited as an example of a neo-noir comedy that works well, often in threads about detective stories."
+            "title": "Walk Hard: The Dewey Cox Story",
+            "reason": "Recommended as a great mockumentary about a musician, praised for its parody of music biopics and hilarious performances."
         },
         {
             "rank": 20,
-            "title": "Scott Pilgrim vs. The World",
-            "reason": "Mentioned in discussions about visually unique comedies and those with cult followings."
+            "title": "Dead Alive",
+            "reason": "Suggested as a top comedy horror film, known for its extreme gore and early Peter Jackson humor."
         }
     ]
 }

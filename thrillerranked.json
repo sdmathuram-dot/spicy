@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "One Battle After Another",
-            "reason": "The most discussed movie across multiple threads, praised for its thrilling vision of authoritarianism, humor, and poignant social commentary. It is the central subject of the highest-scored posts."
+            "title": "Prisoners",
+            "reason": "Extremely high frequency of mentions across multiple threads, consistently recommended as a top-tier thriller with suspense and great plot."
         },
         {
             "rank": 2,
-            "title": "The Substance",
-            "reason": "Frequently recommended as a high-budget, constantly shocking thriller that provides a 'holy shit wtf' experience, similar to body horror classics."
+            "title": "Se7en",
+            "reason": "Frequently cited as a benchmark for psychological thrillers, mentioned in multiple suggestion threads for its dark and suspenseful vibe."
         },
         {
             "rank": 3,
-            "title": "Prisoners",
-            "reason": "Consistently recommended across multiple threads as a top-tier psychological thriller and detective movie with great plot twists."
+            "title": "Shutter Island",
+            "reason": "Highly recommended for its psychological thriller elements and famous plot twist, discussed in multiple threads."
         },
         {
             "rank": 4,
-            "title": "Se7en",
-            "reason": "Mentioned multiple times as a benchmark for psychological thrillers, known for its disturbing vibe and iconic ending."
+            "title": "Gone Girl",
+            "reason": "Often listed alongside other top thrillers for its twisty plot and psychological depth."
         },
         {
             "rank": 5,
-            "title": "Shutter Island",
-            "reason": "Recommended for its great plot twist and psychological thriller elements, though some debate its overall storyline."
+            "title": "Nightcrawler",
+            "reason": "Recommended multiple times for its unsettling tone and psychological thriller aspects."
         },
         {
             "rank": 6,
-            "title": "Parasite",
-            "reason": "Highlighted as a film that will 'change you,' praised for its mix of thriller, social commentary, and unexpected twists."
+            "title": "Zodiac",
+            "reason": "Frequently suggested as a detective thriller with a great plot, based on real events."
         },
         {
             "rank": 7,
-            "title": "Idiocracy",
-            "reason": "Discussed as a cult classic and prophetic documentary-like satire, trending highly on Netflix and in cultural conversations."
+            "title": "The Silence of the Lambs",
+            "reason": "A classic mentioned in the context of the Hannibal franchise and as a top psychological thriller."
         },
         {
             "rank": 8,
-            "title": "Gone Girl",
-            "reason": "Frequently listed alongside other top psychological thrillers for its suspense and dark themes."
+            "title": "Parasite",
+            "reason": "Highlighted as a must-watch thriller that blends genres and offers social commentary."
         },
         {
             "rank": 9,
-            "title": "Nightcrawler",
-            "reason": "Recommended for its unsettling vibe and strong performance by Jake Gyllenhaal, fitting the request for psychological thrillers."
+            "title": "Cabin in the Woods",
+            "reason": "Recommended on Tubi as a great horror/thriller with a unique meta-narrative."
         },
         {
             "rank": 10,
-            "title": "The Fly",
-            "reason": "Suggested as a body horror classic that is constantly gross and shocking, fitting the request for films like The Substance."
+            "title": "The Invitation",
+            "reason": "Suggested as a top thriller on Tubi and in other recommendation threads for its tense atmosphere."
         },
         {
             "rank": 11,
-            "title": "Zodiac",
-            "reason": "Mentioned as a great detective thriller based on true events, with a strong plot and suspenseful pacing."
+            "title": "Oldboy",
+            "reason": "Mentioned in a list of top-tier psychological thrillers for its shocking plot and style."
         },
         {
             "rank": 12,
-            "title": "Barbarian",
-            "reason": "Recommended as a thriller that delivers constant shocks and twists, similar to the requested vibe."
+            "title": "The Descent",
+            "reason": "Recommended as a effective horror/thriller on Tubi, known for its claustrophobic tension."
         },
         {
             "rank": 13,
-            "title": "Nocturnal Animals",
-            "reason": "Listed among enjoyed films and recommended for its psychological thriller elements and strong narrative."
+            "title": "Wind River",
+            "reason": "Suggested alongside Prisoners and Se7en as a gritty, suspenseful thriller."
         },
         {
             "rank": 14,
-            "title": "The Silence of the Lambs",
-            "reason": "A foundational psychological thriller frequently recommended for its tension and iconic characters."
+            "title": "The Ninth Gate",
+            "reason": "Highlighted in the Tubi thread as a classic thriller with a mysterious plot."
         },
         {
             "rank": 15,
-            "title": "Oldboy",
-            "reason": "Suggested as a top-tier psychological thriller with extreme twists and visceral impact."
+            "title": "Inception",
+            "reason": "Listed by a user as a favorite psychological thriller with a complex, layered plot."
         },
         {
             "rank": 16,
-            "title": "Suspiria",
-            "reason": "Recommended as a classic horror/thriller with a strong aesthetic and shocking moments, both original and remake."
+            "title": "The Prestige",
+            "reason": "Included in a user's list of enjoyed psychological thrillers for its twisty narrative."
         },
         {
             "rank": 17,
-            "title": "Requiem for a Dream",
-            "reason": "Noted as a profoundly fucked-up and impactful film, though more extreme than The Substance."
+            "title": "Nocturnal Animals",
+            "reason": "Recommended in the Hannibal-like thriller thread and listed as a favorite by a user."
         },
         {
             "rank": 18,
-            "title": "Wind River",
-            "reason": "Suggested as a crime thriller with a strong plot and tense, realistic pacing."
+            "title": "Manhunter",
+            "reason": "Suggested as the original Red Dragon and a key film in the Hannibal Lecter universe."
         },
         {
             "rank": 19,
-            "title": "The Prestige",
-            "reason": "Listed among enjoyed films for its psychological twists and intricate plot."
+            "title": "Copycat",
+            "reason": "Recommended twice in different threads as a solid psychological thriller."
         },
         {
             "rank": 20,
-            "title": "Inception",
-            "reason": "Mentioned as a enjoyed film with psychological and thriller elements, though not the primary focus of discussions."
+            "title": "The Texas Chain Saw Massacre",
+            "reason": "Mentioned on the Tubi list as a foundational horror/thriller classic."
         }
     ]
 }
