@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Shaun of the Dead",
-            "reason": "Mentioned in multiple horror-comedy recommendation threads and listed as a favorite example of the genre."
+            "title": "Monty Python and the Holy Grail",
+            "reason": "Frequently mentioned across multiple threads for its iconic and hilarious scenes, including the Killer Rabbit and the Black Knight. Consistently ranked as a top comedy film."
         },
         {
             "rank": 2,
-            "title": "Cabin in the Woods",
-            "reason": "Frequently recommended as a top-tier comedy horror film with a unique, spoiler-sensitive premise."
+            "title": "Caddyshack",
+            "reason": "Repeatedly cited as one of the most iconic sports comedies. Its humor and characters are considered timeless and foundational to the genre."
         },
         {
             "rank": 3,
-            "title": "Tucker and Dale vs Evil",
-            "reason": "Explicitly cited as the inspiration for one of the recommendation threads and highly praised by the community."
+            "title": "Airplane!",
+            "reason": "Widely recommended as a quintessential comedy with rapid-fire jokes and absurd situations. Often listed among the greatest comedies of all time."
         },
         {
             "rank": 4,
-            "title": "Hot Fuzz",
-            "reason": "Recommended in multiple contexts, including as a comedy-horror adjacent film and a top comedy overall."
+            "title": "The Naked Gun",
+            "reason": "Frequently mentioned for its over-the-top slapstick humor and memorable death scenes. A cornerstone of the parody genre."
         },
         {
             "rank": 5,
-            "title": "Return of the Living Dead",
-            "reason": "Described as the 'gold standard' of comedy horror in one of the top comments."
+            "title": "Blazing Saddles",
+            "reason": "Highlighted as a top-tier comedy that influenced future works. Its satirical take on the Western genre is considered groundbreaking."
         },
         {
             "rank": 6,
-            "title": "Young Frankenstein",
-            "reason": "Listed as a classic comedy horror recommendation in multiple threads."
+            "title": "Happy Gilmore",
+            "reason": "Often brought up in discussions about iconic sports comedies. Adam Sandler's performance is cited as a highlight of 90s comedy."
         },
         {
             "rank": 7,
-            "title": "Evil Dead 2: Army of Darkness",
-            "reason": "Frequently recommended for its slapstick humor and is part of a beloved franchise."
+            "title": "Major League",
+            "reason": "Consistently recommended as a classic and iconic sports comedy with a great cast and memorable quotes."
         },
         {
             "rank": 8,
-            "title": "Drag Me to Hell",
-            "reason": "Recommended multiple times as a fun, gross-out comedy horror film from Sam Raimi."
+            "title": "Dr. Strangelove",
+            "reason": "Recommended as a high-ranking comedy that is both intelligent and hilarious. Often considered one of the best films ever made, regardless of genre."
         },
         {
             "rank": 9,
-            "title": "This Is the End",
-            "reason": "Recommended as a modern comedy that fits the taste of fans of films like Superbad and 21 Jump Street."
+            "title": "A Fish Called Wanda",
+            "reason": "Frequently suggested as a brilliantly cast and executed comedy. Mentioned in multiple threads for its sharp writing and performances."
         },
         {
             "rank": 10,
-            "title": "Airplane!",
-            "reason": "Cited as one of the greatest comedies of all time and a top recommendation for 80s comedies."
+            "title": "Spaceballs",
+            "reason": "Often listed in recommendations for 80s comedies and parodies. Its sci-fi spoof humor has a dedicated following."
         },
         {
             "rank": 11,
-            "title": "Monty Python and the Holy Grail",
-            "reason": "Listed as a top comedy film in multiple threads and a must-see classic."
+            "title": "Young Frankenstein",
+            "reason": "Cited as a Mel Brooks classic and a top-tier comedy film. Its parody of the horror genre is highly praised."
         },
         {
             "rank": 12,
             "title": "The Big Lebowski",
-            "reason": "Mentioned as a top-tier comedy that would rank highly on an all-time list."
+            "reason": "Recommended as a cult classic with a unique comedic style. Its characters and quotes are frequently referenced."
         },
         {
             "rank": 13,
-            "title": "Caddyshack",
-            "reason": "Debated as one of the most iconic sports comedies and a top 80s comedy recommendation."
+            "title": "Tropic Thunder",
+            "reason": "Mentioned for its sharp satire of Hollywood and memorable scenes. Often cited as a modern comedy classic."
         },
         {
             "rank": 14,
-            "title": "Blazing Saddles",
-            "reason": "Recommended as a classic comedy that would be in the top echelon of any list."
+            "title": "Shaun of the Dead",
+            "reason": "Recommended as a brilliant horror-comedy from Edgar Wright. Its unique blend of genres and witty humor is highly praised."
         },
         {
             "rank": 15,
-            "title": "Happy Gilmore",
-            "reason": "Listed as a favorite and iconic sports comedy by multiple users."
+            "title": "Hot Fuzz",
+            "reason": "Frequently suggested alongside Shaun of the Dead for its action-comedy blend and clever writing. Another Edgar Wright highlight."
         },
         {
             "rank": 16,
-            "title": "Dr. Strangelove",
-            "reason": "Cited as a masterpiece and one of the greatest comedies ever made."
+            "title": "Superbad",
+            "reason": "Often listed as a favorite modern comedy, especially from the 2000s. Its relatable humor and characters resonate with many viewers."
         },
         {
             "rank": 17,
-            "title": "Superbad",
-            "reason": "Explicitly named as a favorite modern comedy and used as a benchmark for recommendations."
+            "title": "National Lampoon's Vacation",
+            "reason": "Cited for its iconic scenes and family vacation humor. The Christmas Vacation edition is especially highlighted."
         },
         {
             "rank": 18,
-            "title": "A Fish Called Wanda",
-            "reason": "Highly recommended in multiple threads as a brilliantly cast and hilarious comedy."
+            "title": "This Is Spinal Tap",
+            "reason": "Recommended as a brilliant mockumentary and one of the best comedies of the 80s. Its influence on the genre is significant."
         },
         {
             "rank": 19,
-            "title": "The Nice Guys",
-            "reason": "Topped a thread about movies that bombed but shouldn't have, with widespread praise in the comments."
+            "title": "Dodgeball",
+            "reason": "Mentioned as a popular and hilarious sports comedy. Its absurd premise and quotable lines are frequently referenced."
         },
         {
             "rank": 20,
-            "title": "Dead Alive",
-            "reason": "Recommended as an all-time favorite comedy horror film with great gore and one-liners."
+            "title": "The Sandlot",
+            "reason": "Often brought up in sports comedy discussions for its nostalgic and charming take on childhood baseball."
         }
     ]
 }
