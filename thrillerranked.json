@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Green Room",
-            "reason": "Highly recommended in multiple threads for its intense and realistic thriller elements, especially in the horror/thriller context."
+            "title": "Zodiac",
+            "reason": "Highly recommended in the crime thriller discussions for its realistic storytelling and gripping investigation plot."
         },
         {
             "rank": 2,
             "title": "Prisoners",
-            "reason": "Frequently mentioned as a top-tier thriller with great suspense and emotional depth, widely praised across comments."
+            "reason": "Frequently mentioned as a top-tier thriller with intense drama and mystery elements."
         },
         {
             "rank": 3,
-            "title": "Zodiac",
-            "reason": "Consistently recommended for its detailed crime investigation and suspenseful storytelling, a favorite in mystery/thriller discussions."
+            "title": "Se7en",
+            "reason": "A classic in the psychological thriller genre, often cited for its dark tone and twist ending."
         },
         {
             "rank": 4,
-            "title": "The Vanishing",
-            "reason": "Highlighted for its psychological depth and shocking narrative, often cited in horror/thriller contexts."
+            "title": "The Silence of the Lambs",
+            "reason": "Consistently brought up as a masterclass in thriller and horror, blending crime and psychological elements."
         },
         {
             "rank": 5,
-            "title": "Memories of Murder",
-            "reason": "Praised for its crime-solving narrative and emotional impact, frequently compared to other thrillers."
+            "title": "Gone Girl",
+            "reason": "Popular in mystery and thriller discussions for its twisty plot and strong narrative."
         },
         {
             "rank": 6,
-            "title": "Wind River",
-            "reason": "Recommended for its gritty realism and thriller elements, especially in crime-related threads."
+            "title": "Shutter Island",
+            "reason": "Noted for its psychological depth and mystery, often compared to thrillers."
         },
         {
             "rank": 7,
-            "title": "The Descent",
-            "reason": "A horror favorite with intense moments, often mentioned in lists of disturbing films."
+            "title": "The Sixth Sense",
+            "reason": "Highlighted for its supernatural twist and emotional impact."
         },
         {
             "rank": 8,
-            "title": "Hereditary",
-            "reason": "Frequently cited as one of the most disturbing horror films, with strong emotional impact."
+            "title": "The Vanishing",
+            "reason": "Mentioned in psychological thriller contexts for its unsettling story."
         },
         {
             "rank": 9,
-            "title": "Martyrs",
-            "reason": "Noted for its extreme content and as a benchmark for disturbing horror."
+            "title": "Fight Club",
+            "reason": "Although action-packed, it's often discussed for its psychological themes and twist."
         },
         {
             "rank": 10,
-            "title": "The Long Walk",
-            "reason": "Mentioned in the context of psychological horror and its impactful narrative."
+            "title": "The Others",
+            "reason": "Frequently recommended for fans of ghost stories with a twist."
         },
         {
             "rank": 11,
-            "title": "The Texas Chain Saw Massacre",
-            "reason": "A classic often referenced for its raw and terrifying approach to horror."
+            "title": "Hereditary",
+            "reason": "A modern horror classic often discussed for its family drama and horror elements."
         },
         {
             "rank": 12,
             "title": "The Witch",
-            "reason": "Praised for its atmosphere and slow-burn horror, frequently recommended."
+            "reason": "Noted for its historical setting and psychological horror."
         },
         {
             "rank": 13,
-            "title": "The Invitation",
-            "reason": "Noted for its twist ending and thriller elements, often mentioned in mystery discussions."
+            "title": "It Follows",
+            "reason": "Unique horror concept that blends with thriller elements, often recommended."
         },
         {
             "rank": 14,
-            "title": "The Babadook",
-            "reason": "Highlighted for its psychological horror and emotional depth."
+            "title": "The Descent",
+            "reason": "Brought up in horror and thriller contexts for its intensity and twists."
         },
         {
             "rank": 15,
-            "title": "The Others",
-            "reason": "Recommended for its ghost story and twist ending, often in mystery threads."
+            "title": "Don't Breathe",
+            "reason": "A thriller with high tension, often mentioned in suspense discussions."
         },
         {
             "rank": 16,
-            "title": "The Orphanage",
-            "reason": "Noted for its emotional impact and horror elements, frequently mentioned."
+            "title": "The Invisible Man",
+            "reason": "2020 version praised for its modern take on psychological thrills."
         },
         {
             "rank": 17,
-            "title": "The Autopsy of Jane Doe",
-            "reason": "Praised for its unique take on horror and mystery, often recommended."
+            "title": "10 Cloverfield Lane",
+            "reason": "Noted for its claustrophobic tension and mystery elements."
         },
         {
             "rank": 18,
-            "title": "The Ritual",
-            "reason": "Highlighted for its forest setting and horror, often in adventure or horror contexts."
+            "title": "A Quiet Place",
+            "reason": "Blends horror with family drama, often recommended for its unique premise."
         },
         {
             "rank": 19,
-            "title": "The Descent",
-            "reason": "Frequently mentioned for its claustrophobic horror and action sequences."
+            "title": "The Babadook",
+            "reason": "Discussed for its psychological depth and horror elements."
         },
         {
             "rank": 20,
-            "title": "The Ninth Gate",
-            "reason": "Noted for its mystery and thriller elements, often in horror/mystery discussions."
+            "title": "The Wailing",
+            "reason": "A complex horror-thriller from Korea, often noted for its depth."
         }
     ]
 }
