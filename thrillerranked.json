@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Zodiac",
-            "reason": "Highly recommended in the crime thriller discussions for its realistic storytelling and gripping investigation plot."
+            "title": "The Silence of the Lambs",
+            "reason": "Consistently mentioned as a top-tier thriller with psychological depth, and frequently compared to other horror/thriller greats."
         },
         {
             "rank": 2,
-            "title": "Prisoners",
-            "reason": "Frequently mentioned as a top-tier thriller with intense drama and mystery elements."
+            "title": "Hereditary",
+            "reason": "Highlighted as a modern horror classic with strong psychological elements and family drama, aligning with the horror/thriller requests."
         },
         {
             "rank": 3,
-            "title": "Se7en",
-            "reason": "A classic in the psychological thriller genre, often cited for its dark tone and twist ending."
+            "title": "Get Out",
+            "reason": "Praised for its blend of social commentary and psychological thriller elements, frequently mentioned in discussions."
         },
         {
             "rank": 4,
-            "title": "The Silence of the Lambs",
-            "reason": "Consistently brought up as a masterclass in thriller and horror, blending crime and psychological elements."
+            "title": "The Sixth Sense",
+            "reason": "Consistently cited as a masterclass in psychological horror with a shocking twist ending."
         },
         {
             "rank": 5,
-            "title": "Gone Girl",
-            "reason": "Popular in mystery and thriller discussions for its twisty plot and strong narrative."
+            "title": "Donnie Darko",
+            "reason": "Often recommended for its unique blend of psychological thriller, sci-fi, and coming-of-age themes."
         },
         {
             "rank": 6,
-            "title": "Shutter Island",
-            "reason": "Noted for its psychological depth and mystery, often compared to thrillers."
+            "title": "Prisoners",
+            "reason": "Mentioned as a gritty, realistic thriller with intense performances and a tight plot."
         },
         {
             "rank": 7,
-            "title": "The Sixth Sense",
-            "reason": "Highlighted for its supernatural twist and emotional impact."
+            "title": "The Others",
+            "reason": "Noted for its ghost story elements and twist ending, fitting the supernatural thriller requests."
         },
         {
             "rank": 8,
-            "title": "The Vanishing",
-            "reason": "Mentioned in psychological thriller contexts for its unsettling story."
+            "title": "The Thing",
+            "reason": "Brought up in discussions about horror with practical effects and psychological tension, though older, it's a benchmark."
         },
         {
             "rank": 9,
-            "title": "Fight Club",
-            "reason": "Although action-packed, it's often discussed for its psychological themes and twist."
+            "title": "The Descent",
+            "reason": "Highlighted for its claustrophobic horror and thriller elements, especially in horror communities."
         },
         {
             "rank": 10,
-            "title": "The Others",
-            "reason": "Frequently recommended for fans of ghost stories with a twist."
+            "title": "Zodiac",
+            "reason": "Frequently cited as a detailed, realistic crime thriller with meticulous storytelling."
         },
         {
             "rank": 11,
-            "title": "Hereditary",
-            "reason": "A modern horror classic often discussed for its family drama and horror elements."
+            "title": "A Quiet Place",
+            "reason": "Noted for its unique take on horror-thriller with family drama elements, and often compared to other genre films."
         },
         {
             "rank": 12,
             "title": "The Witch",
-            "reason": "Noted for its historical setting and psychological horror."
+            "reason": "Praised for its historical horror and psychological depth, fitting the folk-horror requests."
         },
         {
             "rank": 13,
-            "title": "It Follows",
-            "reason": "Unique horror concept that blends with thriller elements, often recommended."
+            "title": "Sinister",
+            "reason": "Mentioned as a straight horror-thriller with effective scares and mystery elements."
         },
         {
             "rank": 14,
-            "title": "The Descent",
-            "reason": "Brought up in horror and thriller contexts for its intensity and twists."
+            "title": "The Babadook",
+            "reason": "Highlighted for its psychological horror and family drama, fitting several request categories."
         },
         {
             "rank": 15,
-            "title": "Don't Breathe",
-            "reason": "A thriller with high tension, often mentioned in suspense discussions."
+            "title": "It Follows",
+            "reason": "Noted for its unique take on horror with thriller pacing, and often discussed in horror communities."
         },
         {
             "rank": 16,
-            "title": "The Invisible Man",
-            "reason": "2020 version praised for its modern take on psychological thrills."
+            "title": "The Autopsy of Jane Doe",
+            "reason": "Praised as a tight, suspenseful horror-thriller with mystery elements."
         },
         {
             "rank": 17,
-            "title": "10 Cloverfield Lane",
-            "reason": "Noted for its claustrophobic tension and mystery elements."
+            "title": "Gone Girl",
+            "reason": "Frequently recommended as a top-tier thriller with twists and strong narrative."
         },
         {
             "rank": 18,
-            "title": "A Quiet Place",
-            "reason": "Blends horror with family drama, often recommended for its unique premise."
+            "title": "The Conjuring",
+            "reason": "Mentioned as a benchmark for supernatural horror with thriller pacing."
         },
         {
             "rank": 19,
-            "title": "The Babadook",
-            "reason": "Discussed for its psychological depth and horror elements."
+            "title": "10 Cloverfield Lane",
+            "reason": "Noted for its blend of thriller and sci-fi elements, keeping audiences guessing."
         },
         {
             "rank": 20,
-            "title": "The Wailing",
-            "reason": "A complex horror-thriller from Korea, often noted for its depth."
+            "title": "The Invisible Man",
+            "reason": "Highlighted for its modern take on psychological thriller and gaslighting themes."
         }
     ]
 }
