@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Mad Max: Fury Road",
-            "reason": "Highly praised for its relentless action and stunning visuals, frequently compared to 'Dunkirk' and '1917' for its continuous intensity."
+            "title": "The Silence of the Lambs",
+            "reason": "Highly recommended for psychological depth and strong character development, making it a standout in discussions."
         },
         {
             "rank": 2,
-            "title": "1917",
-            "reason": "Extensively discussed for its one-shot technique and immersive storytelling, often cited alongside 'Dunkirk' as a benchmark for war films."
+            "title": "Hereditary",
+            "reason": "Frequently cited for its intense, unsettling atmosphere and deep psychological horror, making it a top mention."
         },
         {
             "rank": 3,
-            "title": "Uncut Gems",
-            "reason": "Described as a '2-hour long panic attack', it sparked extensive debate about its intensity and style, making it a standout in the thread."
+            "title": "The Witch",
+            "reason": "Praised for its atmospheric tension and historical authenticity, often highlighted in horror discussions."
         },
         {
             "rank": 4,
-            "title": "District 9",
-            "reason": "Praised for its non-stop action and chaos, frequently mentioned as a top recommendation for adrenaline-fueled viewing."
+            "title": "Midsommar",
+            "reason": "Noted for its unique approach to horror through daylight and cult themes, frequently discussed."
         },
         {
             "rank": 5,
-            "title": "The Raid: Redemption",
-            "reason": "Consistently recommended for its relentless action sequences, often cited as a benchmark for the genre."
+            "title": "The Thing",
+            "reason": "A classic with enduring popularity for its practical effects and suspense, commonly referenced."
         },
         {
             "rank": 6,
-            "title": "Train to Busan",
-            "reason": "Highlighted for its intense and emotional ride, frequently mentioned as a must-watch horror/action hybrid."
+            "title": "The Wailing",
+            "reason": "Gained attention for blending horror with mystery and cultural elements, widely discussed."
         },
         {
             "rank": 7,
-            "title": "Crank",
-            "reason": "Mentioned multiple times as a high-energy film that never lets up, alongside its sequel 'Crank: High Voltage'."
+            "title": "It Follows",
+            "reason": "Noted for its innovative take on horror and strong word-of-mouth recommendations."
         },
         {
             "rank": 8,
-            "title": "Whiplash",
-            "reason": "Cited as a film that exemplifies relentless pacing and psychological intensity, often compared to '1917' and 'Dunkirk'."
+            "title": "The Lighthouse",
+            "reason": "Praised for its artistic direction and psychological depth, making it a topic of discussion."
         },
         {
             "rank": 9,
-            "title": "Let the Right One In",
-            "reason": "Discussed extensively for its unique blend of horror and romance, often compared to 'Bram Stoker\u2019s Dracula' and 'Only Lovers Left Alive'."
+            "title": "The Vanishing",
+            "reason": "Mentioned for its psychological impact and unsettling ending."
         },
         {
             "rank": 10,
-            "title": "A Girl Walks Home Alone at Night",
-            "reason": "Highlighted for its eerie tone and poetic storytelling, frequently mentioned alongside 'Let the Right One In'."
+            "title": "The Invitation",
+            "reason": "Noted for its slow-building tension and twist ending, commonly recommended."
         },
         {
             "rank": 11,
-            "title": "The Fisher King",
-            "reason": "Noted for its themes of redemption and trauma, frequently discussed in the context of characters overcoming past mistakes."
+            "title": "Green Room",
+            "reason": "Highlighted for its intense, realistic approach to thriller elements."
         },
         {
             "rank": 12,
-            "title": "Atonement",
-            "reason": "Mentioned as a film about irreversible mistakes and their aftermath, often cited in discussions of redemption."
+            "title": "The Others",
+            "reason": "Praised for its twist ending and gothic atmosphere, often discussed."
         },
         {
             "rank": 13,
-            "title": "Antichrist",
-            "reason": "Highlighted for its disturbing beauty and intense themes, frequently discussed in horror and thriller contexts."
+            "title": "Don't Breathe",
+            "reason": "Frequently mentioned for its suspense and unique premise."
         },
         {
             "rank": 14,
-            "title": "Under the Skin",
-            "reason": "Praised for its unique visuals and unsettling atmosphere, often mentioned alongside 'Midsommar' and 'The Substance'."
+            "title": "Let the Right One In",
+            "reason": "Noted for its blend of horror and drama, making it a common recommendation."
         },
         {
             "rank": 15,
-            "title": "Tombstone",
-            "reason": "Mentioned as an underrated gem from the 90s, often cited for its strong cast and storytelling."
+            "title": "The Descent",
+            "reason": "Often cited for its claustrophobic tension and effective horror."
         },
         {
             "rank": 16,
-            "title": "The Fugitive",
-            "reason": "Frequently recommended as a top-tier thriller from the 90s, praised for its pacing and performances."
+            "title": "Cabin in the Woods",
+            "reason": "Praised for its meta-commentary on horror genres, making it a frequent mention."
         },
         {
             "rank": 17,
-            "title": "Dumb and Dumber",
-            "reason": "Cited as a comedy that balances humor and heart, often mentioned in discussions of 90s classics."
+            "title": "The Babadook",
+            "reason": "Highlighted for its emotional depth and horror elements."
         },
         {
             "rank": 18,
-            "title": "Apocalypto",
-            "reason": "Highlighted for its intense and immersive storytelling, often cited as an example of a film that holds attention from start to finish."
+            "title": "Get Out",
+            "reason": "Widely discussed for its social commentary and thriller elements."
         },
         {
             "rank": 19,
-            "title": "The Temple of Doom",
-            "reason": "Mentioned as a classic adventure film with relentless pacing, often compared to modern action movies."
+            "title": "The Cabin in the Woods",
+            "reason": "Noted for its innovative take on horror tropes, making it a common topic."
         },
         {
             "rank": 20,
-            "title": "The Cell",
-            "reason": "Praised for its visual style and unique approach to horror, frequently mentioned alongside 'Under the Skin' and 'The Cell'."
+            "title": "A Quiet Place",
+            "reason": "Frequently recommended for its unique premise and family dynamics."
         }
     ]
 }
