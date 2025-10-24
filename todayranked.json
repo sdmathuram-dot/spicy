@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Kill Bill: Volume 1",
-            "reason": "Most frequently recommended in the 'movies about badass women' thread, praised for its strong female lead and action sequences."
+            "title": "The Mist",
+            "reason": "Most recommended in the tragic endings thread, with high user engagement and specific mentions of its ending."
         },
         {
             "rank": 2,
-            "title": "The Silence of the Lambs",
-            "reason": "Highly discussed for its complex female character and is a top recommendation in the 'badass women' category."
+            "title": "Children of Men",
+            "reason": "Highly recommended in the tragic endings thread and also noted for its immersive world-building."
         },
         {
             "rank": 3,
-            "title": "Aliens",
-            "reason": "A cornerstone in the 'badass women' discussion, noted for Sigourney Weaver's iconic performance."
+            "title": "Pan's Labyrinth",
+            "reason": "Mentioned in multiple threads (tragic ending and dark fantasy) and consistently upvoted."
         },
         {
             "rank": 4,
-            "title": "Jurassic Park",
-            "reason": "Although not the main focus, it's a top recommendation in the 'calming movies' thread for its sense of adventure and family themes."
+            "title": "The Sixth Sense",
+            "reason": "Highlighted in the mind-blowing movie thread for its twist ending, with high user engagement."
         },
         {
             "rank": 5,
-            "title": "The Devil Wears Prada",
-            "reason": "Frequently mentioned for Meryl Streep's performance and as an example of a strong female character in a non-action setting."
+            "title": "Memento",
+            "reason": "Frequently cited across threads for its non-linear narrative and mind-bending qualities."
         },
         {
             "rank": 6,
-            "title": "Guardians of the Galaxy",
-            "reason": "Highlighted in the 'soundtrack' discussions for its popular music selection and how it enhances the film."
+            "title": "Mulholland Drive",
+            "reason": "Widely discussed for its complexity and surreal narrative, making it a top mention."
         },
         {
             "rank": 7,
-            "title": "The Dark Knight",
-            "reason": "While not the main topic, it's cited in the 'actors range' discussion for Heath Ledger's performance and in 'war movies' for its thematic depth."
+            "title": "Oldboy (2003)",
+            "reason": "Recommended for its mind-bending plot and action sequences."
         },
         {
             "rank": 8,
-            "title": "Inception",
-            "reason": "Discussed in multiple contexts, including complex narratives that challenge the viewer, similar to 'movies where nothing is explained'."
+            "title": "Primer",
+            "reason": "Noted for its complex time-travel plot and high user approval in comments."
         },
         {
             "rank": 9,
-            "title": "Mad Max: Fury Road",
-            "reason": "A constant in 'badass women' and 'action movies' discussions, praised for Charlize Theron's performance and its feminist themes."
+            "title": "The Others (2001)",
+            "reason": "Recommended as a scary but not gross movie, with high upvotes in the horror thread."
         },
         {
             "rank": 10,
-            "title": "The Lord of the Rings: The Fellowship of the Ring",
-            "reason": "Mentioned in 'calming movies' for its epic storytelling and emotional depth, providing an escape."
+            "title": "In the Mouth of Madness",
+            "reason": "Cited as a horror movie without gore, fitting the user's request."
         },
         {
             "rank": 11,
-            "title": "Pulp Fiction",
-            "reason": "A classic in 'soundtrack' discussions and for its non-linear narrative that leaves questions unanswered."
+            "title": "The Vanishing (1988)",
+            "reason": "Another horror recommendation with a psychological focus."
         },
         {
             "rank": 12,
-            "title": "The Thin Red Line",
-            "reason": "Highlighted in 'war movies' for its poetic approach and philosophical depth."
+            "title": "The Blair Witch Project",
+            "reason": "Suggested as a psychological horror film with minimal gore."
         },
         {
             "rank": 13,
-            "title": "Donnie Darko",
-            "reason": "Frequently discussed in 'movies where nothing is explained' for its complex plot and ambiguous ending."
+            "title": "It Follows",
+            "reason": "Highlighted as a horror film that builds tension without gore."
         },
         {
             "rank": 14,
-            "title": "The Shining",
-            "reason": "A constant in 'horror' and 'complex narrative' discussions, noted for its psychological depth and technical mastery."
+            "title": "The Babadook",
+            "reason": "Recommended as a psychological horror with deep themes."
         },
         {
             "rank": 15,
-            "title": "The Matrix",
-            "reason": "Mentioned in 'action' and 'sci-fi' contexts, praised for its innovative action and philosophical themes."
+            "title": "The Orphanage",
+            "reason": "Noted for its atmospheric horror and emotional depth."
         },
         {
             "rank": 16,
             "title": "Pan's Labyrinth",
-            "reason": "Discussed in 'fantasy' and 'strong female lead' contexts, noted for its emotional impact and creative storytelling."
+            "reason": "Appears in multiple threads, showing broad recognition and discussion."
         },
         {
             "rank": 17,
-            "title": "The Big Lebowski",
-            "reason": "A favorite in 'comedy' and 'soundtrack' discussions, known for its cult following and quotable lines."
+            "title": "Memento",
+            "reason": "Consistently mentioned across threads for its narrative structure."
         },
         {
             "rank": 18,
-            "title": "Interstellar",
-            "reason": "Highlighted in 'sci-fi' and 'family' discussions, praised for its visual effects and emotional depth."
+            "title": "The Sixth Sense",
+            "reason": "Widely recognized for its twist ending and frequent recommendations."
         },
         {
             "rank": 19,
-            "title": "The Grand Budapest Hotel",
-            "reason": "A constant in 'style' and 'comedy' discussions, noted for its unique visual style and storytelling."
+            "title": "Mulholland Drive",
+            "reason": "Frequently discussed for its complexity and depth."
         },
         {
             "rank": 20,
-            "title": "Parasite",
-            "reason": "Recently discussed in 'social inequality' and 'thriller' contexts, praised for its social commentary and unexpected twists."
+            "title": "The Others (2001)",
+            "reason": "Highlighted as a horror film that fits the no-gore criteria, with high user support."
         }
     ]
 }
