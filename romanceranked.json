@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "My Happy Marriage",
-            "reason": "Highly discussed in multiple threads for its unique blend of historical romance and fantasy elements, with strong character development and cultural resonance."
+            "title": "Eternal Sunshine of the Spotless Mind",
+            "reason": "Most frequently recommended across multiple threads for its deep emotional impact and unique take on love and memory."
         },
         {
             "rank": 2,
-            "title": "Dirty Dancing",
-            "reason": "A classic romance film frequently referenced in discussions about chemistry and nostalgic value, often cited as a benchmark for the genre."
+            "title": "Pride and Prejudice",
+            "reason": "A classic frequently cited for its timeless romance and strong character development, especially in romance-focused discussions."
         },
         {
             "rank": 3,
-            "title": "When Harry Met Sally",
-            "reason": "Considered a quintessential rom-com with deep explorations of relationships, frequently recommended for its writing and performances."
+            "title": "The Princess Bride",
+            "reason": "Often highlighted for its adventure-romance blend and wide appeal across different age groups."
         },
         {
             "rank": 4,
-            "title": "The Princess Bride",
-            "reason": "A perennial favorite across demographics, often cited for its blend of adventure, romance, and humor, making it a staple in recommendations."
+            "title": "About Time",
+            "reason": "Consistently praised for combining romance with life lessons, making it a standout in recommendations."
         },
         {
             "rank": 5,
-            "title": "You've Got Mail",
-            "reason": "Noted for its modern take on romance and communication, frequently mentioned alongside other Meg Ryan films."
+            "title": "Before Sunrise",
+            "reason": "Frequently noted for its realistic, dialogue-driven approach to romance and connection."
         },
         {
             "rank": 6,
-            "title": "Sleepless in Seattle",
-            "reason": "Another classic that comes up often in discussions about romance and chemistry, thanks to its timeless appeal."
+            "title": "Atonement",
+            "reason": "Mentioned for its tragic, impactful love story and cinematic excellence."
         },
         {
             "rank": 7,
-            "title": "The Apartment",
-            "reason": "A classic film with deep emotional resonance, often cited in discussions about sacrifice and love."
+            "title": "La La Land",
+            "reason": "Discussed for its modern take on love and ambition, with visual storytelling that stands out."
         },
         {
             "rank": 8,
-            "title": "How to Lose a Guy in 10 Days",
-            "reason": "Frequently mentioned as a fun, engaging rom-com with broad appeal, especially in threads about lighthearted romance."
+            "title": "The Notebook",
+            "reason": "A staple in romance discussions, known for its emotional depth and nostalgia."
         },
         {
             "rank": 9,
-            "title": "The Holiday",
-            "reason": "Often recommended for its holiday theme and dual romance plots, making it a favorite during the season."
+            "title": "Carol",
+            "reason": "Highlighted for its nuanced portrayal of forbidden love and critical acclaim."
         },
         {
             "rank": 10,
-            "title": "10 Things I Hate About You",
-            "reason": "A modern classic that's often brought up in discussions about high school romance and adaptations."
+            "title": "Brokeback Mountain",
+            "reason": "Recognized for its powerful, tragic love story and critical acclaim."
         },
         {
             "rank": 11,
-            "title": "Crazy, Stupid, Love",
-            "reason": "Noted for its ensemble cast and multiple interweaving stories, making it a frequent recommendation."
+            "title": "Am\u00e9lie",
+            "reason": "Celebrated for its whimsical romance and unique narrative style."
         },
         {
             "rank": 12,
-            "title": "The Notebook",
-            "reason": "A tearjerker that's often cited as a benchmark for romantic dramas, especially in threads about emotional impact."
+            "title": "Sense and Sensibility",
+            "reason": "Often recommended for its classic take on love and societal expectations."
         },
         {
             "rank": 13,
-            "title": "About Time",
-            "reason": "Mentioned for its unique blend of romance and time travel, appealing to those looking for something different."
+            "title": "The Before Trilogy",
+            "reason": "Collectively praised for their realistic, evolving portrayal of a love story across decades."
         },
         {
             "rank": 14,
-            "title": "La La Land",
-            "reason": "Frequently discussed for its artistic direction and tragic romance, making it a standout in recent years."
+            "title": "The Shape of Water",
+            "reason": "Noted for its unique, fantastical approach to romance and acceptance."
         },
         {
             "rank": 15,
-            "title": "Eternal Sunshine of the Spotless Mind",
-            "reason": "A critically acclaimed film often brought up in discussions about complex relationships and memory."
+            "title": "Portrait of a Lady on Fire",
+            "reason": "Highly regarded for its intense, slow-burn romance and artistic direction."
         },
         {
             "rank": 16,
-            "title": "The Fault in Our Stars",
-            "reason": "Popular among younger audiences and frequently mentioned in threads about romantic dramas."
+            "title": "Chungking Express",
+            "reason": "Recognized for its stylistic, fragmented love stories and urban settings."
         },
         {
             "rank": 17,
-            "title": "Silver Linings Playbook",
-            "reason": "Noted for its portrayal of mental health alongside romance, making it a multi-faceted recommendation."
+            "title": "In the Mood for Love",
+            "reason": "Praised for its restrained, emotional depth and visual storytelling."
         },
         {
             "rank": 18,
-            "title": "Before Sunrise",
-            "reason": "Part of a trilogy often cited for its realistic dialogue and deep emotional connection between characters."
+            "title": "The Age of Adaline",
+            "reason": "Mentioned for its unique take on timeless love and life choices."
         },
         {
             "rank": 19,
-            "title": "The Shape of Water",
-            "reason": "A unique romance that's frequently discussed for its originality and artistic merit."
+            "title": "The Worst Person in the World",
+            "reason": "Noted for its modern, relatable take on relationships and self-discovery."
         },
         {
             "rank": 20,
-            "title": "Am\u00e9lie",
-            "reason": "A feel-good film with a quirky romance that's often recommended for its charm and visual style."
+            "title": "Past Lives",
+            "reason": "Recently discussed for its poignant, cross-cultural love story and emotional depth."
         }
     ]
 }
