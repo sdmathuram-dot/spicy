@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "The Mist",
-            "reason": "Most recommended in the tragic endings thread, with high user engagement and specific mentions of its ending."
+            "title": "Mad Max: Fury Road",
+            "reason": "Most frequently recommended for its relentless pace and high-intensity action, dominating discussions in the 'never slow down' category."
         },
         {
             "rank": 2,
-            "title": "Children of Men",
-            "reason": "Highly recommended in the tragic endings thread and also noted for its immersive world-building."
+            "title": "John Wick",
+            "reason": "A cornerstone in the 'dangerous protagonist' genre, highlighted across multiple threads for its intense action and character depth."
         },
         {
             "rank": 3,
-            "title": "Pan's Labyrinth",
-            "reason": "Mentioned in multiple threads (tragic ending and dark fantasy) and consistently upvoted."
+            "title": "The Raid",
+            "reason": "Consistently cited for its non-stop action and minimal downtime, making it a top pick in action-oriented discussions."
         },
         {
             "rank": 4,
-            "title": "The Sixth Sense",
-            "reason": "Highlighted in the mind-blowing movie thread for its twist ending, with high user engagement."
+            "title": "A History of Violence",
+            "reason": "Frequently mentioned in threads about complex protagonists and violent pasts, with deep narrative impact."
         },
         {
             "rank": 5,
-            "title": "Memento",
-            "reason": "Frequently cited across threads for its non-linear narrative and mind-bending qualities."
+            "title": "Forgetting Sarah Marshall",
+            "reason": "Highlighted as a top rom-com for emotional recovery, combining humor and heart in equal measure."
         },
         {
             "rank": 6,
-            "title": "Mulholland Drive",
-            "reason": "Widely discussed for its complexity and surreal narrative, making it a top mention."
+            "title": "The Exorcist",
+            "reason": "A horror classic repeatedly cited for its lasting psychological impact and depth, topping horror discussions."
         },
         {
             "rank": 7,
-            "title": "Oldboy (2003)",
-            "reason": "Recommended for its mind-bending plot and action sequences."
+            "title": "The Thing",
+            "reason": "Consistently praised in horror threads for its atmosphere and practical effects, creating a lasting impression."
         },
         {
             "rank": 8,
-            "title": "Primer",
-            "reason": "Noted for its complex time-travel plot and high user approval in comments."
+            "title": "Argo",
+            "reason": "Among the top mentioned based-on-true-events films, noted for tight storytelling and historical tension."
         },
         {
             "rank": 9,
-            "title": "The Others (2001)",
-            "reason": "Recommended as a scary but not gross movie, with high upvotes in the horror thread."
+            "title": "Goodfellas",
+            "reason": "A perennial favorite in community polls and comment threads, noted for rewatchability and depth."
         },
         {
             "rank": 10,
-            "title": "In the Mouth of Madness",
-            "reason": "Cited as a horror movie without gore, fitting the user's request."
+            "title": "Jurassic Park",
+            "reason": "While not the top in any single thread, consistently appears across multiple recommendation lists for its universal appeal and technical mastery."
         },
         {
             "rank": 11,
-            "title": "The Vanishing (1988)",
-            "reason": "Another horror recommendation with a psychological focus."
+            "title": "The Silence of the Lambs",
+            "reason": "Holds a strong presence in horror and thriller discussions, noted for its character depth and suspense."
         },
         {
             "rank": 12,
-            "title": "The Blair Witch Project",
-            "reason": "Suggested as a psychological horror film with minimal gore."
+            "title": "The Departed",
+            "reason": "Frequently recommended in threads about complex plots and character-driven thrillers, with high user approval."
         },
         {
             "rank": 13,
-            "title": "It Follows",
-            "reason": "Highlighted as a horror film that builds tension without gore."
+            "title": "No Country for Old Men",
+            "reason": "A common answer in threads about villains and unresolved endings, noted for its philosophical depth."
         },
         {
             "rank": 14,
-            "title": "The Babadook",
-            "reason": "Recommended as a psychological horror with deep themes."
+            "title": "Guardians of the Galaxy",
+            "reason": "While not a top film in serious discussions, appears in family and comedy threads, showing broad appeal."
         },
         {
             "rank": 15,
-            "title": "The Orphanage",
-            "reason": "Noted for its atmospheric horror and emotional depth."
+            "title": "The Dark Knight",
+            "reason": "Mentioned across villain and action threads, praised for Heath Ledger's performance and moral complexity."
         },
         {
             "rank": 16,
-            "title": "Pan's Labyrinth",
-            "reason": "Appears in multiple threads, showing broad recognition and discussion."
+            "title": "Inception",
+            "reason": "Consistently appears in discussion of complex plots and sci-fi, holding user interest across subreddits."
         },
         {
             "rank": 17,
-            "title": "Memento",
-            "reason": "Consistently mentioned across threads for its narrative structure."
+            "title": "The Wolf of Wall Street",
+            "reason": "Highlighted in true-event and comedy discussions, noted for its energy and satire."
         },
         {
             "rank": 18,
-            "title": "The Sixth Sense",
-            "reason": "Widely recognized for its twist ending and frequent recommendations."
+            "title": "Interstellar",
+            "reason": "Frequently debated and recommended in sci-fi and family threads, for its emotional depth and visual scale."
         },
         {
             "rank": 19,
-            "title": "Mulholland Drive",
-            "reason": "Frequently discussed for its complexity and depth."
+            "title": "Mad Max: Fury Road",
+            "reason": "Appears in both action and visual excellence discussions, showing its broad appeal beyond just action."
         },
         {
             "rank": 20,
-            "title": "The Others (2001)",
-            "reason": "Highlighted as a horror film that fits the no-gore criteria, with high user support."
+            "title": "The Shawshank Redemption",
+            "reason": "A steady presence in recommendation threads, noted for its inspirational story and character development."
         }
     ]
 }
