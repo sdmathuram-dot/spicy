@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Shaun of the Dead",
-            "reason": "Most frequently mentioned across multiple threads, especially in discussions about horror-comedy and comedy genres, with high user recommendations."
+            "title": "Airplane!",
+            "reason": "Frequently cited as a quintessential comedy that successfully parodies its genre (disaster movies). Multiple users across threads praised it for its humor and cultural impact, with one noting it's a prime example of a parody more famous than the original."
         },
         {
             "rank": 2,
-            "title": "Airplane!",
-            "reason": "Frequently cited as a benchmark for comedy, with many users referencing it as a classic example."
+            "title": "The Naked Gun",
+            "reason": "Highly recommended for its slapstick style and as a benchmark for comedy franchises. Several comments mentioned it in the context of successful comedy series and its recent reboot."
         },
         {
             "rank": 3,
-            "title": "The Naked Gun",
-            "reason": "Mentioned repeatedly as a benchmark for comedy films and used in comparisons."
+            "title": "Hot Fuzz",
+            "reason": "Part of the Cornetto Trilogy, which was repeatedly mentioned as a strong contender. Users highlighted its blend of action and comedy, and its status as a modern classic."
         },
         {
             "rank": 4,
-            "title": "An American Werewolf in London",
-            "reason": "Highlighted as a classic horror-comedy with significant user engagement."
+            "title": "Shaun of the Dead",
+            "reason": "Another cornerstone of the Cornetto Trilogy, widely praised for its humor and horror elements. It was directly recommended in several threads as a top-tier comedy."
         },
         {
             "rank": 5,
-            "title": "Heathers",
-            "reason": "Noted as a cult classic with strong user support in discussions."
+            "title": "Barbie",
+            "reason": "Cited as a recent example of a successful comedy on a big budget. One user noted it as evidence that comedies can still be made and be successful, contrary to the idea that the genre is dead."
         },
         {
             "rank": 6,
-            "title": "Palm Springs",
-            "reason": "Cited as a successful modern comedy with positive feedback."
+            "title": "Bridesmaids",
+            "reason": "Highlighted as a successful female-led comedy that had cultural impact. It was mentioned in discussions about the state of comedy movies."
         },
         {
             "rank": 7,
-            "title": "Barbie",
-            "reason": "Mentioned as a comedy that performed well commercially and culturally."
+            "title": "Superbad",
+            "reason": "Frequently mentioned as a defining comedy of its generation. Users brought it up as a standard for modern comedies."
         },
         {
             "rank": 8,
-            "title": "The Wolf of Wall Street",
-            "reason": "Noted in discussions of comedy-drama hybrids."
+            "title": "Zoolander",
+            "reason": "Referenced as an example of a comedy that was widely quoted and loved, part of the discussion on what made comedies successful in the past."
         },
         {
             "rank": 9,
-            "title": "Team America: World Police",
-            "reason": "Unique style noted by users in discussions."
+            "title": "Deadpool",
+            "reason": "Mentioned as a recent successful comedy-action hybrid. Its success shows the appetite for humor in blockbuster films."
         },
         {
             "rank": 10,
-            "title": "Hot Fuzz",
-            "reason": "Frequently mentioned alongside Shaun of the Dead as part of a trilogy."
+            "title": "The Lost City",
+            "reason": "Noted as a recent action-comedy that performed well, showing the genre's viability. One user pointed to it as an example of the kind of movie still being made."
         },
         {
             "rank": 11,
-            "title": "The World's End",
-            "reason": "The third in the Cornetto trilogy, noted by users."
+            "title": "What We Do in the Shadows",
+            "reason": "Praised for its unique take on comedy-horror. It was mentioned in discussions about niche genres that still produce quality content."
         },
         {
             "rank": 12,
-            "title": "Austin Powers series",
-            "reason": "Mentioned as a successful comedy franchise."
+            "title": "Palm Springs",
+            "reason": "Highlighted as a prime example of a comedy that went straight to streaming, illustrating the shift in how such movies are distributed. It was discussed as a movie that would have been a hit in theaters in another era."
         },
         {
             "rank": 13,
-            "title": "Bridesmaids",
-            "reason": "Cited as a successful female-led comedy."
+            "title": "Bottoms",
+            "reason": "Noted as a recent comedy that was critically acclaimed. It was brought up as evidence that comedies are still being made, even if they are not all theatrical releases."
         },
         {
             "rank": 14,
-            "title": "The Lost City",
-            "reason": "Recent example noted by users."
+            "title": "The Nice Guys",
+            "reason": "Cited as an example of a critically acclaimed comedy that did not find a huge audience but is highly regarded by those who saw it."
         },
         {
             "rank": 15,
-            "title": "The Unbearable Weight of Massive Talent",
-            "reason": "Noted for its meta-comedy elements."
+            "title": "Scott Pilgrim vs. The World",
+            "reason": "Mentioned as a cult classic that has gained appreciation over time. It was noted for its unique style and humor."
         },
         {
             "rank": 16,
-            "title": "The Nice Guys",
-            "reason": "Praised for writing and acting in discussions."
+            "title": "21 Jump Street",
+            "reason": "Brought up as a successful comedy-action reboot that managed to be both funny and successful at the box office."
         },
         {
             "rank": 17,
-            "title": "Knives Out",
-            "reason": "Mentioned as a successful modern mystery-comedy."
+            "title": "The Other Guys",
+            "reason": "Cited as an example of a comedy that worked despite not being a typical genre piece. It was noted for its cast and writing."
         },
         {
             "rank": 18,
-            "title": "Everything Everywhere All at Once",
-            "reason": "Noted for genre-blending and user recommendations."
+            "title": "The Heat",
+            "reason": "Mentioned in the context of buddy-cop comedies that have worked. It was part of the discussion on female-led comedies."
         },
         {
             "rank": 19,
-            "title": "Zoolander",
-            "reason": "Cited as an example of past successful comedies."
+            "title": "Game Night",
+            "reason": "Highlighted as a well-received comedy-thriller. It was noted for its pacing and humor."
         },
         {
             "rank": 20,
             "title": "Knives Out",
-            "reason": "Mentioned in discussions of comedy-mystery hybrids."
+            "reason": "While more of a mystery, its humor was noted. It was mentioned as an example of a movie that successfully blended genres."
         }
     ]
 }

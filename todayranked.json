@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Mad Max: Fury Road",
-            "reason": "Most frequently recommended for its relentless pace and high-intensity action, dominating discussions in the 'never slow down' category."
+            "title": "Galaxy Quest",
+            "reason": "Frequently cited as a top example of a cleverly written sci-fi comedy with broad appeal, often compared to Princess Bride for its witty dialogue and adventure elements."
         },
         {
             "rank": 2,
-            "title": "John Wick",
-            "reason": "A cornerstone in the 'dangerous protagonist' genre, highlighted across multiple threads for its intense action and character depth."
+            "title": "The Princess Bride",
+            "reason": "Consistently mentioned alongside Galaxy Quest as a benchmark for clever, light-hearted adventure comedy with high rewatch value."
         },
         {
             "rank": 3,
-            "title": "The Raid",
-            "reason": "Consistently cited for its non-stop action and minimal downtime, making it a top pick in action-oriented discussions."
+            "title": "Stardust",
+            "reason": "Highlighted as a strong recommendation for fans of Princess Bride, praised for its storytelling and charm."
         },
         {
             "rank": 4,
-            "title": "A History of Violence",
-            "reason": "Frequently mentioned in threads about complex protagonists and violent pasts, with deep narrative impact."
+            "title": "Monty Python and the Holy Grail",
+            "reason": "Extremely high engagement in comedy threads, cited as a classic that generates consistent discussion and recommendations."
         },
         {
             "rank": 5,
-            "title": "Forgetting Sarah Marshall",
-            "reason": "Highlighted as a top rom-com for emotional recovery, combining humor and heart in equal measure."
+            "title": "Dungeons & Dragons: Honor Among Thieves",
+            "reason": "Recent and frequently recommended for fans of light-hearted adventure, noted for being accessible without prior knowledge of D&D."
         },
         {
             "rank": 6,
-            "title": "The Exorcist",
-            "reason": "A horror classic repeatedly cited for its lasting psychological impact and depth, topping horror discussions."
+            "title": "Step Brothers",
+            "reason": "One of the most discussed comedies in the threads, with high user engagement and multiple mentions."
         },
         {
             "rank": 7,
-            "title": "The Thing",
-            "reason": "Consistently praised in horror threads for its atmosphere and practical effects, creating a lasting impression."
+            "title": "The Shining",
+            "reason": "Brought up in the context of difficult productions and intense performances, though less as a recommendation and more as a topic of analysis."
         },
         {
             "rank": 8,
-            "title": "Argo",
-            "reason": "Among the top mentioned based-on-true-events films, noted for tight storytelling and historical tension."
+            "title": "Inception",
+            "reason": "Mentioned in discussions about complex narratives and as a benchmark for innovative storytelling."
         },
         {
             "rank": 9,
-            "title": "Goodfellas",
-            "reason": "A perennial favorite in community polls and comment threads, noted for rewatchability and depth."
+            "title": "Pan's Labyrinth",
+            "reason": "Noted for its deep narrative and emotional impact, often recommended alongside other del Toro films."
         },
         {
             "rank": 10,
-            "title": "Jurassic Park",
-            "reason": "While not the top in any single thread, consistently appears across multiple recommendation lists for its universal appeal and technical mastery."
+            "title": "The Matrix",
+            "reason": "Consistently referenced in discussions about influential sci-fi and complex narratives."
         },
         {
             "rank": 11,
-            "title": "The Silence of the Lambs",
-            "reason": "Holds a strong presence in horror and thriller discussions, noted for its character depth and suspense."
+            "title": "The Dark Knight",
+            "reason": "Mentioned in discussions of standout performances and tightly written scripts."
         },
         {
             "rank": 12,
-            "title": "The Departed",
-            "reason": "Frequently recommended in threads about complex plots and character-driven thrillers, with high user approval."
+            "title": "Mad Max: Fury Road",
+            "reason": "Highlighted for its production value and as a benchmark for action filmmaking."
         },
         {
             "rank": 13,
-            "title": "No Country for Old Men",
-            "reason": "A common answer in threads about villains and unresolved endings, noted for its philosophical depth."
+            "title": "Guardians of the Galaxy",
+            "reason": "Frequently recommended as a balance of comedy, action, and heart, similar to Galaxy Quest."
         },
         {
             "rank": 14,
-            "title": "Guardians of the Galaxy",
-            "reason": "While not a top film in serious discussions, appears in family and comedy threads, showing broad appeal."
+            "title": "Jurassic Park",
+            "reason": "Brought up in discussions of both its successes and flaws, maintaining high visibility."
         },
         {
             "rank": 15,
-            "title": "The Dark Knight",
-            "reason": "Mentioned across villain and action threads, praised for Heath Ledger's performance and moral complexity."
+            "title": "The Grand Budapest Hotel",
+            "reason": "Cited for its style and storytelling, often in lists of best recent films."
         },
         {
             "rank": 16,
-            "title": "Inception",
-            "reason": "Consistently appears in discussion of complex plots and sci-fi, holding user interest across subreddits."
+            "title": "Interstellar",
+            "reason": "Discussed for its ambition and emotional weight, though divisive in some threads."
         },
         {
             "rank": 17,
-            "title": "The Wolf of Wall Street",
-            "reason": "Highlighted in true-event and comedy discussions, noted for its energy and satire."
+            "title": "Parasite",
+            "reason": "Recent and highly regarded in discussions of social themes and innovative storytelling."
         },
         {
             "rank": 18,
-            "title": "Interstellar",
-            "reason": "Frequently debated and recommended in sci-fi and family threads, for its emotional depth and visual scale."
+            "title": "The Big Lebowski",
+            "reason": "Cult classic with steady discussion, noted for its humor and unique plot."
         },
         {
             "rank": 19,
             "title": "Mad Max: Fury Road",
-            "reason": "Appears in both action and visual excellence discussions, showing its broad appeal beyond just action."
+            "reason": "Praised for its action and practical effects, often mentioned as a benchmark."
         },
         {
             "rank": 20,
-            "title": "The Shawshank Redemption",
-            "reason": "A steady presence in recommendation threads, noted for its inspirational story and character development."
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "reason": "Consistently recommended for epic storytelling and character development, though less in comedy threads."
         }
     ]
 }
