@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Galaxy Quest",
-            "reason": "Frequently cited as a top example of a cleverly written sci-fi comedy with broad appeal, often compared to Princess Bride for its witty dialogue and adventure elements."
+            "title": "The 400 Blows",
+            "reason": "Highly discussed for its innovative direction and influence on cinema, especially in the context of the French New Wave."
         },
         {
             "rank": 2,
-            "title": "The Princess Bride",
-            "reason": "Consistently mentioned alongside Galaxy Quest as a benchmark for clever, light-hearted adventure comedy with high rewatch value."
+            "title": "The Day After",
+            "reason": "Frequently mentioned in discussions about nuclear crisis movies and its impact on the genre."
         },
         {
             "rank": 3,
-            "title": "Stardust",
-            "reason": "Highlighted as a strong recommendation for fans of Princess Bride, praised for its storytelling and charm."
+            "title": "The 400 Blows",
+            "reason": "Praised for its groundbreaking approach to storytelling and character development."
         },
         {
             "rank": 4,
-            "title": "Monty Python and the Holy Grail",
-            "reason": "Extremely high engagement in comedy threads, cited as a classic that generates consistent discussion and recommendations."
+            "title": "A House of Dynamite",
+            "reason": "A focal point in discussions for its unique narrative structure and thematic depth."
         },
         {
             "rank": 5,
-            "title": "Dungeons & Dragons: Honor Among Thieves",
-            "reason": "Recent and frequently recommended for fans of light-hearted adventure, noted for being accessible without prior knowledge of D&D."
+            "title": "The Girl with the Dragon Tattoo",
+            "reason": "Noted for its intense plot and strong character arcs, especially in the Swedish version."
         },
         {
             "rank": 6,
-            "title": "Step Brothers",
-            "reason": "One of the most discussed comedies in the threads, with high user engagement and multiple mentions."
+            "title": "The Fall",
+            "reason": "Highlighted for its visual storytelling and emotional impact, often cited as an underrated masterpiece."
         },
         {
             "rank": 7,
-            "title": "The Shining",
-            "reason": "Brought up in the context of difficult productions and intense performances, though less as a recommendation and more as a topic of analysis."
+            "title": "The Blair Witch Project",
+            "reason": "A classic in horror discussions for its found-footage style and psychological impact."
         },
         {
             "rank": 8,
-            "title": "Inception",
-            "reason": "Mentioned in discussions about complex narratives and as a benchmark for innovative storytelling."
+            "title": "Eternal Sunshine of the Spotless Mind",
+            "reason": "Frequently recommended for its unique take on relationships and memory."
         },
         {
             "rank": 9,
-            "title": "Pan's Labyrinth",
-            "reason": "Noted for its deep narrative and emotional impact, often recommended alongside other del Toro films."
+            "title": "Goodfellas",
+            "reason": "A staple in film discussions for its direction and narrative flow."
         },
         {
             "rank": 10,
-            "title": "The Matrix",
-            "reason": "Consistently referenced in discussions about influential sci-fi and complex narratives."
+            "title": "The Hateful Eight",
+            "reason": "Mentioned in the context of ensemble casts and tense narratives."
         },
         {
             "rank": 11,
-            "title": "The Dark Knight",
-            "reason": "Mentioned in discussions of standout performances and tightly written scripts."
+            "title": "The Shawshank Redemption",
+            "reason": "A perennial favorite for its hope-filled story and character development."
         },
         {
             "rank": 12,
-            "title": "Mad Max: Fury Road",
-            "reason": "Highlighted for its production value and as a benchmark for action filmmaking."
+            "title": "The Departed",
+            "reason": "Noted for its complex characters and plot twists."
         },
         {
             "rank": 13,
-            "title": "Guardians of the Galaxy",
-            "reason": "Frequently recommended as a balance of comedy, action, and heart, similar to Galaxy Quest."
+            "title": "The Big Lebowski",
+            "reason": "A cult classic often cited for its humor and unique storytelling."
         },
         {
             "rank": 14,
-            "title": "Jurassic Park",
-            "reason": "Brought up in discussions of both its successes and flaws, maintaining high visibility."
+            "title": "The Princess Bride",
+            "reason": "Frequently recommended as a comfort movie with a mix of adventure and romance."
         },
         {
             "rank": 15,
-            "title": "The Grand Budapest Hotel",
-            "reason": "Cited for its style and storytelling, often in lists of best recent films."
+            "title": "The Last Airbender",
+            "reason": "Discussed in the context of film adaptations and their challenges."
         },
         {
             "rank": 16,
-            "title": "Interstellar",
-            "reason": "Discussed for its ambition and emotional weight, though divisive in some threads."
+            "title": "The Rise of Skywalker",
+            "reason": "Mentioned in discussions about franchise conclusions and fan expectations."
         },
         {
             "rank": 17,
-            "title": "Parasite",
-            "reason": "Recent and highly regarded in discussions of social themes and innovative storytelling."
+            "title": "The Girl with the Dragon Tattoo",
+            "reason": "Noted for its dark themes and strong female lead."
         },
         {
             "rank": 18,
-            "title": "The Big Lebowski",
-            "reason": "Cult classic with steady discussion, noted for its humor and unique plot."
+            "title": "The Shawshank Redemption",
+            "reason": "A constant in discussions about hope and redemption in cinema."
         },
         {
             "rank": 19,
-            "title": "Mad Max: Fury Road",
-            "reason": "Praised for its action and practical effects, often mentioned as a benchmark."
+            "title": "The 400 Blows",
+            "reason": "Highlighted for its historical significance in film history."
         },
         {
             "rank": 20,
-            "title": "The Lord of the Rings: The Fellowship of the Ring",
-            "reason": "Consistently recommended for epic storytelling and character development, though less in comedy threads."
+            "title": "The 400 Blows",
+            "reason": "A recurring topic in discussions about directorial style and innovation."
         }
     ]
 }
