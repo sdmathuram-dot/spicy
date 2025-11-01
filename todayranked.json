@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "The 400 Blows",
-            "reason": "Highly discussed for its innovative direction and influence on cinema, especially in the context of the French New Wave."
+            "title": "The Exorcist",
+            "reason": "Frequently cited as one of the scariest movies ever, with deep emotional impact and lasting fear factor."
         },
         {
             "rank": 2,
-            "title": "The Day After",
-            "reason": "Frequently mentioned in discussions about nuclear crisis movies and its impact on the genre."
+            "title": "Hereditary",
+            "reason": "Highly recommended in horror circles for its intense family drama and horror elements, often compared to classics."
         },
         {
             "rank": 3,
-            "title": "The 400 Blows",
-            "reason": "Praised for its groundbreaking approach to storytelling and character development."
+            "title": "Get Out",
+            "reason": "Widely praised as a modern horror masterpiece, blending social commentary with horror, frequently recommended."
         },
         {
             "rank": 4,
-            "title": "A House of Dynamite",
-            "reason": "A focal point in discussions for its unique narrative structure and thematic depth."
+            "title": "The Descent",
+            "reason": "Consistently mentioned as a top-tier horror movie for its claustrophobic tension and effective scare scenes."
         },
         {
             "rank": 5,
-            "title": "The Girl with the Dragon Tattoo",
-            "reason": "Noted for its intense plot and strong character arcs, especially in the Swedish version."
+            "title": "Midsommar",
+            "reason": "Frequently discussed for its unique daylight horror and psychological depth, often compared to Hereditary."
         },
         {
             "rank": 6,
-            "title": "The Fall",
-            "reason": "Highlighted for its visual storytelling and emotional impact, often cited as an underrated masterpiece."
+            "title": "The Witch",
+            "reason": "Commonly cited as a great horror film with historical setting and psychological terror, often recommended to horror fans."
         },
         {
             "rank": 7,
-            "title": "The Blair Witch Project",
-            "reason": "A classic in horror discussions for its found-footage style and psychological impact."
+            "title": "Sinister",
+            "reason": "Often mentioned as a movie that truly scared viewers, despite some criticisms of its ending."
         },
         {
             "rank": 8,
-            "title": "Eternal Sunshine of the Spotless Mind",
-            "reason": "Frequently recommended for its unique take on relationships and memory."
+            "title": "The Shining",
+            "reason": "A classic horror movie frequently referenced as a benchmark for psychological horror and cinematography."
         },
         {
             "rank": 9,
-            "title": "Goodfellas",
-            "reason": "A staple in film discussions for its direction and narrative flow."
+            "title": "Barbarian",
+            "reason": "Gained attention as a recent horror movie that surprised audiences with its twists and social commentary."
         },
         {
             "rank": 10,
-            "title": "The Hateful Eight",
-            "reason": "Mentioned in the context of ensemble casts and tense narratives."
+            "title": "Smile",
+            "reason": "Frequently mentioned as a movie that effectively scared viewers, despite some seeing it as generic."
         },
         {
             "rank": 11,
-            "title": "The Shawshank Redemption",
-            "reason": "A perennial favorite for its hope-filled story and character development."
+            "title": "The Others",
+            "reason": "Often recommended for those who want a ghost story with a twist, and cited as an effective horror film."
         },
         {
             "rank": 12,
-            "title": "The Departed",
-            "reason": "Noted for its complex characters and plot twists."
+            "title": "The Menu",
+            "reason": "Discussed for its social commentary and twist ending, though opinions on the ending were divided."
         },
         {
             "rank": 13,
-            "title": "The Big Lebowski",
-            "reason": "A cult classic often cited for its humor and unique storytelling."
+            "title": "Event Horizon",
+            "reason": "Frequently brought up as a cult classic sci-fi horror with intense scenes."
         },
         {
             "rank": 14,
-            "title": "The Princess Bride",
-            "reason": "Frequently recommended as a comfort movie with a mix of adventure and romance."
+            "title": "Jacob's Ladder",
+            "reason": "Mentioned as a movie that deeply disturbed viewers, often cited in 'scariest movie' discussions."
         },
         {
             "rank": 15,
-            "title": "The Last Airbender",
-            "reason": "Discussed in the context of film adaptations and their challenges."
+            "title": "Session 9",
+            "reason": "Consistently recommended for those looking for a psychological horror that sticks with you."
         },
         {
             "rank": 16,
-            "title": "The Rise of Skywalker",
-            "reason": "Mentioned in discussions about franchise conclusions and fan expectations."
+            "title": "Inception",
+            "reason": "While not primarily a horror film, frequently discussed for its complex narrative and compared to other mind-bending movies."
         },
         {
             "rank": 17,
-            "title": "The Girl with the Dragon Tattoo",
-            "reason": "Noted for its dark themes and strong female lead."
+            "title": "Shutter Island",
+            "reason": "Often recommended alongside other psychological thrillers, praised for its twist and atmosphere."
         },
         {
             "rank": 18,
-            "title": "The Shawshank Redemption",
-            "reason": "A constant in discussions about hope and redemption in cinema."
+            "title": "The Sixth Sense",
+            "reason": "Frequently mentioned as a great example of a twist ending and emotional horror."
         },
         {
             "rank": 19,
-            "title": "The 400 Blows",
-            "reason": "Highlighted for its historical significance in film history."
+            "title": "Prisoners",
+            "reason": "Commonly recommended for its thriller elements and strong performances, often compared to Se7en."
         },
         {
             "rank": 20,
-            "title": "The 400 Blows",
-            "reason": "A recurring topic in discussions about directorial style and innovation."
+            "title": "Gone Girl",
+            "reason": "Frequently recommended as a top-tier psychological thriller with a twisty plot."
         }
     ]
 }
