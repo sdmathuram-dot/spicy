@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Raging Bull",
-            "reason": "Extensively discussed in the 'Raging Bull is peak of Scorsese/DeNiro' thread, with deep analysis of its themes, direction, and performances. It's highlighted as a masterpiece of character study and filmmaking technique."
+            "title": "One Battle After Another",
+            "reason": "Most discussed and analyzed across multiple subreddits, especially for its thematic depth and comparisons to wuxia films."
         },
         {
             "rank": 2,
-            "title": "Punishment Park",
-            "reason": "Central to the most upvoted and engaged-with post about Peter Watkins. Users praise its relevance and powerful commentary, making it a standout in the discussions."
+            "title": "The Shining",
+            "reason": "Frequently referenced for its iconic scenes and the ongoing analysis of its content, particularly the skeleton room scene."
         },
         {
             "rank": 3,
-            "title": "Badlands",
-            "reason": "Frequently mentioned across multiple threads, especially in discussions about film analysis and director styles. It's compared to other films and has a dedicated analysis thread."
+            "title": "Sinners",
+            "reason": "Heavily debated for character decisions and plot points, especially Grace Chow's actions."
         },
         {
             "rank": 4,
-            "title": "The Social Network",
-            "reason": "Brought up in the 'Jennifer vs Emma' discussion as a benchmark for modern filmmaking, and again in the 'Raging Bull' analysis. It's a widely recognized and recommended film."
+            "title": "The Shawshank Redemption",
+            "reason": "Consistently mentioned as a top-tier film despite not topping charts due to its box office and rating metrics."
         },
         {
             "rank": 5,
-            "title": "Goodfellas",
-            "reason": "A constant in Scorsese discussions, often compared to Raging Bull. It's one of the most recommended films for its direction and storytelling."
+            "title": "The Shawshank Redemption",
+            "reason": "Often cited as an example of a film that should rank higher based on its cultural impact despite metric limitations."
         },
         {
             "rank": 6,
-            "title": "Taxi Driver",
-            "reason": "Another Scorsese classic that's frequently mentioned in the same context as Goodfellas and Raging Bull. It's a cornerstone of film discussions."
+            "title": "The Dark Knight",
+            "reason": "Mentioned in discussions about top films due to its critical and commercial success."
         },
         {
             "rank": 7,
-            "title": "The King's Speech",
-            "reason": "Subject of a detailed analysis in the 'What Have You Been Watching?' thread, with users debating its merits and place in cinema history."
+            "title": "Pulp Fiction",
+            "reason": "Brought up in multiple contexts for its storytelling and character depth."
         },
         {
             "rank": 8,
-            "title": "The Social Network",
-            "reason": "Mentioned in the 'Raging Bull' analysis as a modern classic, and again in the 'Jennifer vs Emma' discussion. It's a frequently recommended film for its dialogue and pacing."
+            "title": "Inception",
+            "reason": "Discussed for its complex plot and philosophical themes."
         },
         {
             "rank": 9,
-            "title": "The Ninth Gate",
-            "reason": "Brought up in the 'What Have You Been Watching?' thread. While not the most praised, it's part of a larger conversation about genre films."
+            "title": "Goodfellas",
+            "reason": "Frequently cited in film analysis for its direction and narrative."
         },
         {
             "rank": 10,
-            "title": "The Secret Life of Walter Mitty",
-            "reason": "Recommended in the 'Looking for a movie to watch with my parents' thread. It's highlighted as a heartwarming and visually stunning film."
+            "title": "The Godfather",
+            "reason": "A staple in film discussions for its impact and storytelling."
         },
         {
             "rank": 11,
-            "title": "The Irishman",
-            "reason": "In the same discussions as Goodfellas and Taxi Driver. It's a more recent film but already a part of the canon."
+            "title": "Fight Club",
+            "reason": "Mentioned for its twist and cultural impact."
         },
         {
             "rank": 12,
-            "title": "The King's Speech",
-            "reason": "Despite some criticism, it's defended in the 'What Have You Been Watching?' thread as a well-made film with great performances."
+            "title": "The Matrix",
+            "reason": "Discussed for its special effects and philosophical undertones."
         },
         {
             "rank": 13,
-            "title": "The Social Network",
-            "reason": "Mentioned again for its script and direction, it's a modern classic that's often recommended."
+            "title": "Interstellar",
+            "reason": "Brought up in discussions about its scientific concepts and emotional depth."
         },
         {
             "rank": 14,
-            "title": "The King's Speech",
-            "reason": "Along with The Social Network, it's a film that's both praised and critiqued, keeping it in the discussions."
+            "title": "Parasite",
+            "reason": "Highlighted for its social commentary and unexpected twists."
         },
         {
             "rank": 15,
-            "title": "The Ninth Gate",
-            "reason": "While not the most acclaimed, it's part of the conversation and has its defenders."
+            "title": "Mad Max: Fury Road",
+            "reason": "Praised for its action sequences and visual storytelling."
         },
         {
             "rank": 16,
-            "title": "The Secret Life of Walter Mitty",
-            "reason": "A less common recommendation but highlighted for its positive messaging and visual style."
+            "title": "Jurassic Park",
+            "reason": "Mentioned for its special effects and adventure elements."
         },
         {
             "rank": 17,
-            "title": "The Irishman",
-            "reason": "A more recent addition to the canon, but already making waves."
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "reason": "Discussed for its world-building and epic scale."
         },
         {
             "rank": 18,
-            "title": "The Social Network",
-            "reason": "Mentioned again for its impact and quality."
+            "title": "Avatar",
+            "reason": "Noted for its visual effects and world-building."
         },
         {
             "rank": 19,
-            "title": "The King's Speech",
-            "reason": "Despite the debate, it's still a film that's being watched and discussed."
+            "title": "The Avengers",
+            "reason": "Brought up in discussions about ensemble casts and blockbuster scale."
         },
         {
             "rank": 20,
-            "title": "The Secret Life of Walter Mitty",
-            "reason": "A film that's recommended for specific audiences, like family viewings, making it notable even if not the most acclaimed."
+            "title": "The Social Network",
+            "reason": "Praised for its dialogue and pacing."
         }
     ]
 }
