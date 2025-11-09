@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "Shrek",
-            "reason": "Mentioned multiple times as a go-to comfort movie and example of a wholesome film, especially in the context of family viewing and restoring faith in humanity."
+            "title": "The Usual Suspects",
+            "reason": "Frequently mentioned across multiple threads, especially in the context of plot twists and mystery thrillers, with high user engagement."
         },
         {
             "rank": 2,
-            "title": "Dog Soldiers",
-            "reason": "The main subject of the first post, with extensive discussion and comparisons to other films like 'Aliens', 'Predator', and 'From Dusk Till Dawn'."
+            "title": "Se7en",
+            "reason": "Consistently highlighted for its plot twists and atmospheric depth, with strong user recommendations in multiple threads."
         },
         {
             "rank": 3,
-            "title": "Aliens",
-            "reason": "Explicitly recommended in the comments under films like 'Dog Soldiers', indicating strong community endorsement."
+            "title": "The Prestige",
+            "reason": "Widely discussed as a top-tier mystery with a mind-bending plot, frequently cited in user comments."
         },
         {
             "rank": 4,
-            "title": "The Princess Bride",
-            "reason": "Recommended multiple times as a wholesome and enjoyable film, particularly for family viewing."
+            "title": "Parasite",
+            "reason": "Highlighted for its twist and overall excellence, with significant user engagement in recommendation threads."
         },
         {
             "rank": 5,
-            "title": "The Iron Giant",
-            "reason": "Highlighted as a great example of a wholesome animated film, especially for children and family viewing."
+            "title": "Oldboy",
+            "reason": "Frequently recommended for its shocking twist and action elements, with strong user support."
         },
         {
             "rank": 6,
-            "title": "The Incredibles",
-            "reason": "Mentioned as a film that kept children engaged from start to finish, indicating high engagement and enjoyment."
+            "title": "The Game",
+            "reason": "Noted for its engaging plot and twist, commonly mentioned in mystery and suggestion threads."
         },
         {
             "rank": 7,
-            "title": "The Lego Movie",
-            "reason": "Recommended for its fun and engaging nature, especially for children's parties."
+            "title": "Inception",
+            "reason": "Often brought up in discussions about complex plots and mind-bending narratives, with high user interest."
         },
         {
             "rank": 8,
-            "title": "The Goonies",
-            "reason": "Brought up as a classic adventure film that is great for group viewing, especially with children."
+            "title": "Fight Club",
+            "reason": "Consistently recommended for its twist and thematic depth, with strong user engagement."
         },
         {
             "rank": 9,
-            "title": "How to Train Your Dragon",
-            "reason": "Mentioned as a family favorite, indicating broad appeal and strong recommendations."
+            "title": "The Sixth Sense",
+            "reason": "Frequently cited for its iconic twist, with widespread user recognition."
         },
         {
             "rank": 10,
-            "title": "Spirited Away",
-            "reason": "Recommended in the context of wholesome and imaginative films, especially for family viewing."
+            "title": "Shutter Island",
+            "reason": "Commonly recommended for its psychological depth and twist, with solid user support."
         },
         {
             "rank": 11,
-            "title": "The 13th Warrior",
-            "reason": "Mentioned in the comments as a film similar to 'Dog Soldiers', indicating a similar appeal."
+            "title": "Memento",
+            "reason": "Often discussed for its unique structure and twist, with dedicated user followings."
         },
         {
             "rank": 12,
-            "title": "Outpost",
-            "reason": "Brought up in the comments as a film with similarities to 'Dog Soldiers', indicating a niche but strong recommendation."
+            "title": "Prisoners",
+            "reason": "Highlighted for its dark tone and plot twists, with positive user feedback."
         },
         {
             "rank": 13,
-            "title": "The Borderlands",
-            "reason": "Mentioned alongside 'Outpost' as a film with a similar feel to 'Dog Soldiers'."
+            "title": "Gone Girl",
+            "reason": "Frequently recommended for its twists and suspense, with strong user engagement."
         },
         {
             "rank": 14,
-            "title": "The Castle",
-            "reason": "Recommended as a wholesome film, though less explicitly detailed than others."
+            "title": "The Others",
+            "reason": "Noted for its twist and atmosphere, commonly mentioned in mystery threads."
         },
         {
             "rank": 15,
-            "title": "The Straight Story",
-            "reason": "Mentioned as a wholesome film, though with less context than others."
+            "title": "The Thing",
+            "reason": "Often cited for its suspense and twist, with dedicated user support."
         },
         {
             "rank": 16,
-            "title": "Jurassic Park",
-            "reason": "Mentioned in passing as a film that could be enjoyed by children, indicating its wide appeal."
+            "title": "Arrival",
+            "reason": "Highlighted for its emotional depth and twist, with positive user feedback."
         },
         {
             "rank": 17,
-            "title": "The Emperor's New Groove",
-            "reason": "Recommended as a fun and lighthearted film, especially for children."
+            "title": "Ex Machina",
+            "reason": "Frequently recommended for its AI themes and twist, with strong user interest."
         },
         {
             "rank": 18,
-            "title": "The Princess Bride",
-            "reason": "Mentioned multiple times as a classic family film with wide appeal."
+            "title": "Interstellar",
+            "reason": "Often discussed for its scope and emotional impact, with dedicated user followings."
         },
         {
             "rank": 19,
-            "title": "The Shawshank Redemption",
-            "reason": "Mentioned in passing, though without context, indicating its popularity."
+            "title": "Blade Runner 2049",
+            "reason": "Highlighted for its visual style and thematic depth, with positive user engagement."
         },
         {
             "rank": 20,
-            "title": "The Dark Knight",
-            "reason": "Mentioned in passing, indicating its status as a commonly recommended film."
+            "title": "The Matrix",
+            "reason": "Consistently mentioned for its impact and twist, with widespread user recognition."
         }
     ]
 }
