@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "The Usual Suspects",
-            "reason": "Frequently mentioned across multiple threads, especially in the context of plot twists and mystery thrillers, with high user engagement."
+            "title": "Primer",
+            "reason": "Most discussed and recommended due to its complex time-travel plot and high rewatch value, making it a standout in the sci-fi genre."
         },
         {
             "rank": 2,
-            "title": "Se7en",
-            "reason": "Consistently highlighted for its plot twists and atmospheric depth, with strong user recommendations in multiple threads."
+            "title": "A Place Beyond the Pines",
+            "reason": "Frequently mentioned for its emotional depth and strong narrative, making it a memorable recommendation."
         },
         {
             "rank": 3,
-            "title": "The Prestige",
-            "reason": "Widely discussed as a top-tier mystery with a mind-bending plot, frequently cited in user comments."
+            "title": "Children of Men",
+            "reason": "Consistently cited for its impactful storytelling and lasting impression on viewers."
         },
         {
             "rank": 4,
-            "title": "Parasite",
-            "reason": "Highlighted for its twist and overall excellence, with significant user engagement in recommendation threads."
+            "title": "Se7en",
+            "reason": "Highly recommended for its intense plot and unforgettable scenes, often mentioned in thriller discussions."
         },
         {
             "rank": 5,
-            "title": "Oldboy",
-            "reason": "Frequently recommended for its shocking twist and action elements, with strong user support."
+            "title": "The Usual Suspects",
+            "reason": "A classic in mystery and thriller genres, frequently brought up for its twist ending."
         },
         {
             "rank": 6,
-            "title": "The Game",
-            "reason": "Noted for its engaging plot and twist, commonly mentioned in mystery and suggestion threads."
+            "title": "Come and See",
+            "reason": "Noted for its harrowing depiction of war and frequently discussed in war movie threads."
         },
         {
             "rank": 7,
-            "title": "Inception",
-            "reason": "Often brought up in discussions about complex plots and mind-bending narratives, with high user interest."
+            "title": "Blade Runner",
+            "reason": "A staple in sci-fi discussions, praised for its world-building and philosophical themes."
         },
         {
             "rank": 8,
-            "title": "Fight Club",
-            "reason": "Consistently recommended for its twist and thematic depth, with strong user engagement."
+            "title": "Heat",
+            "reason": "Often highlighted for its action sequences and character dynamics, making it a favorite."
         },
         {
             "rank": 9,
-            "title": "The Sixth Sense",
-            "reason": "Frequently cited for its iconic twist, with widespread user recognition."
+            "title": "The Legend of 1900",
+            "reason": "Mentioned for its unique storytelling and emotional depth."
         },
         {
             "rank": 10,
-            "title": "Shutter Island",
-            "reason": "Commonly recommended for its psychological depth and twist, with solid user support."
+            "title": "Her",
+            "reason": "Frequently recommended for its unique take on romance and technology."
         },
         {
             "rank": 11,
-            "title": "Memento",
-            "reason": "Often discussed for its unique structure and twist, with dedicated user followings."
+            "title": "Drive",
+            "reason": "Highlighted for its style and action, often in action movie discussions."
         },
         {
             "rank": 12,
-            "title": "Prisoners",
-            "reason": "Highlighted for its dark tone and plot twists, with positive user feedback."
+            "title": "Inglourious Basterds",
+            "reason": "A favorite in war and action genres, noted for its dialogue and performances."
         },
         {
             "rank": 13,
-            "title": "Gone Girl",
-            "reason": "Frequently recommended for its twists and suspense, with strong user engagement."
+            "title": "Gran Torino",
+            "reason": "Often recommended for its strong character development and emotional impact."
         },
         {
             "rank": 14,
-            "title": "The Others",
-            "reason": "Noted for its twist and atmosphere, commonly mentioned in mystery threads."
+            "title": "Barbie",
+            "reason": "Mentioned in recent discussions for its cultural impact and themes."
         },
         {
             "rank": 15,
-            "title": "The Thing",
-            "reason": "Often cited for its suspense and twist, with dedicated user support."
+            "title": "Midsommar",
+            "reason": "Frequently discussed in horror and thriller contexts for its unique approach."
         },
         {
             "rank": 16,
-            "title": "Arrival",
-            "reason": "Highlighted for its emotional depth and twist, with positive user feedback."
+            "title": "Magnolia",
+            "reason": "Noted for its ensemble cast and complex narrative, often in drama discussions."
         },
         {
             "rank": 17,
-            "title": "Ex Machina",
-            "reason": "Frequently recommended for its AI themes and twist, with strong user interest."
+            "title": "LA Confidential",
+            "reason": "A classic in noir discussions, praised for its plot twists and characters."
         },
         {
             "rank": 18,
-            "title": "Interstellar",
-            "reason": "Often discussed for its scope and emotional impact, with dedicated user followings."
+            "title": "Dr. Strangelove",
+            "reason": "A staple in comedy and political satire, often recommended for its wit."
         },
         {
             "rank": 19,
-            "title": "Blade Runner 2049",
-            "reason": "Highlighted for its visual style and thematic depth, with positive user engagement."
+            "title": "The Irishman",
+            "reason": "Highlighted for its epic scope and performances, especially in Scorsese discussions."
         },
         {
             "rank": 20,
-            "title": "The Matrix",
-            "reason": "Consistently mentioned for its impact and twist, with widespread user recognition."
+            "title": "Killers of the Flower Moon",
+            "reason": "Gaining attention for its historical depth and recent release, making it a hot topic."
         }
     ]
 }
