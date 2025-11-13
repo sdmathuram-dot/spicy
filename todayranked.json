@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "The Thing",
-            "reason": "Extensively discussed in the horror movie thread for its competent characters and realistic survival instincts, often cited as a benchmark for the genre."
+            "title": "12 Angry Men",
+            "reason": "Highly recommended for its storytelling, character depth, and societal relevance; multiple users praised it as a must-watch."
         },
         {
             "rank": 2,
-            "title": "Prometheus",
-            "reason": "A focal point of discussion regarding its philosophical themes and world-building, despite some plot holes, making it a frequently referenced film."
+            "title": "The Silence of the Lambs",
+            "reason": "Praised for its groundbreaking portrayal of characters and psychological depth; considered a classic by many."
         },
         {
             "rank": 3,
-            "title": "Working Girl",
-            "reason": "Highlighted in the female lead discussion as an example of a character with actual goals beyond romance, showing practical ambition."
+            "title": "Children of Men",
+            "reason": "Highlighted for its immersive storytelling, emotional impact, and technical excellence; multiple users cited it as a must-watch."
         },
         {
             "rank": 4,
-            "title": "Gone Girl",
-            "reason": "Central to the mystery and piecing-together plot discussion, noted for its intricate narrative structure."
+            "title": "The Princess Bride",
+            "reason": "Frequently mentioned as a family-friendly classic with wide appeal; several users recommended it for its humor and heart."
         },
         {
             "rank": 5,
-            "title": "Alien",
-            "reason": "Mentioned in multiple contexts, including as a classic example of horror and sci-fi, and tied to Prometheus discussions."
+            "title": "WALL-E",
+            "reason": "Praised for its creativity, emotional depth, and visual storytelling; one user called it 'inventive' and 'accessible'."
         },
         {
             "rank": 6,
-            "title": "The Running Man",
-            "reason": "Referenced in the context of new releases and as a topic of discussion in the Edgar Wright AMA thread."
+            "title": "Rashomon",
+            "reason": "Discussed in the context of multiple perspectives; a user mentioned it as a key example of narrative structure."
         },
         {
             "rank": 7,
-            "title": "The Matrix",
-            "reason": "Cited as a foundational dystopian sci-fi film, often used as a reference point for the genre."
+            "title": "The Departed",
+            "reason": "Recommended as a thriller with complex characters and plot; one user called it a must-see."
         },
         {
             "rank": 8,
-            "title": "The Holdovers",
-            "reason": "Discussed as a heartwarming film with themes of growth and mentorship, similar to Good Will Hunting."
+            "title": "Hot Fuzz",
+            "reason": "Highlighted for its humor and unique take on the detective genre; several users engaged with this title."
         },
         {
             "rank": 9,
-            "title": "The Secret of the Kells",
-            "reason": "Mentioned as an example of a film that combines artistry with storytelling, appealing to a broad audience."
+            "title": "Witness",
+            "reason": "Mentioned in the context of investigative narratives; a user noted its relevance to the discussion."
         },
         {
             "rank": 10,
-            "title": "The Shawshank Redemption",
-            "reason": "Brought up in the context of hope and resilience, though not the main focus, it's a commonly referenced film."
+            "title": "The Last of the Mohicans",
+            "reason": "Not directly named, but implied through the discussion of 'The Last of the...' films; considered for its epic scale."
         },
         {
             "rank": 11,
-            "title": "The Shawshank Redemption",
-            "reason": "Not directly mentioned but implied in discussions about hope and mentorship, similar to Good Will Hunting."
+            "title": "The Wicker Man",
+            "reason": "Cited as a classic in the mystery genre; one user recommended it highly."
         },
         {
             "rank": 12,
-            "title": "The Sixth Sense",
-            "reason": "Referenced in mystery and horror discussions for its twist ending and narrative structure."
+            "title": "In the Heat of the Night",
+            "reason": "Mentioned alongside other detective stories; recognized for its social commentary."
         },
         {
             "rank": 13,
-            "title": "The Dark Knight",
-            "reason": "Cited in discussions about complex characters and moral dilemmas, though not the main topic."
+            "title": "The Insider",
+            "reason": "Discussed in the context of journalism films; one user called it a great example."
         },
         {
             "rank": 14,
-            "title": "The Grand Budapest Hotel",
-            "reason": "Mentioned in the context of stylistic storytelling and its appeal across different audiences."
+            "title": "Zodiac",
+            "reason": "Praised for its detailed investigation narrative; several users engaged with this title."
         },
         {
             "rank": 15,
-            "title": "The Lobster",
-            "reason": "Discussed in the dystopian and relationship dynamics threads, noted for its unique approach."
+            "title": "All the President's Men",
+            "reason": "Highlighted as a cornerstone of journalism films; multiple users acknowledged its importance."
         },
         {
             "rank": 16,
-            "title": "The Grand Budapest Hotel",
-            "reason": "Mentioned in the context of Wes Anderson's style and its accessibility."
+            "title": "Spotlight",
+            "reason": "Mentioned as a modern example of investigative journalism; users noted its relevance."
         },
         {
             "rank": 17,
-            "title": "The Social Network",
-            "reason": "Noted for its dialogue and pacing, often brought up in writing discussions."
+            "title": "The Silence of the Lambs",
+            "reason": "Reiterated for its impact and awards; one user called it 'groundbreaking'."
         },
         {
             "rank": 18,
-            "title": "The Grand Budapest Hotel",
-            "reason": "Cited as an example of a film that balances artistic merit with entertainment value."
+            "title": "The Taste of Cherry",
+            "reason": "Noted for its artistic approach; mentioned by a user seeking similar films."
         },
         {
             "rank": 19,
-            "title": "The Dark Knight Rises",
-            "reason": "Mentioned in action and climax discussions, though not the main focus."
+            "title": "The Station Agent",
+            "reason": "Recommended for its quiet, character-driven narrative; one user called it 'hypnotic'."
         },
         {
             "rank": 20,
-            "title": "The Grand Budapest Hotel",
-            "reason": "Highlighted for its visual style and narrative structure, often used as an example in film studies."
+            "title": "Aftersun",
+            "reason": "Praised for its emotional impact and subtle storytelling; one user called it a 'must-watch'."
         }
     ]
 }
