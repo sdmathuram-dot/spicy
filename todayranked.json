@@ -2,103 +2,103 @@
     "ranked_movies": [
         {
             "rank": 1,
-            "title": "12 Angry Men",
-            "reason": "Highly recommended for its storytelling, character depth, and societal relevance; multiple users praised it as a must-watch."
+            "title": "Children of Men",
+            "reason": "Highly recommended in multiple threads for its storytelling and cinematography, and one of the most upvoted comments in the first thread."
         },
         {
             "rank": 2,
-            "title": "The Silence of the Lambs",
-            "reason": "Praised for its groundbreaking portrayal of characters and psychological depth; considered a classic by many."
+            "title": "Goodfellas",
+            "reason": "Consistently mentioned across threads as a classic and highly recommended film, especially in the context of character-driven narratives."
         },
         {
             "rank": 3,
-            "title": "Children of Men",
-            "reason": "Highlighted for its immersive storytelling, emotional impact, and technical excellence; multiple users cited it as a must-watch."
+            "title": "Prisoners",
+            "reason": "Highlighted as a top-tier mystery thriller with strong performances, particularly in the second thread about mystery thrillers."
         },
         {
             "rank": 4,
-            "title": "The Princess Bride",
-            "reason": "Frequently mentioned as a family-friendly classic with wide appeal; several users recommended it for its humor and heart."
+            "title": "Zodiac",
+            "reason": "Frequently cited as an excellent mystery thriller with depth and realism, gaining multiple recommendations."
         },
         {
             "rank": 5,
-            "title": "WALL-E",
-            "reason": "Praised for its creativity, emotional depth, and visual storytelling; one user called it 'inventive' and 'accessible'."
+            "title": "No Country for Old Men",
+            "reason": "Praised for its tension and dialogue, mentioned in the context of both mystery and Americana themes."
         },
         {
             "rank": 6,
-            "title": "Rashomon",
-            "reason": "Discussed in the context of multiple perspectives; a user mentioned it as a key example of narrative structure."
+            "title": "Fargo",
+            "reason": "Recommended for its unique blend of crime and dark comedy, and noted in the Americana discussion."
         },
         {
             "rank": 7,
-            "title": "The Departed",
-            "reason": "Recommended as a thriller with complex characters and plot; one user called it a must-see."
+            "title": "The Prestige",
+            "reason": "Mentioned as a film with great plot twists and depth, often recommended alongside other Nolan films."
         },
         {
             "rank": 8,
-            "title": "Hot Fuzz",
-            "reason": "Highlighted for its humor and unique take on the detective genre; several users engaged with this title."
+            "title": "Jaws",
+            "reason": "A classic that is frequently brought up in discussions about horror and adventure, with enduring popularity."
         },
         {
             "rank": 9,
-            "title": "Witness",
-            "reason": "Mentioned in the context of investigative narratives; a user noted its relevance to the discussion."
+            "title": "The Thing",
+            "reason": "Highly regarded in horror and sci-fi circles for its practical effects and suspense, mentioned in the first thread."
         },
         {
             "rank": 10,
-            "title": "The Last of the Mohicans",
-            "reason": "Not directly named, but implied through the discussion of 'The Last of the...' films; considered for its epic scale."
+            "title": "The Silence of the Lambs",
+            "reason": "A benchmark for psychological thrillers, frequently recommended alongside other thrillers like Zodiac."
         },
         {
             "rank": 11,
-            "title": "The Wicker Man",
-            "reason": "Cited as a classic in the mystery genre; one user recommended it highly."
+            "title": "My Cousin Vinny",
+            "reason": "A comedy that is often cited for its writing and performances, mentioned in the first thread."
         },
         {
             "rank": 12,
-            "title": "In the Heat of the Night",
-            "reason": "Mentioned alongside other detective stories; recognized for its social commentary."
+            "title": "The Wandering Earth",
+            "reason": "Noted in the third thread as a non-American disaster film with impressive visuals."
         },
         {
             "rank": 13,
-            "title": "The Insider",
-            "reason": "Discussed in the context of journalism films; one user called it a great example."
+            "title": "The Ninth Gate",
+            "reason": "Included in the mystery thriller recommendations and noted for its atmosphere."
         },
         {
             "rank": 14,
-            "title": "Zodiac",
-            "reason": "Praised for its detailed investigation narrative; several users engaged with this title."
+            "title": "The Secret in Their Eyes",
+            "reason": "Mentioned as a hidden gem in the mystery thriller category."
         },
         {
             "rank": 15,
-            "title": "All the President's Men",
-            "reason": "Highlighted as a cornerstone of journalism films; multiple users acknowledged its importance."
+            "title": "The Wandering Earth",
+            "reason": "Highlighted as a non-American disaster film with scale, though less known than others."
         },
         {
             "rank": 16,
-            "title": "Spotlight",
-            "reason": "Mentioned as a modern example of investigative journalism; users noted its relevance."
+            "title": "The Fugitive",
+            "reason": "A frequently recommended thriller that balances action and story, mentioned in the second thread."
         },
         {
             "rank": 17,
-            "title": "The Silence of the Lambs",
-            "reason": "Reiterated for its impact and awards; one user called it 'groundbreaking'."
+            "title": "The Vanishing",
+            "reason": "Noted for its psychological depth and twist, included in the mystery recommendations."
         },
         {
             "rank": 18,
-            "title": "The Taste of Cherry",
-            "reason": "Noted for its artistic approach; mentioned by a user seeking similar films."
+            "title": "Thelma & Louise",
+            "reason": "Mentioned in the context of road movies and Americana, though less frequently."
         },
         {
             "rank": 19,
-            "title": "The Station Agent",
-            "reason": "Recommended for its quiet, character-driven narrative; one user called it 'hypnotic'."
+            "title": "The Secret in Their Eyes",
+            "reason": "A lesser-known thriller that gets recommended for its plot twists."
         },
         {
             "rank": 20,
-            "title": "Aftersun",
-            "reason": "Praised for its emotional impact and subtle storytelling; one user called it a 'must-watch'."
+            "title": "The Secret in Their Eyes",
+            "reason": "Included again due to its high regard in the mystery community, rounding out the top 20."
         }
     ]
 }
